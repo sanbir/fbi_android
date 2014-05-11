@@ -31,6 +31,7 @@ public class Utils
 		{
 		default:
 		case THEME_DEFAULT:
+            activity.setTheme(android.R.style.Theme_Holo_Light);
 			break;
 		case THEME_WHITE:
 			activity.setTheme(android.R.style.Theme_Holo_Light);

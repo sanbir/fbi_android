@@ -23,11 +23,7 @@ public class Themes extends Activity implements OnClickListener
 	Integer[] imageIDs = {
             R.drawable.pic1,
             R.drawable.pic2,
-            R.drawable.pic3,
-            R.drawable.pic4,
-            R.drawable.pic5,
-            R.drawable.pic6,
-            R.drawable.pic7
+            R.drawable.pic3
     };
 	/** Called when the activity is first created. */
 	@Override

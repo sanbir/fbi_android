@@ -11,7 +11,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:label="Themes (Manifest)" android:name="com.androidengineer.themes.ThemesByManifest" android:theme="@style/Theme.White">
+        <activity android:label="Themes (Manifest)" android:name="com.androidengineer.themes.ThemesByManifest" android:theme="@style/Theme.Blue">
             <intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
 				<category android:name="android.intent.category.DEFAULT"/>

@@ -18,7 +18,7 @@
         </activity>
 
         <activity android:name=".ThemesByManifest"
-        		  android:theme="@style/Theme.White"
+        		  android:theme="@style/Theme.Blue"
                   android:label="Themes (Manifest)">
             <intent-filter>
 				<action android:name="android.intent.action.MAIN"/>

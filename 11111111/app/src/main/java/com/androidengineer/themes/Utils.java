@@ -29,18 +29,18 @@ public class Utils
 	{
 		switch (sTheme)
 		{
-		default:
-		case THEME_DEFAULT:
-			break;
-		case THEME_WHITE:
-			activity.setTheme(android.R.style.Theme_Holo_Light);
-			break;
-		case THEME_BLUE:
-			activity.setTheme(android.R.style.Theme_Holo_Wallpaper);
-			break;
-		case THEME_BROWN:
-			activity.setTheme(R.style.CustomTheme_LightBrown);
-			break;
+            default:
+            case THEME_DEFAULT:
+                break;
+            case THEME_WHITE:
+                activity.setTheme(android.R.style.Theme_Holo_Light);
+                break;
+            case THEME_BLUE:
+                activity.setTheme(android.R.style.Theme_Holo_Wallpaper);
+                break;
+            case THEME_BROWN:
+                activity.setTheme(R.style.CustomTheme_LightBrown);
+                break;
 		}
 	}
 }

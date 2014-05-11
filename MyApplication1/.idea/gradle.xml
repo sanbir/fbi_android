@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\MyApplication1" />
-            <option value="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\MyApplication1\app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2013 MASUDA Takashi
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_window_focused="false"
+        android:drawable="@android:color/transparent" />
+    <item android:state_pressed="true">
+		<layer-list>
+			<item>
+				<shape 
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:shape="rectangle">
+					<solid 
+						android:color="@color/custom_theme_list_pressed" />
+				</shape>
+			</item>
+		</layer-list>
+	</item>
+	<item android:state_pressed="false" android:state_focused="true">
+		<layer-list>
+			<item>
+				<shape 
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:shape="rectangle">
+					<solid 
+						android:color="@color/custom_theme_list_selected" />
+    			</shape>
+			</item>
+		</layer-list>
+	</item>
+</selector>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/MyApp1/app/src/main/res/drawable/custom_theme_normal_list_item.xml -->

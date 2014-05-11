@@ -37,10 +37,10 @@ public class Themes extends Activity implements OnClickListener
 		Utils.onActivityCreateSetTheme(this);
 		setContentView(R.layout.main);
 
-		findViewById(R.id.button1).setOnClickListener(this);
-		findViewById(R.id.button2).setOnClickListener(this);
-		findViewById(R.id.button3).setOnClickListener(this);
-		findViewById(R.id.button4).setOnClickListener(this);
+//		findViewById(R.id.button1).setOnClickListener(this);
+//		findViewById(R.id.button2).setOnClickListener(this);
+//		findViewById(R.id.button3).setOnClickListener(this);
+//		findViewById(R.id.button4).setOnClickListener(this);
 		
 		GridView gridView = (GridView) findViewById(R.id.gridview);
         gridView.setAdapter(new ImageAdapter(this));
@@ -101,21 +101,21 @@ public class Themes extends Activity implements OnClickListener
 	@Override
 	public void onClick(View v)
 	{
-		switch (v.getId())
-		{
-		case R.id.button1:
-			Utils.changeToTheme(this, Utils.THEME_DEFAULT);
-			break;
-		case R.id.button2:
-			Utils.changeToTheme(this, Utils.THEME_WHITE);
-			break;
-		case R.id.button3:
-			Utils.changeToTheme(this, Utils.THEME_BLUE);
-			break;
-		case R.id.button4:
-			Utils.changeToTheme(this, Utils.THEME_BROWN);
-			break;
-		}
+//		switch (v.getId())
+//		{
+//		case R.id.button1:
+//			Utils.changeToTheme(this, Utils.THEME_DEFAULT);
+//			break;
+//		case R.id.button2:
+//			Utils.changeToTheme(this, Utils.THEME_WHITE);
+//			break;
+//		case R.id.button3:
+//			Utils.changeToTheme(this, Utils.THEME_BLUE);
+//			break;
+//		case R.id.button4:
+//			Utils.changeToTheme(this, Utils.THEME_BROWN);
+//			break;
+//		}
 
 	}
 

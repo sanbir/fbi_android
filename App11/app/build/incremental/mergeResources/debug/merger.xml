@@ -165,17 +165,17 @@
                 type="drawable" />
             <file
                 name="pic1"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic1.jpg"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic1.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="pic2"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic2.jpg"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic2.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="pic3"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic3.jpg"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic3.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -394,6 +394,12 @@
                     </item>
                 </style>
 
+                <style name="WindowTitle" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.WindowTitle
+                    </item>
+                </style>
+
                 <style
                     name="EditText"
                     parant="android:Widget.EditText" >
@@ -414,12 +420,6 @@ true
                     </item>
                 </style>
 
-                <style name="WindowTitle" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.WindowTitle
-                    </item>
-                </style>
-
                 <style
                     name="ListView"
                     parent="android:Widget.ListView" >
@@ -437,6 +437,14 @@ true
                     </item>
                 </style>
 
+                <style
+                    name="TextAppearance.WindowTitle"
+                    parent="android:TextAppearance.WindowTitle" >
+                    <item name="android:textColor">
+@color/custom_theme_title_text
+                    </item>
+                </style>
+
                 <style name="WindowTitleBackground" >
                     <item name="android:background">
 @color/custom_theme_title_background
@@ -444,10 +452,10 @@ true
                 </style>
 
                 <style
-                    name="TextAppearance.WindowTitle"
-                    parent="android:TextAppearance.WindowTitle" >
-                    <item name="android:textColor">
-@color/custom_theme_title_text
+                    name="TextView"
+                    parent="android:Widget.TextView" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.TextView
                     </item>
                 </style>
 
@@ -459,14 +467,6 @@ true
                     </item>
                     <item name="android:textColor">
 @color/custom_theme_primary_text
-                    </item>
-                </style>
-
-                <style
-                    name="TextView"
-                    parent="android:Widget.TextView" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.TextView
                     </item>
                 </style>
 
@@ -504,7 +504,7 @@ wrap_content
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\values\strings.xml"
                 qualifiers="" >
-                <string name="app_name" >Themes
+                <string name="app_name" >Факультет Бизнес-информатики
                 </string>
                 <string name="title_text" >Заголовок
                 </string>
@@ -583,8 +583,14 @@ vertical
                     </item>
                 </style>
 
-                <dimen name="content_left_margin_wh" >8sp
-                </dimen>
+                <style name="white_background_bl" >
+                    <item name="android:background">
+@drawable/white_container_bl
+                    </item>
+                    <item name="android:padding">
+5sp
+                    </item>
+                </style>
 
                 <style name="text_title_bl" >
                     <item name="android:textColor">
@@ -619,14 +625,8 @@ center_vertical|left
                     </item>
                 </style>
 
-                <style name="white_background_bl" >
-                    <item name="android:background">
-@drawable/white_container_bl
-                    </item>
-                    <item name="android:padding">
-5sp
-                    </item>
-                </style>
+                <dimen name="content_left_margin_wh" >8sp
+                </dimen>
 
                 <style name="text_regular_bl" >
                     <item name="android:textColor">
@@ -670,16 +670,16 @@ bold
                     </item>
                 </style>
 
-                <style name="page_padding_layout_wh" >
+                <style name="page_background_wh" >
+                    <item name="android:background">
+@drawable/gray_gradient_background
+                    </item>
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
                 </style>
 
-                <style name="page_background_wh" >
-                    <item name="android:background">
-@drawable/gray_gradient_background
-                    </item>
+                <style name="page_padding_layout_wh" >
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
@@ -869,19 +869,6 @@ bold
                     </item>
                 </style>
 
-                <style name="page_background_bl" >
-                    <item name="android:background">
-#000
-                    </item>
-                    <item name="android:padding">
-@dimen/page_margin_bl
-                    </item>
-                    <!--
- 		<item name="android:layout_marginTop">8dip</item>
- 		<item name="android:layout_marginBottom">20dip</item>
-                    -->
-                </style>
-
                 <style
                     name="list_divider_wh"
                     parent="list_divider" >
@@ -894,6 +881,19 @@ fill_parent
                     <item name="android:layout_height">
 2sp
                     </item>
+                </style>
+
+                <style name="page_background_bl" >
+                    <item name="android:background">
+#000
+                    </item>
+                    <item name="android:padding">
+@dimen/page_margin_bl
+                    </item>
+                    <!--
+ 		<item name="android:layout_marginTop">8dip</item>
+ 		<item name="android:layout_marginBottom">20dip</item>
+                    -->
                 </style>
 
                 <style name="text_large_wh" >
@@ -911,20 +911,6 @@ fill_parent
                     </item>
                     <item name="android:shadowColor">
 #888
-                    </item>
-                </style>
-
-                <style
-                    name="list_item_bl"
-                    parent="text_large_bl" >
-                    <item name="android:background">
-@drawable/list_item_bl
-                    </item>
-                    <item name="android:focusable">
-true
-                    </item>
-                    <item name="android:clickable">
-true
                     </item>
                 </style>
 
@@ -947,6 +933,20 @@ true
                     </item>
                     <item name="android:paddingBottom">
 11sp
+                    </item>
+                </style>
+
+                <style
+                    name="list_item_bl"
+                    parent="text_large_bl" >
+                    <item name="android:background">
+@drawable/list_item_bl
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                    <item name="android:clickable">
+true
                     </item>
                 </style>
             </file>

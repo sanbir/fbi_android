@@ -153,12 +153,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int white_container_wh=0x7f020022;
     }
     public static final class id {
-        public static final int button1=0x7f080000;
-        public static final int button2=0x7f080001;
-        public static final int button3=0x7f080002;
-        public static final int button4=0x7f080003;
-        public static final int gridview=0x7f080004;
-        public static final int spinner1=0x7f080005;
+        public static final int gridview=0x7f080000;
+        public static final int spinner1=0x7f080001;
     }
     public static final class layout {
         public static final int main=0x7f030000;

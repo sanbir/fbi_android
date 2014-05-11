@@ -61,7 +61,7 @@
     <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/App11/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
-    <string name="app_name">Themes</string>
+    <string name="app_name">Факультет Бизнес-информатики</string>
     <string name="hello">Текст</string>
     <string name="subtitle_text">Подзаголовок</string>
     <string name="title_text">Заголовок</string>

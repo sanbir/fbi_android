@@ -38,16 +38,16 @@ public class Themes extends Activity implements OnClickListener
 //		findViewById(R.id.button3).setOnClickListener(this);
 //		findViewById(R.id.button4).setOnClickListener(this);
 		
-		GridView gridView = (GridView) findViewById(R.id.gridview);
-        gridView.setAdapter(new ImageAdapter(this));
-
-        gridView.setOnItemClickListener(new OnItemClickListener()
-        {
-            public void onItemClick(AdapterView<?> parent,
-            View v, int position, long id) {
-
-            }
-        });
+//		GridView gridView = (GridView) findViewById(R.id.gridview);
+//        gridView.setAdapter(new ImageAdapter(this));
+//
+//        gridView.setOnItemClickListener(new OnItemClickListener()
+//        {
+//            public void onItemClick(AdapterView<?> parent,
+//            View v, int position, long id) {
+//
+//            }
+//        });
 	}
 	
 	public class ImageAdapter extends BaseAdapter 

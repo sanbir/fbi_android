@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res" >
+            <file
+                name="home"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-hdpi\home.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="personal"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-hdpi\personal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="row_grid"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\layout\row_grid.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Факультет Бизнес-информатики
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="engineer"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\engineer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fg"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\fg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="df"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\df.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="we"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\we.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="rtt"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\rtt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="hgt"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\hgt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fdgdf"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\fdgdf.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="trtr"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\trtr.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="delete"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\delete.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="check"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\check.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sdlendar"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\sdlendar.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="gfg"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\gfg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tryt"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\tryt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="er"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\er.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="gf"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\gf.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="dssssss"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\dssssss.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="customer"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\customer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="employee"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\employee.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="err"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\err.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="cvdf"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\cvdf.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fdfd"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\fdfd.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="dd"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\dd.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ui"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\ui.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ret"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\ret.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="contact"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\contact.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="hk"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\hk.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="horn"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\horn.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="prof"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\prof.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="camera"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\camera.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fbi144"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\fbi144.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="news"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\news.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="study"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\study.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+        </source>
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\build\res\rs\debug" />
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\debug\res" />
+    </dataSet>
+
+</merger>

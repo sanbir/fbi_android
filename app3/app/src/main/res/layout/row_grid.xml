@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/home"
+        android:layout_gravity="center"
+        android:gravity="center">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textColor="#FF0E4F8F"
+        android:gravity="center">
+    </TextView>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:src="@drawable/er"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="100sp"-->
+        <!--android:gravity="center"-->
+        <!--android:scaleType="centerInside">-->
+    <!--</ImageView>-->
+    <!--<TextView-->
+        <!--android:id="@+id/text"-->
+        <!--android:text="Студент"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="#FF0E4F8F"-->
+        <!--android:layout_alignParentTop="@id/image"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="25sp"-->
+        <!--android:gravity="center">-->
+    <!--</TextView>-->
+
+</LinearLayout>

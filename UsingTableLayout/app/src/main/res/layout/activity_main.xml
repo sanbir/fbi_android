@@ -1,0 +1,82 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:text="Вход для зарегистрированных пользователей"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:width ="120dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Логин:"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:width ="120dp" />
+        <EditText
+            android:id="@+id/txtUserName"
+            android:width="200dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="Пароль:"/>
+        <EditText
+            android:id="@+id/txtPassword"
+            android:password="true" />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <CheckBox android:id="@+id/chkRememberPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Запомнить пароль"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_centerVertical="true"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/check"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:gravity="right"
+            android:scaleType="centerInside">
+        </ImageView>
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@drawable/delete"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:scaleType="centerInside">
+        </ImageView>
+    </TableRow>
+
+</TableLayout>
+

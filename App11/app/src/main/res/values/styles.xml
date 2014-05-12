@@ -189,5 +189,7 @@
 		<item name="android:layout_width">fill_parent</item>
 		<item name="android:layout_height">2sp</item>
 	</style>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light" />
 	
 </resources>

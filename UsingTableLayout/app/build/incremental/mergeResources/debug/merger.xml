@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res" >
+            <file
+                name="ic_action_search"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-hdpi\ic_action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-ldpi\ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="check"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\check.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="delete"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\delete.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\ic_action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-xhdpi\ic_action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\menu\activity_main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="padding_medium" >8dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="title_activity_main" >Факультет Бизнес-информатики
+                </string>
+                <string name="app_name" >Факультет Бизнес-информатики
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\values-large\dimens.xml"
+                qualifiers="large" >
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_medium" >16dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                name="pic3"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\pic3.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="pic2"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\pic2.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="pic1"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\res\drawable-mdpi\pic1.png"
+                qualifiers="mdpi"
+                type="drawable" />
+        </source>
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\build\res\rs\debug" />
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\debug\res" />
+    </dataSet>
+
+</merger>

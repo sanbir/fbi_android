@@ -30,7 +30,7 @@ public class Themes extends Activity implements OnClickListener
 	public void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		Utils.onActivityCreateSetTheme(this);
+		//Utils.onActivityCreateSetTheme(this);
 		setContentView(R.layout.main);
 
 //		findViewById(R.id.button1).setOnClickListener(this);

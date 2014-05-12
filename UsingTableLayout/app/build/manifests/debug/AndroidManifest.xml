@@ -1,0 +1,14 @@
+<!-- From: file:/D:/Downloads/ActionBarCompat-Basic(1)/UsingTableLayout/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.learn2develop.usingtablelayout">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/title_activity_main" android:name="net.learn2develop.usingtablelayout.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>  
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -149,17 +149,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int textfield_disabled_focused=0x7f02001e;
         public static final int textfield_focused=0x7f02001f;
         public static final int title_bar_wh=0x7f020020;
-        public static final int white_container_bl=0x7f020021;
-        public static final int white_container_wh=0x7f020022;
+        public static final int uuu1=0x7f020021;
+        public static final int white_container_bl=0x7f020022;
+        public static final int white_container_wh=0x7f020023;
     }
     public static final class id {
-        public static final int image=0x7f080001;
-        public static final int image1=0x7f080003;
-        public static final int image2=0x7f080005;
-        public static final int text=0x7f080002;
-        public static final int text0=0x7f080000;
-        public static final int text1=0x7f080004;
-        public static final int text2=0x7f080006;
+        public static final int image=0x7f080002;
+        public static final int text=0x7f080003;
+        public static final int text1=0x7f080000;
+        public static final int text2=0x7f080001;
     }
     public static final class layout {
         public static final int main=0x7f030000;

@@ -9,103 +9,145 @@
     android:splitMotionEvents="true" >
 
 
-    <LinearLayout
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="50sp"-->
+        <!--android:clickable="false"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="@dimen/custom_theme_button_padding">-->
+        <!--<TextView-->
+            <!--android:id="@+id/text0"-->
+            <!--android:text="    Вход >"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="#FF0E4F8F"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:gravity="center_vertical">-->
+        <!--</TextView>-->
+    <!--</LinearLayout>-->
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/text1"
+        android:textStyle="bold"
+        android:text="Интеллектуальный турнир «Игры с разумом»"
+        android:typeface="serif"
+        android:textSize="22sp"
+        android:textColor="#FF000000"
+        android:layout_centerVertical="false"
         android:layout_width="fill_parent"
-        android:layout_height="50sp"
-        android:clickable="false"
-        android:orientation="vertical"
-        android:padding="@dimen/custom_theme_button_padding">
-        <TextView
-            android:id="@+id/text0"
-            android:text="    Вход >"
-            android:textSize="20sp"
-            android:textColor="#FF0E4F8F"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:gravity="center_vertical">
-        </TextView>
-    </LinearLayout>
-    <LinearLayout
+        android:layout_height="wrap_content"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="05.05.2014"
+        android:typeface="serif"
+        android:textSize="16sp"
+        android:textColor="#FF000000"
+        android:layout_centerVertical="false"
         android:layout_width="fill_parent"
-        android:layout_height="150sp"
-        android:clickable="true"
-        android:orientation="vertical"
-        android:padding="@dimen/custom_theme_button_padding"
-        android:layout_margin="8sp">
-        <ImageView
-            android:id="@+id/image"
-            android:src="@drawable/pic1"
-            android:layout_width="fill_parent"
-            android:layout_height="100sp"
-            android:gravity="center"
-            android:scaleType="centerInside">
-        </ImageView>
-        <TextView
-            android:id="@+id/text"
-            android:text="Студент"
-            android:textSize="20sp"
-            android:textColor="#FF0E4F8F"
-            android:layout_alignParentTop="@id/image"
-            android:layout_centerVertical="true"
-            android:layout_width="fill_parent"
-            android:layout_height="25sp"
-            android:gravity="center">
-        </TextView>
-    </LinearLayout>
-    <LinearLayout
+        android:layout_height="wrap_content"
+        >
+    </TextView>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/uuu1"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp">
+    </ImageView>
+    <TextView
+        android:padding="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/text"
+        android:typeface="serif"
+        android:text="В конце апреля в актовом зале СГУПСа прошел межфакультетский турнир «Игры с разумом», который был разбит на несколько раундов:
+\n
+\n• видео-визитки (участники продемонстрировали яркие представления своих команд)
+\n• вопросы о вузе (раунд показал, насколько хорошо ребята знают историю родных стен)
+\n• конкурс болельщиков (зрителям в зале были розданы в распечатанном виде флаги, и конкурсанты угадывали флаг какой страны изображен)
+\n• «черный ящик» (каждый капитан по очереди смотрел, что лежит в черном ящики, и с помощью семи слов объяснял, что увидел)
+\n• «угадай профессию» (капитаны рассказывали, почему именно профессию их факультета стоит выбрать)
+\n• своя игра (раунд проходил по правилам телевизионной передачи с одноименным названием)
+\n
+\nИтоги интеллектуального турнира «Игры с разумом»:
+\n
+\nВ личном первенстве победила представительница факультета МЭиП - Сидорова Мария.
+\n
+\nКомандные места распределились следующим образом:
+\n
+\n1 место – ИЭФ
+\n2 место – МТ
+\n3 место - УТТК
+\n
+\nИЭФ получил сертификат на тур выходного дня в санаторий Сосновка. "
+        android:textSize="15sp"
+        android:textColor="#FF000000"
+        android:layout_alignParentTop="@id/image"
+        android:layout_centerVertical="false"
         android:layout_width="fill_parent"
-        android:layout_height="150sp"
-        android:clickable="true"
-        android:orientation="vertical"
-        android:padding="@dimen/custom_theme_button_padding"
-        android:layout_margin="8sp">
-        <ImageView
-            android:id="@+id/image1"
-            android:src="@drawable/pic2"
-            android:layout_width="fill_parent"
-            android:layout_height="100sp"
-            android:gravity="center"
-            android:scaleType="centerInside">
-        </ImageView>
-        <TextView
-            android:id="@+id/text1"
-            android:text="Преподаватель"
-            android:textSize="20sp"
-            android:textColor="#FF0E4F8F"
-            android:layout_alignParentTop="@id/image"
-            android:layout_centerVertical="true"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:gravity="center">
-        </TextView>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="150sp"
-        android:clickable="true"
-        android:orientation="vertical"
-        android:padding="@dimen/custom_theme_button_padding"
-        android:layout_margin="8sp">
-        <ImageView
-            android:id="@+id/image2"
-            android:src="@drawable/pic3"
-            android:layout_width="fill_parent"
-            android:layout_height="100sp"
-            android:gravity="center"
-            android:scaleType="centerInside">
-        </ImageView>
-        <TextView
-            android:id="@+id/text2"
-            android:text="Гость"
-            android:textSize="20sp"
-            android:textColor="#FF0E4F8F"
-            android:layout_alignParentTop="@id/image"
-            android:layout_centerVertical="true"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:gravity="center">
-        </TextView>
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        >
+    </TextView>
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="150sp"-->
+        <!--android:clickable="true"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="@dimen/custom_theme_button_padding"-->
+        <!--android:layout_margin="8sp">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/image1"-->
+            <!--android:src="@drawable/pic2"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="100sp"-->
+            <!--android:gravity="center"-->
+            <!--android:scaleType="centerInside">-->
+        <!--</ImageView>-->
+        <!--<TextView-->
+            <!--android:id="@+id/text1"-->
+            <!--android:text="Преподаватель"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="#FF0E4F8F"-->
+            <!--android:layout_alignParentTop="@id/image"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:gravity="center">-->
+        <!--</TextView>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="150sp"-->
+        <!--android:clickable="true"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="@dimen/custom_theme_button_padding"-->
+        <!--android:layout_margin="8sp">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/image2"-->
+            <!--android:src="@drawable/pic3"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="100sp"-->
+            <!--android:gravity="center"-->
+            <!--android:scaleType="centerInside">-->
+        <!--</ImageView>-->
+        <!--<TextView-->
+            <!--android:id="@+id/text2"-->
+            <!--android:text="Гость"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="#FF0E4F8F"-->
+            <!--android:layout_alignParentTop="@id/image"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:gravity="center">-->
+        <!--</TextView>-->
+    <!--</LinearLayout>-->
 
 
 <!--	<GridView

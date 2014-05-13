@@ -2,7 +2,14 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\assets" />
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\assets" >
+            <file
+                name="ss.doc"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\assets\ss.doc" />
+            <file
+                name="fbi.xls"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\assets\fbi.xls" />
+        </source>
     </dataSet>
     <dataSet config="debug" >
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\debug\assets" />

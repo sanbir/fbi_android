@@ -1,21 +1,19 @@
 package com.androidengineer.themes;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.content.Context;
-import android.os.Bundle;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.Spinner;
-import android.widget.Toast;
+
+import java.io.File;
 
 
 public class Themes extends Activity implements OnClickListener
@@ -32,6 +30,18 @@ public class Themes extends Activity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		//Utils.onActivityCreateSetTheme(this);
 		setContentView(R.layout.main);
+
+//        Intent intent = new Intent(Intent.ACTION_VIEW);
+//        intent.setDataAndType(Uri.fromFile(new File("/assets/ss.doc")), "application/vnd.ms-excel");
+//        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//
+//
+//        try {
+//            startActivity(intent);
+//        }
+//        catch (ActivityNotFoundException e) {
+//            //Toast.makeText(OpenPdf.this, "No Application Available to View Excel", Toast.LENGTH_SHORT).show();
+//        }
 
 //		findViewById(R.id.button1).setOnClickListener(this);
 //		findViewById(R.id.button2).setOnClickListener(this);
@@ -112,6 +122,17 @@ public class Themes extends Activity implements OnClickListener
 //			Utils.changeToTheme(this, Utils.THEME_BROWN);
 //			break;
 //		}
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.fromFile(new File("/fbi.xls")), "application/vnd.ms-excel");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+        try {
+            startActivity(intent);
+        }
+        catch (ActivityNotFoundException e) {
+            //Toast.makeText(OpenPdf.this, "No Application Available to View Excel", Toast.LENGTH_SHORT).show();
+        }
 
 	}
 

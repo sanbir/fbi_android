@@ -281,6 +281,61 @@
                 path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\icon.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                name="sched"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\sched.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="testt"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\testt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ffachment"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\ffachment.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="l"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\l.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ml"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\ml.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="pi"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\pi.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="mml"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\mml.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bist"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\bist.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bpi"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\bpi.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ist"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\ist.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="mist"
+                path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\res\drawable-mdpi\mist.png"
+                qualifiers="mdpi"
+                type="drawable" />
         </source>
         <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\build\res\rs\debug" />
         <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\build\res\generated\debug" />

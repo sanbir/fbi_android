@@ -261,7 +261,18 @@
       <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App1\src\com\androidengineer\themes\Themes.java" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App1\src\com\androidengineer\themes\ThemesByManifest.java" afterPath="" />
       <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App1\src\com\androidengineer\themes\Utils.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../app3/app/build/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/libs/app-debug.ap_" afterPath="$PROJECT_DIR$/../app3/app/build/libs/app-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../app3/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/row_grid.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/row_grid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/src/main/res/layout/row_grid.xml" afterPath="$PROJECT_DIR$/../app3/app/src/main/res/layout/row_grid.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../app3/.idea/workspace.xml" />
     </list>
     <ignored path="App1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -315,8 +326,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -326,18 +337,17 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.051671732" vertical-offset="306" max-vertical-offset="1054">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="52" selection-end-column="19" />
+            <state vertical-scroll-proportion="-2.0254238" vertical-offset="904" max-vertical-offset="1309">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="26" selection-end-column="19" />
               <folding>
-                <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
                 <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
                 <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1503,6 +1513,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1560,7 +1571,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1627,19 +1637,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1665,6 +1662,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1768,7 +1778,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1782,6 +1792,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20525451" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1796,7 +1807,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1821,18 +1831,17 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="612">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="107" selection-end-column="19" />
           <folding>
-            <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
@@ -1910,18 +1919,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="612">
           <caret line="109" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
-            <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
@@ -2031,18 +2039,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1734">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding>
-            <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
@@ -2242,18 +2249,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051671732" vertical-offset="306" max-vertical-offset="1054">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="52" selection-end-column="19" />
+        <state vertical-scroll-proportion="-2.0254238" vertical-offset="904" max-vertical-offset="1309">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="26" selection-end-column="19" />
           <folding>
-            <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
             <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

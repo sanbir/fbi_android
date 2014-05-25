@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALEX-PC</Machine>
+    <WindowsUser>Alex</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6890sanbir.52116A44C78A4</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\App17.exe">
+      <PackagePath>App17.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\dninauki.jpg">
+      <PackagePath>Documents\dninauki.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\u_04850245_big.JPG">
+      <PackagePath>Documents\u_04850245_big.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\u_4b3c183b_big.jpg">
+      <PackagePath>Documents\u_4b3c183b_big.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\u_5a782b67_big.JPG">
+      <PackagePath>Documents\u_5a782b67_big.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\u_aaf94fb6_big.JPG">
+      <PackagePath>Documents\u_aaf94fb6_big.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\33698_html_m6c317825.jpg">
+      <PackagePath>Photos\33698_html_m6c317825.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\516_10.jpg">
+      <PackagePath>Photos\516_10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\94_5.JPG">
+      <PackagePath>Photos\94_5.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\Dean.jpg">
+      <PackagePath>Photos\Dean.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\image73892858.jpg">
+      <PackagePath>Photos\image73892858.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\image73892868.jpg">
+      <PackagePath>Photos\image73892868.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\images.jpg">
+      <PackagePath>Photos\images.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\IMG_6196_b.jpg">
+      <PackagePath>Photos\IMG_6196_b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\IMG_8316_b.jpg">
+      <PackagePath>Photos\IMG_8316_b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\829_1.gif">
+      <PackagePath>Photos\829_1.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\94_1.gif">
+      <PackagePath>Photos\94_1.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Photos\94_3.gif">
+      <PackagePath>Photos\94_3.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\DataModel\StudentData.json">
+      <PackagePath>DataModel\StudentData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\DataModel\StartData.json">
+      <PackagePath>DataModel\StartData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\DataModel\TeacherData.json">
+      <PackagePath>DataModel\TeacherData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\DataModel\GuestData.json">
+      <PackagePath>DataModel\GuestData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\DataModel\ScheduleData.json">
+      <PackagePath>DataModel\ScheduleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\fbi.xls">
+      <PackagePath>Documents\fbi.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\bi_2_2_13.xls">
+      <PackagePath>Documents\bi_2_2_13.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\230201.65_Учебный_план_ИСТ.xls">
+      <PackagePath>Documents\230201.65_Учебный_план_ИСТ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\080200.62_Уч.план_МЛ.xls">
+      <PackagePath>Documents\080200.62_Уч.план_МЛ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\080200.68_Уч.план_ММЛ.xls">
+      <PackagePath>Documents\080200.68_Уч.план_ММЛ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\080506.65_Учебный_план_Л.xls">
+      <PackagePath>Documents\080506.65_Учебный_план_Л.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\080801.65_Учебный_план_ПИ.xls">
+      <PackagePath>Documents\080801.65_Учебный_план_ПИ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\230400.62_Уч.план_БИСТ.xls">
+      <PackagePath>Documents\230400.62_Уч.план_БИСТ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\230400.68_Уч.план_МИСТ.xls">
+      <PackagePath>Documents\230400.68_Уч.план_МИСТ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\230700.62_Уч.план_БПИ.xls">
+      <PackagePath>Documents\230700.62_Уч.план_БПИ.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\Расписание 2013-2014.xls">
+      <PackagePath>Documents\Расписание 2013-2014.xls</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\programm%281%29.doc">
+      <PackagePath>Documents\programm%281%29.doc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\ОТЧЕТ ИТТ  за  2013г. итоговый.doc">
+      <PackagePath>Documents\ОТЧЕТ ИТТ  за  2013г. итоговый.doc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\TicTacToe-4up.pdf">
+      <PackagePath>Documents\TicTacToe-4up.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\Poklonimsa_godam.pdf">
+      <PackagePath>Documents\Poklonimsa_godam.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Documents\stub.xlsx">
+      <PackagePath>Documents\stub.xlsx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\GroupedItemsPage.xbf">
+      <PackagePath>GroupedItemsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\GroupDetailPage.xbf">
+      <PackagePath>GroupDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\App17.xr.xml">
+      <PackagePath>App17.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex.Alex-PC\Source\Repos\infokioskfbi\App17\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

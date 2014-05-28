@@ -3,12 +3,13 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11" />
+            <option value="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app" />
           </set>
         </option>
       </GradleProjectSettings>

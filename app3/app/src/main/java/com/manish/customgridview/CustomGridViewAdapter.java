@@ -11,11 +11,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * 
- * @author manish.s
- *
- */
 public class CustomGridViewAdapter extends ArrayAdapter<Item> {
 	Context context;
 	int layoutResourceId;

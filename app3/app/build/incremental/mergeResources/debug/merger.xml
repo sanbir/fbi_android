@@ -44,33 +44,8 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="customer"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\customer.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="cvdf"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\cvdf.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="dd"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dd.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="delete"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\delete.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="df"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\df.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="dssssss"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dssssss.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -84,58 +59,13 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="er"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\er.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="err"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\err.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="fbi144"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fbi144.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="fdfd"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fdfd.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="fdgdf"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fdgdf.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="ffachment"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ffachment.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="fg"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fg.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="gf"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\gf.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="gfg"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\gfg.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="hgt"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\hgt.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="hk"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\hk.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -194,23 +124,8 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="ret"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ret.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="rtt"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\rtt.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="sched"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sched.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="sdlendar"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sdlendar.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -221,26 +136,6 @@
             <file
                 name="testt"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\testt.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="trtr"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\trtr.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="tryt"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\tryt.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="ui"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ui.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="we"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\we.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -336,6 +231,111 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="bachelor"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\bachelor.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="price"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\price.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="plan"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\plan.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="mission"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\mission.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="library"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\library.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="u4_lab_base"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\u4_lab_base.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="teacher"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\teacher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="guest"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\guest.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="schedule_group"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule_group.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="kafedra"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\kafedra.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="schedule"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="schedule_classrooms"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule_classrooms.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="master"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\master.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sdo"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sdo.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="website"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\website.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="progress"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\progress.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="student"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\student.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sport"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sport.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="nirs"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\nirs.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="video"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\video.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="dean"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dean.png"
+                qualifiers="mdpi"
+                type="drawable" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

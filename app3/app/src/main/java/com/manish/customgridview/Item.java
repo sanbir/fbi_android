@@ -1,13 +1,6 @@
 package com.manish.customgridview;
-
 import android.graphics.Bitmap;
 import android.view.View;
-
-/**
- * 
- * @author manish.s
- *
- */
 
 public class Item {
 	Bitmap image;
@@ -30,6 +23,5 @@ public class Item {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
 
 }

@@ -229,6 +229,11 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="uuu1"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\uuu1.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="textfield_activated"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-xhdpi\textfield_activated.9.png"
                 qualifiers="xhdpi"
@@ -954,11 +959,6 @@ true
                     </item>
                 </style>
             </file>
-            <file
-                name="uuu1"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\uuu1.jpg"
-                qualifiers="mdpi"
-                type="drawable" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\build\res\generated\debug" />

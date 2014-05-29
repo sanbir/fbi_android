@@ -65,27 +65,5 @@ public class MainActivity extends Activity {
 
 	}
 
-/*    @Override
-    public void onClick(View v)
-    {
-        switch (v.getId())
-        {
-            case gridArray.get(0):
-
-                break;
-            case R.id.button2:
-
-                break;
-            case R.id.button3:
-
-                break;
-            case R.id.button4:
-
-                break;
-        }
-
-    }*/
-
-
 
 }

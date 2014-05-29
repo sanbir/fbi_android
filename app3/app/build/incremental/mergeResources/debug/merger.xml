@@ -336,6 +336,11 @@
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dean.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                name="start_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\start_activity.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="true"
+    android:splitMotionEvents="true" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:clickable="false"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text0"
+            android:text="    Вход >"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_margin="2dp">
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/student"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:scaleType="centerInside">
+        </ImageView>
+        <TextView
+            android:id="@+id/text"
+            android:text="Студент"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_alignParentTop="@id/image"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_margin="2dp">
+        <ImageView
+            android:id="@+id/image1"
+            android:src="@drawable/teacher"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:scaleType="centerInside">
+        </ImageView>
+        <TextView
+            android:id="@+id/text1"
+            android:text="Преподаватель"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_alignParentTop="@id/image"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_margin="2dp">
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/guest"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:scaleType="centerInside">
+        </ImageView>
+        <TextView
+            android:id="@+id/text2"
+            android:text="Гость"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_alignParentTop="@id/image"
+            android:layout_centerVertical="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/layout/start_activity.xml -->

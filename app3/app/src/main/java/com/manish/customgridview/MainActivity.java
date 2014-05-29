@@ -3,6 +3,7 @@ package com.manish.customgridview;
 import java.util.ArrayList;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -82,14 +83,16 @@ public class MainActivity extends Activity {
 
                 /////////////////////////
                 if (position == 0) {
-                    text0.setText("    О ФБИ >");
+                    startActivity (new Intent(getApplicationContext(), StartActivity.class));
+
+                    /*text0.setText("    О ФБИ >");
                     gridArray.clear();
                     gridArray.add(new Item(bitmaps.get(0), "Декан"));
                     gridArray.add(new Item(bitmaps.get(1), "Миссия факультета"));
                     gridArray.add(new Item(bitmaps.get(2), "Кафедры"));
                     gridArray.add(new Item(bitmaps.get(3), "Направления и специальности"));
                     gridArray.add(new Item(bitmaps.get(4), "Учебно-лабораторная база"));
-                    gridArray.add(new Item(bitmaps.get(5), "Видео-презентация факультета"));
+                    gridArray.add(new Item(bitmaps.get(5), "Видео-презентация факультета"));*/
                 }
 
 

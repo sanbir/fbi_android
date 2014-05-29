@@ -43,74 +43,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9326b2-36e5-4080-bfd7-2c5d296c62dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/3 cool1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/app/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\CustomGridViewAdapter$RecordHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\CustomGridViewAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\Item.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../app3/app/build/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/libs/app-debug.ap_" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/libs/app-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/libs/app-debug.ap_" afterPath="$PROJECT_DIR$/../app3/app/build/libs/app-debug.ap_" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\customer.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\cvdf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\dd.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\df.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\dssssss.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\er.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\err.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\fdfd.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\fdgdf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\fg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\gf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\gfg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\hgt.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\hk.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\ret.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\rtt.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\sdlendar.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\trtr.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\tryt.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\ui.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\all\debug\drawable-mdpi\we.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\customer.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\cvdf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dd.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\df.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dssssss.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\er.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\err.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fdfd.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fdgdf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\gf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\gfg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\hgt.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\hk.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ret.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\rtt.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sdlendar.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\trtr.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\tryt.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ui.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\we.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/../app3/app/build/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" afterPath="$PROJECT_DIR$/../app3/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/.name" afterPath="$PROJECT_DIR$/../app3/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/manifests/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../app3/app/build/manifests/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/source/buildConfig/debug/com/manish/customgridview/BuildConfig.java" afterPath="$PROJECT_DIR$/../app3/app/build/source/buildConfig/debug/com/manish/customgridview/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/src/main/java/com/manish/customgridview/MainActivity.java" afterPath="$PROJECT_DIR$/../app3/app/src/main/java/com/manish/customgridview/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/menu/activity_main.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/menu/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/app.iml" afterPath="$PROJECT_DIR$/../app3/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/../app3/app/build/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../app3/app/build/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.idea/misc.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/misc.xml" afterPath="$PROJECT_DIR$/../app3/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/modules.xml" afterPath="$PROJECT_DIR$/../app3/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/row_grid.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/row_grid.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-large/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-large/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3 cool1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3 cool1/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../app3/.idea/workspace.xml" />
@@ -167,8 +143,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -176,11 +152,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="1700" max-vertical-offset="3111">
-              <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.14956012" vertical-offset="1751" max-vertical-offset="3111">
+              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -210,10 +186,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Themes.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Themes.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1154855" vertical-offset="969" max-vertical-offset="1530">
+            <state vertical-scroll-proportion="17.0" vertical-offset="969" max-vertical-offset="1530">
               <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
                 <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
@@ -1313,6 +1289,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1485,8 +1463,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1542,6 +1518,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1567,19 +1556,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1682,13 +1658,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2124,26 +2100,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="3111">
-          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1154855" vertical-offset="969" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="17.0" vertical-offset="969" max-vertical-offset="1530">
           <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
             <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
             <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14956012" vertical-offset="1751" max-vertical-offset="3111">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

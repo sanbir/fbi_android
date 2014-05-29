@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\main\assets" />
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="D:\Downloads\ActionBarCompat-Basic(1)\CustomGridView-master\app\src\debug\assets" />
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\debug\assets" />
     </dataSet>
 
 </merger>

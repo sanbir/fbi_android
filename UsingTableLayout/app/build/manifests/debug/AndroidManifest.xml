@@ -1,4 +1,4 @@
-<!-- From: file:/D:/Downloads/ActionBarCompat-Basic(1)/UsingTableLayout/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.learn2develop.usingtablelayout">
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/UsingTableLayout/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.learn2develop.usingtablelayout">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15"/>
 

@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
+
 /**
  * 
  * @author manish.s
@@ -17,7 +21,7 @@ import android.widget.GridView;
 public class MainActivity extends Activity {
 	GridView gridView;
 	ArrayList<Item> gridArray = new ArrayList<Item>();
-	 CustomGridViewAdapter customGridAdapter;
+	CustomGridViewAdapter customGridAdapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,42 @@ public class MainActivity extends Activity {
 		gridView = (GridView) findViewById(R.id.gridView1);
 		customGridAdapter = new CustomGridViewAdapter(this, R.layout.row_grid, gridArray);
 		gridView.setAdapter(customGridAdapter);
+
+        ///////////////////
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            public void onItemClick(AdapterView<?> parent,
+                                    View v, int position, long id) {
+                Toast.makeText(MainActivity.this, position + "#Selected",
+                        Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+
 	}
+
+/*    @Override
+    public void onClick(View v)
+    {
+        switch (v.getId())
+        {
+            case gridArray.get(0):
+
+                break;
+            case R.id.button2:
+
+                break;
+            case R.id.button3:
+
+                break;
+            case R.id.button4:
+
+                break;
+        }
+
+    }*/
+
+
 
 }

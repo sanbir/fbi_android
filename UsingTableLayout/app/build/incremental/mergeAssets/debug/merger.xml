@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\main\assets" />
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\UsingTableLayout\app\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="D:\Downloads\ActionBarCompat-Basic(1)\UsingTableLayout\app\src\debug\assets" />
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\UsingTableLayout\app\src\debug\assets" />
     </dataSet>
 
 </merger>

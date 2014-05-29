@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+          android:drawable="@drawable/list_item_wh_pressed" />
+    
+    <item android:state_focused="true"
+          android:drawable="@color/transparent_blue" />
+   
+    <item android:drawable="@android:color/transparent" />
+    
+</selector>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/3%20cool1/app/src/main/res/drawable/list_item_bl.xml -->

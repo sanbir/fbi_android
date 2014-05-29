@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/D:/Downloads/ActionBarCompat-Basic(1)/CustomGridView-master/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/values-sw720dp-land/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">128dp</dimen>

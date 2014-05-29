@@ -1,4 +1,4 @@
-<!-- From: file:/D:/Downloads/ActionBarCompat-Basic(1)/CustomGridView-master/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.manish.customgridview">
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.manish.customgridview">
 
     <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19"/>
 

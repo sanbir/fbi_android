@@ -43,21 +43,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9326b2-36e5-4080-bfd7-2c5d296c62dd" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\app.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\build\manifests\debug\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\Party-Mask.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\Student-Read-02.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\Teacher-02.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\App11\app\src\main\res\drawable-mdpi\pic3.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App11.iml" afterPath="$PROJECT_DIR$/App11.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/androidengineer/themes/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/androidengineer/themes/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/3 cool1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/app/app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../3 cool1/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\CustomGridViewAdapter$RecordHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\CustomGridViewAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\Item.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\classes\debug\com\manish\customgridview\R.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../app3/app/build/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/libs/app-debug.ap_" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/libs/app-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/libs/app-debug.ap_" afterPath="$PROJECT_DIR$/../app3/app/build/libs/app-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/../app3/app/build/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" afterPath="$PROJECT_DIR$/../app3/app/build/pre-dexed/debug/support-v4-19.1.0-bd7cbf592b9ef84404951b33884d0af54b71ad5d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../UsingTableLayout/.gradle/1.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../app3/.gradle/1.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/.name" afterPath="$PROJECT_DIR$/../app3/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/manifests/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/manifests/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../app3/app/build/manifests/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/source/buildConfig/debug/com/manish/customgridview/BuildConfig.java" afterPath="$PROJECT_DIR$/../app3/app/build/source/buildConfig/debug/com/manish/customgridview/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/src/main/java/com/manish/customgridview/MainActivity.java" afterPath="$PROJECT_DIR$/../app3/app/src/main/java/com/manish/customgridview/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/menu/activity_main.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/menu/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/app.iml" afterPath="$PROJECT_DIR$/../app3/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/../app3/app/build/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/../app3/app/build/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.idea/misc.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/misc.xml" afterPath="$PROJECT_DIR$/../app3/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/modules.xml" afterPath="$PROJECT_DIR$/../app3/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/row_grid.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/layout/row_grid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-large/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-large/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/app/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/../app3/app/build/res/all/debug/values-v14/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsingTableLayout/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../UsingTableLayout/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../app3/.idea/workspace.xml" />
     </list>
     <ignored path="App1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,13 +176,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.619565" vertical-offset="0" max-vertical-offset="3111">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="1700" max-vertical-offset="3111">
               <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -151,13 +210,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Themes.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Themes.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2074">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state vertical-scroll-proportion="-1.1154855" vertical-offset="969" max-vertical-offset="1530">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
-                <marker date="1400016745480" expanded="true" signature="1565:1903" placeholder="..." />
+                <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
+                <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1253,8 +1313,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1427,6 +1485,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1436,7 +1496,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UsingTableLayout" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4df1e6e41aca9fe9" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="FakeDevice" />
@@ -1623,27 +1683,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20525451" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1675,23 +1735,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2448">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
+            <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="663">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="3417">
+          <caret line="192" column="25" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="612">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="107" selection-end-column="19" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2091">
           <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
-            <marker date="1400016745480" expanded="true" signature="1565:1903" placeholder="..." />
+            <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
+            <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1724,7 +1812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1740,27 +1827,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="901">
           <caret line="36" column="62" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="612">
           <caret line="109" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2091">
           <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
-            <marker date="1400016745480" expanded="true" signature="1565:1903" placeholder="..." />
+            <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
+            <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1793,7 +1880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1809,7 +1895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="901">
           <caret line="36" column="62" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1846,14 +1931,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1734">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
@@ -1861,7 +1946,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2091">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
-            <marker date="1400016745480" expanded="true" signature="1565:1903" placeholder="..." />
+            <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
+            <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1885,7 +1971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="901">
           <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1975,7 +2060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="381">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1991,7 +2075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="884">
           <caret line="36" column="62" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2041,24 +2124,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1054">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <marker date="1400016745480" expanded="true" signature="1565:1903" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="3111">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidengineer/themes/Themes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.619565" vertical-offset="0" max-vertical-offset="3111">
-          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="-1.1154855" vertical-offset="969" max-vertical-offset="1530">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="class#ImageAdapter#0;class#Themes#0" expanded="false" />
+            <element signature="method#getView#0;class#ImageAdapter#0;class#Themes#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

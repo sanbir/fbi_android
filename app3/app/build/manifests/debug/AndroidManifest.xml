@@ -11,6 +11,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:label="@string/app_name" android:name="com.manish.customgridview.StartActivity"/>
+
+
 
     </application>
 

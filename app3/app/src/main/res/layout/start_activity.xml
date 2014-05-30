@@ -23,6 +23,7 @@
         </TextView>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/studentBtn"
         android:layout_width="fill_parent"
         android:layout_height="150dp"
         android:clickable="true"
@@ -50,6 +51,7 @@
         </TextView>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/teacherBtn"
         android:layout_width="fill_parent"
         android:layout_height="150dp"
         android:clickable="true"
@@ -77,6 +79,7 @@
         </TextView>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/guestBtn"
         android:layout_width="fill_parent"
         android:layout_height="150dp"
         android:clickable="true"

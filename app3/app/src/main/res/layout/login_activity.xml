@@ -41,7 +41,8 @@
             android:text="Пароль:"/>
         <EditText
             android:id="@+id/txtPassword"
-            android:password="true" />
+            android:password="true"
+            android:width="200dp"/>
     </TableRow>
     <TableRow>
         <TextView />
@@ -60,21 +61,25 @@
 
     <TableRow>
         <ImageView
-            android:id="@+id/image2"
+            android:id="@+id/okBtn"
             android:src="@drawable/check"
             android:layout_width="50sp"
             android:layout_height="50sp"
             android:gravity="right"
-            android:scaleType="centerInside">
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:background="@drawable/button_my">
         </ImageView>
         <ImageView
-            android:id="@+id/image3"
+            android:id="@+id/cancelBtn"
             android:src="@drawable/delete"
             android:layout_width="50sp"
             android:layout_height="50sp"
             android:gravity="right"
             android:layout_gravity="right"
-            android:scaleType="centerInside">
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:background="@drawable/button_my">
         </ImageView>
     </TableRow>
 

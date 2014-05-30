@@ -64,11 +64,6 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="ffachment"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ffachment.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="horn"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\horn.png"
                 qualifiers="mdpi"
@@ -124,11 +119,6 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="sched"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sched.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
                 name="study"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\study.png"
                 qualifiers="mdpi"
@@ -176,6 +166,7 @@
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
+                <string name="current_account" ></string>
                 <string name="app_name" >Факультет Бизнес-информатики
                 </string>
                 <string name="hello_world" >Hello world!
@@ -546,7 +537,7 @@ bold
 
                 <style
                     name="AppBaseTheme"
-                    parent="android:Theme.Holo" >
+                    parent="android:Theme.Holo.Light" >
 
                     <!--
             Theme customizations available in newer API levels can go in
@@ -1264,6 +1255,71 @@ wrap_content
                 name="button_my"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_my.xml"
                 qualifiers=""
+                type="drawable" />
+            <file
+                name="prof_student_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\prof_student_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="student_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\student_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="study_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\study_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="learn_plans_guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\learn_plans_guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="login_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\login_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ofbi_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\ofbi_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="protocols_guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\protocols_guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="plan_guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\plan_guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="schedule_teacher_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\schedule_teacher_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="teacher_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\teacher_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="plan_nabora"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\plan_nabora.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="protocols"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\protocols.png"
+                qualifiers="mdpi"
                 type="drawable" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />

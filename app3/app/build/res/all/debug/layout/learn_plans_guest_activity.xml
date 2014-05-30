@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text0"
+            android:text="    Учебные планы >"
+            android:textSize="20sp"
+            android:textColor="#FF0E4F8F"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+        </TextView>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:columnWidth="110dp"
+        android:rowHeight="110dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:layout_below="@id/layout1">
+    </GridView>
+
+</RelativeLayout>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/layout/learn_plans_guest_activity.xml -->

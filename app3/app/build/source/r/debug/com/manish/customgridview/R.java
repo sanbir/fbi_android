@@ -141,37 +141,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int engineer=0x7f020013;
         public static final int fbi144=0x7f020014;
         public static final int fbi256=0x7f020015;
-        public static final int ffachment=0x7f020016;
-        public static final int gray_gradient_background=0x7f020017;
-        public static final int guest=0x7f020018;
-        public static final int home=0x7f020019;
-        public static final int horn=0x7f02001a;
-        public static final int ic_launcher=0x7f02001b;
-        public static final int icon=0x7f02001c;
-        public static final int ist=0x7f02001d;
-        public static final int kafedra=0x7f02001e;
-        public static final int l=0x7f02001f;
-        public static final int library=0x7f020020;
-        public static final int list_divider_bl=0x7f020021;
-        public static final int list_divider_wh=0x7f020022;
-        public static final int list_item_bl=0x7f020023;
-        public static final int list_item_wh=0x7f020024;
-        public static final int list_item_wh_pressed=0x7f020025;
-        public static final int list_item_wh_selected=0x7f020026;
-        public static final int master=0x7f020027;
-        public static final int mission=0x7f020028;
-        public static final int mist=0x7f020029;
-        public static final int ml=0x7f02002a;
-        public static final int mml=0x7f02002b;
-        public static final int news=0x7f02002c;
-        public static final int nirs=0x7f02002d;
-        public static final int personal=0x7f02002e;
-        public static final int pi=0x7f02002f;
-        public static final int plan=0x7f020030;
+        public static final int gray_gradient_background=0x7f020016;
+        public static final int guest=0x7f020017;
+        public static final int home=0x7f020018;
+        public static final int horn=0x7f020019;
+        public static final int ic_launcher=0x7f02001a;
+        public static final int icon=0x7f02001b;
+        public static final int ist=0x7f02001c;
+        public static final int kafedra=0x7f02001d;
+        public static final int l=0x7f02001e;
+        public static final int library=0x7f02001f;
+        public static final int list_divider_bl=0x7f020020;
+        public static final int list_divider_wh=0x7f020021;
+        public static final int list_item_bl=0x7f020022;
+        public static final int list_item_wh=0x7f020023;
+        public static final int list_item_wh_pressed=0x7f020024;
+        public static final int list_item_wh_selected=0x7f020025;
+        public static final int master=0x7f020026;
+        public static final int mission=0x7f020027;
+        public static final int mist=0x7f020028;
+        public static final int ml=0x7f020029;
+        public static final int mml=0x7f02002a;
+        public static final int news=0x7f02002b;
+        public static final int nirs=0x7f02002c;
+        public static final int personal=0x7f02002d;
+        public static final int pi=0x7f02002e;
+        public static final int plan=0x7f02002f;
+        public static final int plan_nabora=0x7f020030;
         public static final int price=0x7f020031;
         public static final int prof=0x7f020032;
         public static final int progress=0x7f020033;
-        public static final int sched=0x7f020034;
+        public static final int protocols=0x7f020034;
         public static final int schedule=0x7f020035;
         public static final int schedule_classrooms=0x7f020036;
         public static final int schedule_group=0x7f020037;
@@ -194,23 +194,42 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int white_container_wh=0x7f020048;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000b;
+        public static final int action_settings=0x7f090013;
+        public static final int cancelBtn=0x7f090007;
+        public static final int chkRememberPassword=0x7f090005;
         public static final int gridView1=0x7f090002;
-        public static final int image=0x7f090005;
-        public static final int image1=0x7f090007;
-        public static final int image2=0x7f090009;
-        public static final int item_image=0x7f090003;
-        public static final int item_text=0x7f090004;
+        public static final int guestBtn=0x7f090010;
+        public static final int image=0x7f09000b;
+        public static final int image1=0x7f09000e;
+        public static final int image2=0x7f090011;
+        public static final int item_image=0x7f090008;
+        public static final int item_text=0x7f090009;
         public static final int layout1=0x7f090000;
-        public static final int text=0x7f090006;
+        public static final int okBtn=0x7f090006;
+        public static final int studentBtn=0x7f09000a;
+        public static final int teacherBtn=0x7f09000d;
+        public static final int text=0x7f09000c;
         public static final int text0=0x7f090001;
-        public static final int text1=0x7f090008;
-        public static final int text2=0x7f09000a;
+        public static final int text1=0x7f09000f;
+        public static final int text2=0x7f090012;
+        public static final int txtPassword=0x7f090004;
+        public static final int txtUserName=0x7f090003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int row_grid=0x7f030001;
-        public static final int start_activity=0x7f030002;
+        public static final int guest_activity=0x7f030001;
+        public static final int learn_plans_guest_activity=0x7f030002;
+        public static final int login_activity=0x7f030003;
+        public static final int ofbi_activity=0x7f030004;
+        public static final int plan_guest_activity=0x7f030005;
+        public static final int prof_student_activity=0x7f030006;
+        public static final int protocols_guest_activity=0x7f030007;
+        public static final int row_grid=0x7f030008;
+        public static final int schedule_teacher_activity=0x7f030009;
+        public static final int start_activity=0x7f03000a;
+        public static final int student_activity=0x7f03000b;
+        public static final int study_activity=0x7f03000c;
+        public static final int teacher_activity=0x7f03000d;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -218,7 +237,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class string {
         public static final int action_settings=0x7f060000;
         public static final int app_name=0x7f060001;
-        public static final int hello_world=0x7f060002;
+        public static final int current_account=0x7f060002;
+        public static final int hello_world=0x7f060003;
     }
     public static final class style {
         /** 

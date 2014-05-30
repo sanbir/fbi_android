@@ -2,6 +2,7 @@ package com.manish.customgridview;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
 public class StudyActivity extends Activity
 {
@@ -10,6 +11,8 @@ public class StudyActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView (R.layout.study_activity);
+
+
     }
 
 }

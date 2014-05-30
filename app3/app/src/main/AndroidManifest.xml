@@ -25,6 +25,29 @@
 
         <activity android:name=".StartActivity"
             android:label="@string/app_name"/>
+        <activity android:name=".LoginActivity"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".StudentActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".OfbiActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".StudyActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".ProfStudentActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".TeacherActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".ScheduleTeacherActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".GuestActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".PlanGuestActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".LearnPlansGuestActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".ProtocolsGuestActivity"
+            android:label="@string/app_name"/>
 
 
 

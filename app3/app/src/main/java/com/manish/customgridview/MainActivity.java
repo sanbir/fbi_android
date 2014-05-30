@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		//set grid view item
-		Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi144);
+		Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi256);
 		Bitmap icon2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.camera);
         Bitmap icon3 = BitmapFactory.decodeResource(this.getResources(), R.drawable.horn);
         Bitmap icon4 = BitmapFactory.decodeResource(this.getResources(), R.drawable.study);
@@ -40,14 +40,14 @@ public class MainActivity extends Activity {
         Bitmap icon9 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sdo);
 
         gridArray.add(new Item(icon1,"О ФБИ"));
-		gridArray.add(new Item(icon2,"Фотогалерея"));
+		gridArray.add(new Item(icon2,"Фотогалерея zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"));
 		gridArray.add(new Item(icon3,"Объявления"));
 		gridArray.add(new Item(icon4,"Учеба"));
         gridArray.add(new Item(icon5,"Новости"));
         gridArray.add(new Item(icon6,"Профком"));
         gridArray.add(new Item(icon7,"Библиотека"));
         gridArray.add(new Item(icon8,"Спорт"));
-        gridArray.add(new Item(icon8,"СДО"));
+        gridArray.add(new Item(icon9,"СДО"));
 		
 /*		gridArray.add(new Item(icon1,"МЛ"));
 		gridArray.add(new Item(icon2,"ММЛ"));

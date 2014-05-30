@@ -1,6 +1,6 @@
 <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.manish.customgridview">
 
-    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19"/>
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
 
     <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/AppTheme">
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.MainActivity">

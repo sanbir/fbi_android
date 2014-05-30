@@ -43,6 +43,7 @@
     <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/values/colors.xml -->
     <eat-comment />
 
+    <color name="transparent">#80000000</color>
     <color name="transparent_blue">#80004488</color>
     <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/values/dimens.xml -->
     <eat-comment />

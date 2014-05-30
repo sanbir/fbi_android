@@ -28,25 +28,19 @@ public class OfbiActivity extends Activity
         text0.setText("    О ФБИ >");
 
         //set grid view item
-        Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi256);
-        Bitmap icon2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.camera);
-        Bitmap icon3 = BitmapFactory.decodeResource(this.getResources(), R.drawable.horn);
-        Bitmap icon4 = BitmapFactory.decodeResource(this.getResources(), R.drawable.study);
-        Bitmap icon5 = BitmapFactory.decodeResource(this.getResources(), R.drawable.news);
-        Bitmap icon6 = BitmapFactory.decodeResource(this.getResources(), R.drawable.prof);
-        Bitmap icon7 = BitmapFactory.decodeResource(this.getResources(), R.drawable.library);
-        Bitmap icon8 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sport);
-        Bitmap icon9 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sdo);
+        Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.dean);
+        Bitmap icon2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.mission);
+        Bitmap icon3 = BitmapFactory.decodeResource(this.getResources(), R.drawable.kafedra);
+        Bitmap icon4 = BitmapFactory.decodeResource(this.getResources(), R.drawable.engineer);
+        Bitmap icon5 = BitmapFactory.decodeResource(this.getResources(), R.drawable.u4_lab_base);
+        Bitmap icon6 = BitmapFactory.decodeResource(this.getResources(), R.drawable.video);
 
-        gridArray.add(new Item(icon1,"О ФБИ"));
-        gridArray.add(new Item(icon2,"Фотогалерея"));
-        gridArray.add(new Item(icon3,"Объявления"));
-        gridArray.add(new Item(icon4,"Учеба"));
-        gridArray.add(new Item(icon5,"Новости"));
-        gridArray.add(new Item(icon6,"Профком"));
-        gridArray.add(new Item(icon7,"Библиотека"));
-        gridArray.add(new Item(icon8,"Спорт"));
-        gridArray.add(new Item(icon9,"СДО"));
+        gridArray.add(new Item(icon1, "Декан"));
+        gridArray.add(new Item(icon2, "Миссия факультета"));
+        gridArray.add(new Item(icon3, "Кафедры"));
+        gridArray.add(new Item(icon4, "Направления и специальности"));
+        gridArray.add(new Item(icon5, "Учебно-лабораторная база"));
+        gridArray.add(new Item(icon6, "Видео-презентация факультета"));
 
         gridView = (GridView) findViewById(R.id.gridView1);
         customGridAdapter = new CustomGridViewAdapter(this, R.layout.row_grid, gridArray);
@@ -59,7 +53,7 @@ public class OfbiActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
+                        //startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
                         break;
                     case 1:
                         //startActivity (new Intent(getApplicationContext(), StartActivity.class));
@@ -68,22 +62,13 @@ public class OfbiActivity extends Activity
                         //startActivity (new Intent(getApplicationContext(), StartActivity.class));
                         break;
                     case 3:
-                        startActivity (new Intent(getApplicationContext(), StudyActivity.class));
+                        //startActivity (new Intent(getApplicationContext(), StudyActivity.class));
                         break;
                     case 4:
                         //startActivity (new Intent(getApplicationContext(), StartActivity.class));
                         break;
                     case 5:
-                        startActivity (new Intent(getApplicationContext(), ProfStudentActivity.class));
-                        break;
-                    case 6:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
-                        break;
-                    case 7:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
-                        break;
-                    case 8:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        //startActivity (new Intent(getApplicationContext(), ProfStudentActivity.class));
                         break;
                 }
 

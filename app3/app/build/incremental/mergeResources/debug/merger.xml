@@ -139,11 +139,6 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
-                name="activity_main"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="row_grid"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\row_grid.xml"
                 qualifiers=""
@@ -1257,58 +1252,8 @@ wrap_content
                 qualifiers=""
                 type="drawable" />
             <file
-                name="prof_student_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\prof_student_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="student_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\student_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="study_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\study_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="guest_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\guest_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="learn_plans_guest_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\learn_plans_guest_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="login_activity"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\login_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="ofbi_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\ofbi_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="protocols_guest_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\protocols_guest_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="plan_guest_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\plan_guest_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="schedule_teacher_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\schedule_teacher_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="teacher_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\teacher_activity.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -1321,6 +1266,11 @@ wrap_content
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\protocols.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                name="menu_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\menu_activity.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

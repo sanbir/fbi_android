@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
@@ -21,7 +22,10 @@ public class GuestActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.menu_activity);
+
+        LinearLayout layout1 = (LinearLayout) findViewById(R.id.layout1);
+        layout1.setVisibility(View.GONE);
 
         //set grid view item
         Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi256);

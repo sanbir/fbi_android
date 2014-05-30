@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.menu_activity);
 		
 		//set grid view item
 		Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi256);

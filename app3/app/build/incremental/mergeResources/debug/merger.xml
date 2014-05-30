@@ -251,14 +251,8 @@ vertical
                     </item>
                 </style>
 
-                <style name="white_background_bl" >
-                    <item name="android:background">
-@drawable/white_container_bl
-                    </item>
-                    <item name="android:padding">
-5sp
-                    </item>
-                </style>
+                <dimen name="content_left_margin_wh" >8sp
+                </dimen>
 
                 <style name="text_title_bl" >
                     <item name="android:textColor">
@@ -293,8 +287,14 @@ center_vertical|left
                     </item>
                 </style>
 
-                <dimen name="content_left_margin_wh" >8sp
-                </dimen>
+                <style name="white_background_bl" >
+                    <item name="android:background">
+@drawable/white_container_bl
+                    </item>
+                    <item name="android:padding">
+5sp
+                    </item>
+                </style>
 
                 <style name="text_regular_bl" >
                     <item name="android:textColor">
@@ -338,16 +338,16 @@ bold
                     </item>
                 </style>
 
-                <style name="page_padding_layout_wh" >
+                <style name="page_background_wh" >
+                    <item name="android:background">
+@drawable/gray_gradient_background
+                    </item>
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
                 </style>
 
-                <style name="page_background_wh" >
-                    <item name="android:background">
-@drawable/gray_gradient_background
-                    </item>
+                <style name="page_padding_layout_wh" >
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
@@ -532,17 +532,6 @@ vertical
                 <dimen name="content_left_margin_bl" >8sp
                 </dimen>
 
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
-                </style>
-
                 <style name="text_large_bl" >
                     <item name="android:textColor">
 #FFF
@@ -553,6 +542,30 @@ bold
                     <item name="android:textSize">
 22sp
                     </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="page_background_bl" >
+                    <item name="android:background">
+#000
+                    </item>
+                    <item name="android:padding">
+@dimen/page_margin_bl
+                    </item>
+                    <!--
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginBottom">20dip</item>
+                    -->
                 </style>
 
                 <style
@@ -567,19 +580,6 @@ fill_parent
                     <item name="android:layout_height">
 2sp
                     </item>
-                </style>
-
-                <style name="page_background_bl" >
-                    <item name="android:background">
-#000
-                    </item>
-                    <item name="android:padding">
-@dimen/page_margin_bl
-                    </item>
-                    <!--
-        <item name="android:layout_marginTop">8dip</item>
-        <item name="android:layout_marginBottom">20dip</item>
-                    -->
                 </style>
 
                 <style name="text_large_wh" >
@@ -597,6 +597,20 @@ fill_parent
                     </item>
                     <item name="android:shadowColor">
 #888
+                    </item>
+                </style>
+
+                <style
+                    name="list_item_bl"
+                    parent="text_large_bl" >
+                    <item name="android:background">
+@drawable/list_item_bl
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                    <item name="android:clickable">
+true
                     </item>
                 </style>
 
@@ -621,48 +635,12 @@ fill_parent
 11sp
                     </item>
                 </style>
-
-                <style
-                    name="list_item_bl"
-                    parent="text_large_bl" >
-                    <item name="android:background">
-@drawable/list_item_bl
-                    </item>
-                    <item name="android:focusable">
-true
-                    </item>
-                    <item name="android:clickable">
-true
-                    </item>
-                </style>
             </file>
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-sw720dp-land\dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
-            </file>
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-v11\styles.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!-- API 11 theme customizations can go here. -->
-                </style>
-            </file>
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-v14\styles.xml"
-                qualifiers="v14" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light.DarkActionBar" >
-
-                    <!-- API 14 theme customizations can go here. -->
-                </style>
             </file>
             <file
                 name="bachelor"
@@ -1088,6 +1066,12 @@ true
                     </item>
                 </style>
 
+                <style name="WindowTitle" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.WindowTitle
+                    </item>
+                </style>
+
                 <style
                     name="EditText"
                     parant="android:Widget.EditText" >
@@ -1108,12 +1092,6 @@ true
                     </item>
                 </style>
 
-                <style name="WindowTitle" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.WindowTitle
-                    </item>
-                </style>
-
                 <style
                     name="ListView"
                     parent="android:Widget.ListView" >
@@ -1131,6 +1109,14 @@ true
                     </item>
                 </style>
 
+                <style
+                    name="TextAppearance.WindowTitle"
+                    parent="android:TextAppearance.WindowTitle" >
+                    <item name="android:textColor">
+@color/custom_theme_title_text
+                    </item>
+                </style>
+
                 <style name="WindowTitleBackground" >
                     <item name="android:background">
 @color/custom_theme_title_background
@@ -1138,10 +1124,10 @@ true
                 </style>
 
                 <style
-                    name="TextAppearance.WindowTitle"
-                    parent="android:TextAppearance.WindowTitle" >
-                    <item name="android:textColor">
-@color/custom_theme_title_text
+                    name="TextView"
+                    parent="android:Widget.TextView" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.TextView
                     </item>
                 </style>
 
@@ -1153,14 +1139,6 @@ true
                     </item>
                     <item name="android:textColor">
 @color/custom_theme_primary_text
-                    </item>
-                </style>
-
-                <style
-                    name="TextView"
-                    parent="android:Widget.TextView" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.TextView
                     </item>
                 </style>
 

@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<gradient 
+		android:startColor="#AFAFAF" 
+		android:endColor="#000000"
+		android:angle="270"/>
+</shape><!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/drawable/title_bar_wh.xml -->

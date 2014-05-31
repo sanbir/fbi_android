@@ -31,7 +31,7 @@
         android:layout_height="fill_parent"
         android:layout_margin="0dp"
         android:columnWidth="110dp"
-        android:rowHeight="110dp"
+        android:rowHeight="130dp"
         android:gravity="center"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"

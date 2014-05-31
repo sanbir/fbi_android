@@ -1,8 +1,11 @@
 package com.manish.customgridview;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,6 +13,7 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class StudyActivity extends Activity
@@ -48,7 +52,22 @@ public class StudyActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        //startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
+                        File file = new File("/storage/emulated/0/Download/Rezultaty.xlsx");
+
+                        // The unique identifier for the file
+                        Uri path = Uri.fromFile(file);
+
+                        // Parse the file into a uri to share with another application
+
+                        Intent newIntent = new Intent(Intent.ACTION_VIEW);
+                        newIntent.setDataAndType(path, "application/vnd.ms-excel");
+                        newIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                        try {
+                            startActivity(newIntent);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
                         break;
                     case 1:
                         //startActivity (new Intent(getApplicationContext(), StartActivity.class));

@@ -4,6 +4,136 @@
     <dataSet config="main" >
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res" >
             <file
+                name="custom_theme_primary_text"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\custom_theme_primary_text.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="custom_theme_secondary_text"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\custom_theme_secondary_text.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="text_bl_regular"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\text_bl_regular.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="text_wh_large"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\text_wh_large.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="text_wh_regular"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\text_wh_regular.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="button_bl"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_bl.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_bl_normal"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_bl_normal.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_my"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_my.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_wh"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_wh_normal"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh_normal.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_wh_pressed"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_wh_selected"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh_selected.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="custom_theme_edit_text"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\custom_theme_edit_text.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="custom_theme_normal_button"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\custom_theme_normal_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="custom_theme_normal_list_item"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\custom_theme_normal_list_item.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="gray_gradient_background"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\gray_gradient_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_divider_bl"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_divider_bl.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_divider_wh"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_divider_wh.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_bl"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_bl.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_wh"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_wh.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_wh_pressed"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_wh_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_wh_selected"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_wh_selected.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="title_bar_wh"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\title_bar_wh.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="white_container_bl"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\white_container_bl.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="white_container_wh"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\white_container_wh.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="home"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-hdpi\home.png"
                 qualifiers="hdpi"
@@ -17,6 +147,11 @@
                 name="personal"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-hdpi\personal.png"
                 qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bachelor"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\bachelor.png"
+                qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="bist"
@@ -44,8 +179,38 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="customer"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\customer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="cvdf"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\cvdf.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="dd"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dd.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="dean"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dean.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="delete"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\delete.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="df"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\df.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="dssssss"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dssssss.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -59,8 +224,68 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="er"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\er.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="err"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\err.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="fbi144"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fbi144.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fbi256"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fbi256.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fdfd"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fdfd.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fdgdf"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fdgdf.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ffachment"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ffachment.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fg"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="gf"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\gf.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="gfg"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\gfg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="guest"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\guest.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="hgt"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\hgt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="hk"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\hk.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -84,8 +309,28 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="kafedra"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\kafedra.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="l"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\l.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="library"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\library.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="master"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\master.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="mission"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\mission.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -109,8 +354,28 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="nirs"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\nirs.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="pi"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\pi.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="plan"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\plan.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="plan_nabora"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\plan_nabora.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="price"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\price.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -119,13 +384,138 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="progress"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\progress.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="protocols"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\protocols.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ret"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ret.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="rtt"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\rtt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sched"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sched.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="schedule"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="schedule_classrooms"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule_classrooms.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="schedule_group"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule_group.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sdlendar"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sdlendar.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sdo"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sdo.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="sport"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sport.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="student"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\student.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="study"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\study.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="teacher"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\teacher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="testt"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\testt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="textfield_activated"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_activated.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="textfield_default"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_default.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="textfield_disabled"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_disabled.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="textfield_disabled_focused"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_disabled_focused.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="textfield_focused"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_focused.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="trtr"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\trtr.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tryt"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\tryt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="u4_lab_base"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\u4_lab_base.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ui"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ui.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="video"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\video.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="we"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\we.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="website"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\website.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -139,8 +529,23 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="login_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\login_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\menu_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="row_grid"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\row_grid.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="start_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\start_activity.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -148,6 +553,251 @@
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\attrs.xml"
+                qualifiers="" >
+                <attr
+                    name="editText"
+                    format="reference" />
+                <attr
+                    name="textCurrentActivityGreen"
+                    format="reference" />
+                <attr
+                    name="textLarge"
+                    format="reference" />
+                <attr
+                    name="textSubheader"
+                    format="reference" />
+                <attr
+                    name="contentLeftMargin"
+                    format="reference|dimension" />
+                <attr
+                    name="listItem"
+                    format="reference" />
+                <attr
+                    name="textTitle"
+                    format="reference" />
+                <attr
+                    name="button"
+                    format="reference" />
+                <attr
+                    name="whiteBackground"
+                    format="reference" />
+                <attr
+                    name="list"
+                    format="reference" />
+                <attr
+                    name="pageBackground"
+                    format="reference" />
+                <attr
+                    name="pagePaddingLayout"
+                    format="reference" />
+                <attr
+                    name="pageMargin"
+                    format="reference|dimension" />
+                <attr
+                    name="listDivider"
+                    format="reference" />
+                <attr
+                    name="textRegular"
+                    format="reference" />
+                <attr
+                    name="textTitleHidden"
+                    format="reference" />
+                <attr
+                    name="textCheckBox"
+                    format="reference" />
+            </file>
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="transparent_blue" >#80004488
+                </color>
+                <color name="transparent" >#80000000
+                </color>
+            </file>
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\custom_colors.xml"
+                qualifiers="" >
+                <color name="custom_theme_button1" >#fff0c0
+                </color>
+                <color name="custom_theme_list_pressed" >#ffb573
+                </color>
+                <color name="custom_theme_button2" >#ffb573
+                </color>
+                <color name="custom_theme_button_focused2" >#ff8c00
+                </color>
+                <color name="custom_theme_text" >#8b4513
+                </color>
+                <color name="custom_theme_background" >#ffe4b5
+                </color>
+                <color name="custom_theme_list_line" >#bf9a70
+                </color>
+                <color name="custom_theme_text_secondary" >#a0522d
+                </color>
+                <color name="custom_theme_button_focused1" >#ffd700
+                </color>
+                <color name="custom_theme_button_disabled_strock" >#ffb573
+                </color>
+                <color name="custom_theme_text_disabled" >#80000000
+                </color>
+                <color name="custom_theme_button_disabled" >#fff0c0
+                </color>
+                <color name="custom_theme_header" >#ffb573
+                </color>
+                <color name="custom_theme_list_selected" >#ff8c00
+                </color>
+                <color name="custom_theme_title_text" >#ffeeb5
+                </color>
+                <color name="custom_theme_title_background" >#8b4513
+                </color>
+            </file>
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\custom_styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="CustomTheme.LightBrown"
+                    parent="android:Theme.Light" >
+                    <item name="android:buttonStyle">
+@style/Button
+                    </item>
+                    <item name="android:editTextStyle">
+@style/EditText
+                    </item>
+                    <item name="android:listSeparatorTextViewStyle">
+@style/ListSeparatorTextView
+                    </item>
+                    <item name="android:listViewStyle">
+@style/ListView
+                    </item>
+                    <item name="android:textColorPrimary">
+@color/custom_theme_primary_text
+                    </item>
+                    <item name="android:textColorSecondary">
+@color/custom_theme_secondary_text
+                    </item>
+                    <item name="android:textViewStyle">
+@style/TextView
+                    </item>
+                    <item name="android:windowBackground">
+@color/custom_theme_background
+                    </item>
+                    <item name="android:windowTitleStyle">
+@style/WindowTitle
+                    </item>
+                    <item name="android:windowTitleBackgroundStyle">
+@style/WindowTitleBackground
+                    </item>
+                </style>
+
+                <style
+                    name="EditText"
+                    parant="android:Widget.EditText" >
+                    <item name="android:background">
+@drawable/custom_theme_edit_text
+                    </item>
+                    <item name="android:clickable">
+true
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                    <item name="android:focusableInTouchMode">
+true
+                    </item>
+                    <item name="android:textColor">
+@color/custom_theme_primary_text
+                    </item>
+                </style>
+
+                <style name="WindowTitle" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.WindowTitle
+                    </item>
+                </style>
+
+                <style
+                    name="ListView"
+                    parent="android:Widget.ListView" >
+                    <item name="android:divider">
+@color/custom_theme_list_line
+                    </item>
+                    <item name="android:dividerHeight">
+1px
+                    </item>
+                    <item name="android:listSelector">
+@drawable/custom_theme_normal_list_item
+                    </item>
+                    <item name="android:cacheColorHint">
+#0000
+                    </item>
+                </style>
+
+                <style name="WindowTitleBackground" >
+                    <item name="android:background">
+@color/custom_theme_title_background
+                    </item>
+                </style>
+
+                <style
+                    name="TextAppearance.WindowTitle"
+                    parent="android:TextAppearance.WindowTitle" >
+                    <item name="android:textColor">
+@color/custom_theme_title_text
+                    </item>
+                </style>
+
+                <style
+                    name="Button"
+                    parent="android:Widget.Button" >
+                    <item name="android:background">
+@drawable/custom_theme_normal_button
+                    </item>
+                    <item name="android:textColor">
+@color/custom_theme_primary_text
+                    </item>
+                </style>
+
+                <style
+                    name="TextView"
+                    parent="android:Widget.TextView" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.TextView
+                    </item>
+                </style>
+
+                <style
+                    name="TextAppearance.TextView"
+                    parent="android:TextAppearance.Widget.TextView" >
+                    <item name="android:textColor">
+@color/custom_theme_primary_text
+                    </item>
+                </style>
+
+                <style
+                    name="ListSeparatorTextView"
+                    parant="android:Widget.TextView.ListSeparator" >
+                    <item name="android:background">
+@color/custom_theme_header
+                    </item>
+                    <item name="android:textColor">
+@color/custom_theme_primary_text
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                </style>
+            </file>
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\custom_theme_dimens.xml"
+                qualifiers="" >
+                <dimen name="custom_theme_button_padding" >8dp
+                </dimen>
+            </file>
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\dimens.xml"
                 qualifiers="" >
@@ -240,6 +890,15 @@ vertical
                 <dimen name="content_left_margin_wh" >8sp
                 </dimen>
 
+                <style name="white_background_bl" >
+                    <item name="android:background">
+@drawable/white_container_bl
+                    </item>
+                    <item name="android:padding">
+5sp
+                    </item>
+                </style>
+
                 <style name="text_title_bl" >
                     <item name="android:textColor">
 #FFF
@@ -270,15 +929,6 @@ center_vertical|left
                     </item>
                     <item name="android:background">
 #FF004488
-                    </item>
-                </style>
-
-                <style name="white_background_bl" >
-                    <item name="android:background">
-@drawable/white_container_bl
-                    </item>
-                    <item name="android:padding">
-5sp
                     </item>
                 </style>
 
@@ -324,16 +974,16 @@ bold
                     </item>
                 </style>
 
-                <style name="page_background_wh" >
-                    <item name="android:background">
-@drawable/gray_gradient_background
-                    </item>
+                <style name="page_padding_layout_wh" >
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
                 </style>
 
-                <style name="page_padding_layout_wh" >
+                <style name="page_background_wh" >
+                    <item name="android:background">
+@drawable/gray_gradient_background
+                    </item>
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
@@ -518,6 +1168,17 @@ vertical
                 <dimen name="content_left_margin_bl" >8sp
                 </dimen>
 
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
                 <style name="text_large_bl" >
                     <item name="android:textColor">
 #FFF
@@ -528,17 +1189,6 @@ bold
                     <item name="android:textSize">
 22sp
                     </item>
-                </style>
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
                 </style>
 
                 <style name="page_background_bl" >
@@ -622,259 +1272,6 @@ true
                     </item>
                 </style>
             </file>
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-sw720dp-land\dimens.xml"
-                qualifiers="sw720dp-land" >
-                <dimen name="activity_horizontal_margin" >128dp
-                </dimen>
-            </file>
-            <file
-                name="bachelor"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\bachelor.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="price"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\price.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="plan"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\plan.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="mission"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\mission.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="library"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\library.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="u4_lab_base"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\u4_lab_base.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="teacher"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\teacher.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="guest"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\guest.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="schedule_group"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule_group.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="kafedra"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\kafedra.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="schedule"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="schedule_classrooms"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\schedule_classrooms.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="master"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\master.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="sdo"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sdo.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="website"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\website.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="progress"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\progress.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="student"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\student.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="sport"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\sport.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="nirs"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\nirs.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="video"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\video.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="dean"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\dean.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="start_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\start_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="button_bl_normal"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_bl_normal.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\custom_theme_dimens.xml"
-                qualifiers="" >
-                <dimen name="custom_theme_button_padding" >8dp
-                </dimen>
-            </file>
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\attrs.xml"
-                qualifiers="" >
-                <attr
-                    name="editText"
-                    format="reference" />
-                <attr
-                    name="textCurrentActivityGreen"
-                    format="reference" />
-                <attr
-                    name="textLarge"
-                    format="reference" />
-                <attr
-                    name="textSubheader"
-                    format="reference" />
-                <attr
-                    name="contentLeftMargin"
-                    format="reference|dimension" />
-                <attr
-                    name="listItem"
-                    format="reference" />
-                <attr
-                    name="textTitle"
-                    format="reference" />
-                <attr
-                    name="button"
-                    format="reference" />
-                <attr
-                    name="whiteBackground"
-                    format="reference" />
-                <attr
-                    name="list"
-                    format="reference" />
-                <attr
-                    name="pageBackground"
-                    format="reference" />
-                <attr
-                    name="pagePaddingLayout"
-                    format="reference" />
-                <attr
-                    name="pageMargin"
-                    format="reference|dimension" />
-                <attr
-                    name="listDivider"
-                    format="reference" />
-                <attr
-                    name="textRegular"
-                    format="reference" />
-                <attr
-                    name="textTitleHidden"
-                    format="reference" />
-                <attr
-                    name="textCheckBox"
-                    format="reference" />
-            </file>
-            <file
-                name="list_item_wh_selected"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_wh_selected.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="white_container_bl"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\white_container_bl.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="text_wh_regular"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\text_wh_regular.xml"
-                qualifiers=""
-                type="color" />
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\custom_colors.xml"
-                qualifiers="" >
-                <color name="custom_theme_button1" >#fff0c0
-                </color>
-                <color name="custom_theme_list_pressed" >#ffb573
-                </color>
-                <color name="custom_theme_button2" >#ffb573
-                </color>
-                <color name="custom_theme_button_focused2" >#ff8c00
-                </color>
-                <color name="custom_theme_text" >#8b4513
-                </color>
-                <color name="custom_theme_background" >#ffe4b5
-                </color>
-                <color name="custom_theme_list_line" >#bf9a70
-                </color>
-                <color name="custom_theme_text_secondary" >#a0522d
-                </color>
-                <color name="custom_theme_button_focused1" >#ffd700
-                </color>
-                <color name="custom_theme_button_disabled_strock" >#ffb573
-                </color>
-                <color name="custom_theme_text_disabled" >#80000000
-                </color>
-                <color name="custom_theme_button_disabled" >#fff0c0
-                </color>
-                <color name="custom_theme_header" >#ffb573
-                </color>
-                <color name="custom_theme_list_selected" >#ff8c00
-                </color>
-                <color name="custom_theme_title_text" >#ffeeb5
-                </color>
-                <color name="custom_theme_title_background" >#8b4513
-                </color>
-            </file>
-            <file
-                name="button_wh_normal"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh_normal.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="list_item_bl"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_bl.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="list_divider_wh"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_divider_wh.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="icon"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\icon.png"
-                qualifiers=""
-                type="drawable" />
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\themes.xml"
                 qualifiers="" >
@@ -984,293 +1381,11 @@ true
                 </style>
             </file>
             <file
-                name="text_wh_large"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\text_wh_large.xml"
-                qualifiers=""
-                type="color" />
-            <file
-                name="list_divider_bl"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_divider_bl.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="button_wh_pressed"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh_pressed.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="white_container_wh"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\white_container_wh.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="text_bl_regular"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\text_bl_regular.xml"
-                qualifiers=""
-                type="color" />
-            <file
-                name="list_item_wh"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_wh.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\custom_styles.xml"
-                qualifiers="" >
-
-                <style
-                    name="CustomTheme.LightBrown"
-                    parent="android:Theme.Light" >
-                    <item name="android:buttonStyle">
-@style/Button
-                    </item>
-                    <item name="android:editTextStyle">
-@style/EditText
-                    </item>
-                    <item name="android:listSeparatorTextViewStyle">
-@style/ListSeparatorTextView
-                    </item>
-                    <item name="android:listViewStyle">
-@style/ListView
-                    </item>
-                    <item name="android:textColorPrimary">
-@color/custom_theme_primary_text
-                    </item>
-                    <item name="android:textColorSecondary">
-@color/custom_theme_secondary_text
-                    </item>
-                    <item name="android:textViewStyle">
-@style/TextView
-                    </item>
-                    <item name="android:windowBackground">
-@color/custom_theme_background
-                    </item>
-                    <item name="android:windowTitleStyle">
-@style/WindowTitle
-                    </item>
-                    <item name="android:windowTitleBackgroundStyle">
-@style/WindowTitleBackground
-                    </item>
-                </style>
-
-                <style name="WindowTitle" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.WindowTitle
-                    </item>
-                </style>
-
-                <style
-                    name="EditText"
-                    parant="android:Widget.EditText" >
-                    <item name="android:background">
-@drawable/custom_theme_edit_text
-                    </item>
-                    <item name="android:clickable">
-true
-                    </item>
-                    <item name="android:focusable">
-true
-                    </item>
-                    <item name="android:focusableInTouchMode">
-true
-                    </item>
-                    <item name="android:textColor">
-@color/custom_theme_primary_text
-                    </item>
-                </style>
-
-                <style
-                    name="ListView"
-                    parent="android:Widget.ListView" >
-                    <item name="android:divider">
-@color/custom_theme_list_line
-                    </item>
-                    <item name="android:dividerHeight">
-1px
-                    </item>
-                    <item name="android:listSelector">
-@drawable/custom_theme_normal_list_item
-                    </item>
-                    <item name="android:cacheColorHint">
-#0000
-                    </item>
-                </style>
-
-                <style
-                    name="TextAppearance.WindowTitle"
-                    parent="android:TextAppearance.WindowTitle" >
-                    <item name="android:textColor">
-@color/custom_theme_title_text
-                    </item>
-                </style>
-
-                <style name="WindowTitleBackground" >
-                    <item name="android:background">
-@color/custom_theme_title_background
-                    </item>
-                </style>
-
-                <style
-                    name="TextView"
-                    parent="android:Widget.TextView" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.TextView
-                    </item>
-                </style>
-
-                <style
-                    name="Button"
-                    parent="android:Widget.Button" >
-                    <item name="android:background">
-@drawable/custom_theme_normal_button
-                    </item>
-                    <item name="android:textColor">
-@color/custom_theme_primary_text
-                    </item>
-                </style>
-
-                <style
-                    name="TextAppearance.TextView"
-                    parent="android:TextAppearance.Widget.TextView" >
-                    <item name="android:textColor">
-@color/custom_theme_primary_text
-                    </item>
-                </style>
-
-                <style
-                    name="ListSeparatorTextView"
-                    parant="android:Widget.TextView.ListSeparator" >
-                    <item name="android:background">
-@color/custom_theme_header
-                    </item>
-                    <item name="android:textColor">
-@color/custom_theme_primary_text
-                    </item>
-                    <item name="android:layout_width">
-fill_parent
-                    </item>
-                    <item name="android:layout_height">
-wrap_content
-                    </item>
-                </style>
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
             </file>
-            <file
-                name="button_wh"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="list_item_wh_pressed"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_wh_pressed.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="custom_theme_edit_text"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\custom_theme_edit_text.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="custom_theme_normal_button"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\custom_theme_normal_button.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="gray_gradient_background"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\gray_gradient_background.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="custom_theme_secondary_text"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\custom_theme_secondary_text.xml"
-                qualifiers=""
-                type="color" />
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\colors.xml"
-                qualifiers="" >
-                <color name="transparent_blue" >#80004488
-                </color>
-                <color name="transparent" >#80000000
-                </color>
-            </file>
-            <file
-                name="button_wh_selected"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_wh_selected.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="custom_theme_normal_list_item"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\custom_theme_normal_list_item.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="custom_theme_primary_text"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\color\custom_theme_primary_text.xml"
-                qualifiers=""
-                type="color" />
-            <file
-                name="button_bl"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_bl.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="title_bar_wh"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\title_bar_wh.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="textfield_activated"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_activated.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="textfield_disabled_focused"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_disabled_focused.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="textfield_disabled"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_disabled.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="textfield_default"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_default.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="textfield_focused"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\textfield_focused.9.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="fbi256"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\fbi256.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="button_my"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\button_my.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="login_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\login_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="plan_nabora"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\plan_nabora.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="protocols"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\protocols.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="menu_activity"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\menu_activity.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

@@ -90,10 +90,8 @@ public class StudyActivity extends Activity
                         }
 
                         File file1 = new File(getApplicationContext().getExternalFilesDir(
-                                Environment.DIRECTORY_DOCUMENTS), "fssdf54");
+                                Environment.getExternalStorageState()), "fssdf54");
 
-                        //File file1 = new File(getApplicationContext().getFilesDir(), "fdsfs");
-                        //File file1 = getApplicationContext().getDir("eee", MODE_PRIVATE);
                         OutputStream out = null;
                         try {
                             out = new FileOutputStream(file1);
@@ -120,8 +118,6 @@ public class StudyActivity extends Activity
                         Intent newIntent1 = new Intent(Intent.ACTION_VIEW);
                         newIntent1.setDataAndType(path1, "application/vnd.ms-excel");
                         newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                        newIntent1.addFlags(
-                                Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
 
                         try {
@@ -129,23 +125,6 @@ public class StudyActivity extends Activity
                         } catch (ActivityNotFoundException ex) {
                             ex.printStackTrace();
                         }
-
-
-                       /* BufferedReader reader = null;
-                        try {
-                            reader = new BufferedReader(new InputStreamReader(raw, "UTF8"));
-                        } catch (UnsupportedEncodingException e) {
-                            e.printStackTrace();
-                        }*/
-
-
-
-                        /*try {
-                            Toast.makeText(StudyActivity.this, reader.readLine() + reader.readLine() + reader.readLine(),
-                                    Toast.LENGTH_SHORT).show();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }*/
                         break;
                     case 2:
                         //startActivity (new Intent(getApplicationContext(), StartActivity.class));
@@ -157,17 +136,6 @@ public class StudyActivity extends Activity
 
             }
         });
-    }
-
-    public static void copyStream(InputStream input, OutputStream output)
-            throws IOException
-    {
-        byte[] buffer = new byte[1024]; // Adjust if you want
-        int bytesRead;
-        while ((bytesRead = input.read(buffer)) != -1)
-        {
-            output.write(buffer, 0, bytesRead);
-        }
     }
 
     public static void copyCompletely(InputStream input, OutputStream output) throws IOException {

@@ -1,11 +1,17 @@
 package com.javatechig.feedreader;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.Reader;
 import java.io.UnsupportedEncodingException;
+import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -16,10 +22,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -41,42 +49,74 @@ public class FeedListActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_posts_list);
 		progressbar = (ProgressBar) findViewById(R.id.progressBar);
-        //Uri urll = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.local_json);
-		//String url = "android.resource://" + getPackageName() + "/" + R.raw.local_json;
 
-        //String url = "android.resource://com.javatechig.feedreader/raw/local_json";
-
-        //String url = "http://javatechig.com/api/get_category_posts?dev=1&slug=android";
-		//new DownloadFilesTask().execute(url);
-
-        String[] ss = null;
+        InputStream in = null;
         try {
-            ss = getApplicationContext().getAssets().list("/assets/");
+            in = getApplicationContext().getAssets().open("local_json.json");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        InputStream raw = null;
+        File file1 = new File(getApplicationContext().getExternalFilesDir(
+                Environment.getExternalStorageState()), "local_json.json");
+
+        OutputStream out = null;
         try {
-            raw = getApplicationContext().getAssets().open("local_json.json");
+            out = new FileOutputStream(file1);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
+            copyCompletely(in, out);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            out.flush();
+            out.close();
+            in.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new InputStreamReader(raw, "UTF8"));
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
+        Uri path1 = Uri.fromFile(file1);
+
+		new DownloadFilesTask().execute(in);
+    }
+
+    public static void copyCompletely(InputStream input, OutputStream output) throws IOException {
+        // if both are file streams, use channel IO
+        if ((output instanceof FileOutputStream) && (input instanceof FileInputStream)) {
+            try {
+                FileChannel target = ((FileOutputStream) output).getChannel();
+                FileChannel source = ((FileInputStream) input).getChannel();
+
+                source.transferTo(0, Integer.MAX_VALUE, target);
+
+                source.close();
+                target.close();
+
+                return;
+            } catch (Exception e) { /* failover to byte stream version */
+            }
+        }
+
+        byte[] buf = new byte[8192];
+        while (true) {
+            int length = input.read(buf);
+            if (length < 0)
+                break;
+            output.write(buf, 0, length);
         }
 
         try {
-            Toast.makeText(FeedListActivity.this, reader.readLine()+reader.readLine()+reader.readLine(),
-                    Toast.LENGTH_SHORT).show();
-        } catch (IOException e) {
-            e.printStackTrace();
+            input.close();
+        } catch (IOException ignore) {
         }
-
+        try {
+            output.close();
+        } catch (IOException ignore) {
+        }
     }
 
 	public void updateList() {
@@ -99,47 +139,40 @@ public class FeedListActivity extends Activity {
 		});
 	}
 
-	private class DownloadFilesTask extends AsyncTask<String, Integer, Void> {
+	private class DownloadFilesTask extends AsyncTask<InputStream, Integer, Void> {
 
 		@Override
 		protected void onProgressUpdate(Integer... values) {
 		}
 
-		@Override
+        @Override
+        protected Void doInBackground(InputStream... params) {
+            InputStream url = params[0];
+
+            // getting JSON string from URL
+            JSONObject json = getJSONFromUrl(url);
+
+            //parsing json data
+            parseJson(json);
+            return null;
+        }
+
+        @Override
 		protected void onPostExecute(Void result) {
 			if (null != feedList) {
 				updateList();
 			}
 		}
 
-		@Override
-		protected Void doInBackground(String... params) {
-			String url = params[0];
-
-			// getting JSON string from URL
-			JSONObject json = getJSONFromUrl(url);
-
-			//parsing json data
-			parseJson(json);
-			return null;
-		}
 	}
 
 	
-	public JSONObject getJSONFromUrl(String url) {
-		InputStream is = null;
+	public JSONObject getJSONFromUrl(InputStream is) {
+
 		JSONObject jObj = null;
 		String json = null;
 
-		// Making HTTP request
 		try {
-			// defaultHttpClient
-			DefaultHttpClient httpClient = new DefaultHttpClient();
-			HttpPost httpPost = new HttpPost(url);
-
-			HttpResponse httpResponse = httpClient.execute(httpPost);
-			HttpEntity httpEntity = httpResponse.getEntity();
-			is = httpEntity.getContent();
 
 			BufferedReader reader = new BufferedReader(new InputStreamReader(
 					is, "iso-8859-1"), 8);

@@ -1,18 +1,26 @@
 package com.javatechig.feedreader.asynctaask;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.HttpGet;
+
+import android.content.ContentResolver;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.net.http.AndroidHttpClient;
 import android.os.AsyncTask;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.webkit.URLUtil;
 import android.widget.ImageView;
+
+import com.javatechig.feedreader.MyApplication;
 import com.javatechig.feedreader.R;
 
 public class ImageDownloaderTask extends AsyncTask<String, Void, Bitmap> {
@@ -51,7 +59,17 @@ public class ImageDownloaderTask extends AsyncTask<String, Void, Bitmap> {
 	}
 
 	static Bitmap downloadBitmap(String url) {
-		if(URLUtil.isValidUrl(url)){
+
+        Bitmap bitmap = null;
+        Uri imageUri = Uri.parse("file:///storage/emulated/0/Android/data/com.javatechig.feedreader/files/mounted/1.png");
+        try {
+            bitmap = MediaStore.Images.Media.getBitmap(MyApplication.getAppContext().getContentResolver(), imageUri);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return bitmap;
+
+		/*if(URLUtil.isValidUrl(url)){
 
 			final AndroidHttpClient client = AndroidHttpClient.newInstance("Android");
 			final HttpGet getRequest = new HttpGet(url);
@@ -91,7 +109,7 @@ public class ImageDownloaderTask extends AsyncTask<String, Void, Bitmap> {
 			return null;
 		
 		}
-		return null;
+		return null;*/
 	}
 
 }

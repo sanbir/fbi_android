@@ -2,7 +2,17 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\assets" />
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\assets" >
+            <file
+                name="poklonimsa_godam.pdf"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\assets\poklonimsa_godam.pdf" />
+            <file
+                name="local_json.json"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\assets\local_json.json" />
+            <file
+                name="uch_plan_mml.xls"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\assets\uch_plan_mml.xls" />
+        </source>
     </dataSet>
     <dataSet config="debug" >
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\debug\assets" />

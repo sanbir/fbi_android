@@ -611,9 +611,21 @@
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\colors.xml"
                 qualifiers="" >
+                <color name="white" >#FFFFFF
+                </color>
                 <color name="transparent_blue" >#80004488
                 </color>
+                <color name="text_color_default" >#00000C
+                </color>
+                <color name="list_row_default_bg" >#ffffff
+                </color>
                 <color name="transparent" >#80000000
+                </color>
+                <color name="text_color_inverse" >#FFFFFF
+                </color>
+                <color name="list_row_pressed_bg" >#008cef
+                </color>
+                <color name="list_row_selected_bg" >#86d3f6
                 </color>
             </file>
             <file
@@ -1386,6 +1398,46 @@ true
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
+            <file
+                name="user_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\user_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_posts_list"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\activity_posts_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="uuu1"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\uuu1.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="list_item_text_selector"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_item_text_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_row_layout"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\list_row_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="image_border"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\image_border.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_placeholder"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_placeholder.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_flatcolor"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_selector_flatcolor.xml"
+                qualifiers=""
+                type="drawable" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

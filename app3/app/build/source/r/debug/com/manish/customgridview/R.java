@@ -229,40 +229,51 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static final int action_settings=0x7f090019;
-        public static final int cancelBtn=0x7f090009;
-        public static final int chkRememberPassword=0x7f090007;
-        public static final int custom_list=0x7f090001;
-        public static final int date=0x7f090004;
-        public static final int gridView1=0x7f09000c;
+        public static final int cancelBtn=0x7f09000c;
+        public static final int chkRememberPassword=0x7f09000a;
+        public static final int custom_list=0x7f090004;
+        public static final int date=0x7f090007;
+        public static final int gridView1=0x7f090002;
         public static final int guestBtn=0x7f090015;
         public static final int image=0x7f090010;
         public static final int image1=0x7f090013;
         public static final int image2=0x7f090016;
         public static final int item_image=0x7f09000d;
         public static final int item_text=0x7f09000e;
-        public static final int layout1=0x7f09000a;
-        public static final int okBtn=0x7f090008;
-        public static final int progressBar=0x7f090000;
+        public static final int layout1=0x7f090000;
+        public static final int okBtn=0x7f09000b;
+        public static final int progressBar=0x7f090003;
         public static final int scroll=0x7f090018;
         public static final int studentBtn=0x7f09000f;
         public static final int teacherBtn=0x7f090012;
         public static final int text=0x7f090011;
-        public static final int text0=0x7f09000b;
+        public static final int text0=0x7f090001;
         public static final int text1=0x7f090014;
         public static final int text2=0x7f090017;
-        public static final int thumbImage=0x7f090002;
-        public static final int title=0x7f090003;
-        public static final int txtPassword=0x7f090006;
-        public static final int txtUserName=0x7f090005;
+        public static final int thumbImage=0x7f090005;
+        public static final int title=0x7f090006;
+        public static final int txtPassword=0x7f090009;
+        public static final int txtUserName=0x7f090008;
     }
     public static final class layout {
-        public static final int activity_posts_list=0x7f030000;
-        public static final int list_row_layout=0x7f030001;
-        public static final int login_activity=0x7f030002;
-        public static final int menu_activity=0x7f030003;
-        public static final int row_grid=0x7f030004;
-        public static final int start_activity=0x7f030005;
-        public static final int user_activity=0x7f030006;
+        public static final int activity_main=0x7f030000;
+        public static final int activity_posts_list=0x7f030001;
+        public static final int guest_activity=0x7f030002;
+        public static final int learn_plans_guest_activity=0x7f030003;
+        public static final int list_row_layout=0x7f030004;
+        public static final int login_activity=0x7f030005;
+        public static final int menu_activity=0x7f030006;
+        public static final int ofbi_activity=0x7f030007;
+        public static final int plan_guest_activity=0x7f030008;
+        public static final int prof_student_activity=0x7f030009;
+        public static final int protocols_guest_activity=0x7f03000a;
+        public static final int row_grid=0x7f03000b;
+        public static final int schedule_teacher_activity=0x7f03000c;
+        public static final int start_activity=0x7f03000d;
+        public static final int student_activity=0x7f03000e;
+        public static final int study_activity=0x7f03000f;
+        public static final int teacher_activity=0x7f030010;
+        public static final int user_activity=0x7f030011;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -279,6 +290,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
+ API 11 theme customizations can go here. 
+ API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 

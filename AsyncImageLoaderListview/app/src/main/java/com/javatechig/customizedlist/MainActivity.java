@@ -1,7 +1,12 @@
 package com.javatechig.customizedlist;
 
+import java.io.*;
 import java.util.ArrayList;
 import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -26,8 +31,11 @@ public class MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> a, View v, int position, long id) {
 				Object o = lv1.getItemAtPosition(position);
 				NewsItem newsData = (NewsItem) o;
-				Toast.makeText(MainActivity.this, "Selected :" + " " + newsData,
-						Toast.LENGTH_LONG).show();
+				/*Toast.makeText(MainActivity.this, "Selected :" + " " + newsData,
+						Toast.LENGTH_LONG).show();*/
+                Intent i = new Intent(MainActivity.this, UserActivity.class);
+                i.putExtra("selectedItem", newsData);
+                startActivity(i);
 			}
 
 		});
@@ -92,6 +100,87 @@ public class MainActivity extends Activity {
 		newsData.setUrl("http://lh5.ggpht.com/_hepKlJWopDg/TB-_WXikaYI/AAAAAAAAElI/715k4NvBM4w/s144-c/IMG_0075.JPG");
 		results.add(newsData);
 
+        newsData = new NewsItem();
+        newsData.setHeadline("Major Naxal attacks in the past");
+        newsData.setReporterName("Pankaj Gupta");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh4.ggpht.com/_4f1e_yo-zMQ/TCe5h9yN-TI/AAAAAAAAXqs/8X2fIjtKjmw/s144-c/IMG_1786.JPG");
+        results.add(newsData);
+
+        newsData = new NewsItem();
+        newsData.setHeadline("BCCI suspends Gurunath pending inquiry ");
+        newsData.setReporterName("Rajiv Chandan");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh3.ggpht.com/_GEnSvSHk4iE/TDSfmyCfn0I/AAAAAAAAF8Y/cqmhEoxbwys/s144-c/_MG_3675.jpg");
+        results.add(newsData);
+
+        newsData = new NewsItem();
+        newsData.setHeadline("Life convict can`t claim freedom after 14 yrs: SC");
+        newsData.setReporterName("Pankaj Gupta");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh6.ggpht.com/_ZN5zQnkI67I/TCFFZaJHDnI/AAAAAAAABVk/YoUbDQHJRdo/s144-c/P9250508.JPG");
+        results.add(newsData);
+
+        newsData = new NewsItem();
+        newsData.setHeadline("Indian Army refuses to share info on soldiers mutilated at LoC");
+        newsData.setReporterName("Pankaj Gupta");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh4.ggpht.com/_XjNwVI0kmW8/TCOwNtzGheI/AAAAAAAAC84/SxFJhG7Scgo/s144-c/0014.jpg");
+        results.add(newsData);
+
+        newsData = new NewsItem();
+        newsData.setHeadline("French soldier stabbed; link to Woolwich attack being probed");
+        newsData.setReporterName("Sudeep Nanda");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh6.ggpht.com/_Nsxc889y6hY/TBp7jfx-cgI/AAAAAAAAHAg/Rr7jX44r2Gc/s144-c/IMGP9775a.jpg");
+        results.add(newsData);
+
+        newsData = new NewsItem();
+        newsData.setHeadline("Life convict can`t claim freedom after 14 yrs: SC");
+        newsData.setReporterName("Pankaj Gupta");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh6.ggpht.com/_ZN5zQnkI67I/TCFFZaJHDnI/AAAAAAAABVk/YoUbDQHJRdo/s144-c/P9250508.JPG");
+        results.add(newsData);
+
+        newsData = new NewsItem();
+        newsData.setHeadline("Dance of Democracy");
+        newsData.setReporterName("Pankaj Gupta");
+        newsData.setDate("May 26, 2013, 13:35");
+        newsData.setUrl("http://lh5.ggpht.com/_hepKlJWopDg/TB-_WXikaYI/AAAAAAAAElI/715k4NvBM4w/s144-c/IMG_0075.JPG");
+        results.add(newsData);
+
 		return results;
 	}
+
+/*    public Bitmap getThumbnail(Uri uri) throws FileNotFoundException, IOException{
+        InputStream input = this.getContentResolver().openInputStream(uri);
+
+        BitmapFactory.Options onlyBoundsOptions = new BitmapFactory.Options();
+        onlyBoundsOptions.inJustDecodeBounds = true;
+        onlyBoundsOptions.inDither=true;//optional
+        onlyBoundsOptions.inPreferredConfig=Bitmap.Config.ARGB_8888;//optional
+        BitmapFactory.decodeStream(input, null, onlyBoundsOptions);
+        input.close();
+        if ((onlyBoundsOptions.outWidth == -1) || (onlyBoundsOptions.outHeight == -1))
+            return null;
+
+        int originalSize = (onlyBoundsOptions.outHeight > onlyBoundsOptions.outWidth) ? onlyBoundsOptions.outHeight : onlyBoundsOptions.outWidth;
+
+        double ratio = (originalSize > 70) ? (originalSize / 70) : 1.0;
+
+        BitmapFactory.Options bitmapOptions = new BitmapFactory.Options();
+        bitmapOptions.inSampleSize = getPowerOfTwoForSampleRatio(ratio);
+        bitmapOptions.inDither=true;//optional
+        bitmapOptions.inPreferredConfig=Bitmap.Config.ARGB_8888;//optional
+        input = getContentResolver().openInputStream(uri);
+        Bitmap bitmap = BitmapFactory.decodeStream(input, null, bitmapOptions);
+        input.close();
+        return bitmap;
+    }
+
+    private static int getPowerOfTwoForSampleRatio(double ratio){
+        int k = Integer.highestOneBit((int)Math.floor(ratio));
+        if(k==0) return 1;
+        else return k;
+    }*/
 }

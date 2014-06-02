@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" 
+        android:color="@color/text_color_inverse" />
+    <item android:state_focused="true" 
+        android:color="@color/text_color_inverse" />
+    <item android:color="@color/text_color_default" />
+</selector>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/Feed%20Reader1/app/src/main/res/drawable/list_item_text_selector.xml -->

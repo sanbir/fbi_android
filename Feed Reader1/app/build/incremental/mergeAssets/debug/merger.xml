@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\Feed Reader1\app\src\main\assets" >
+            <file
+                name="Leo Arrow.ttf"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\Feed Reader1\app\src\main\assets\Leo Arrow.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\Feed Reader1\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

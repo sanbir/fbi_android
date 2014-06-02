@@ -611,21 +611,21 @@
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\colors.xml"
                 qualifiers="" >
-                <color name="white" >#FFFFFF
-                </color>
                 <color name="transparent_blue" >#80004488
                 </color>
-                <color name="text_color_default" >#00000C
+                <color name="white" >#FFFFFF
                 </color>
                 <color name="list_row_default_bg" >#ffffff
                 </color>
+                <color name="text_color_default" >#00000C
+                </color>
                 <color name="transparent" >#80000000
                 </color>
-                <color name="text_color_inverse" >#FFFFFF
+                <color name="list_row_selected_bg" >#86d3f6
                 </color>
                 <color name="list_row_pressed_bg" >#008cef
                 </color>
-                <color name="list_row_selected_bg" >#86d3f6
+                <color name="text_color_inverse" >#FFFFFF
                 </color>
             </file>
             <file
@@ -703,6 +703,12 @@
                     </item>
                 </style>
 
+                <style name="WindowTitle" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.WindowTitle
+                    </item>
+                </style>
+
                 <style
                     name="EditText"
                     parant="android:Widget.EditText" >
@@ -723,12 +729,6 @@ true
                     </item>
                 </style>
 
-                <style name="WindowTitle" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.WindowTitle
-                    </item>
-                </style>
-
                 <style
                     name="ListView"
                     parent="android:Widget.ListView" >
@@ -746,6 +746,14 @@ true
                     </item>
                 </style>
 
+                <style
+                    name="TextAppearance.WindowTitle"
+                    parent="android:TextAppearance.WindowTitle" >
+                    <item name="android:textColor">
+@color/custom_theme_title_text
+                    </item>
+                </style>
+
                 <style name="WindowTitleBackground" >
                     <item name="android:background">
 @color/custom_theme_title_background
@@ -753,10 +761,10 @@ true
                 </style>
 
                 <style
-                    name="TextAppearance.WindowTitle"
-                    parent="android:TextAppearance.WindowTitle" >
-                    <item name="android:textColor">
-@color/custom_theme_title_text
+                    name="TextView"
+                    parent="android:Widget.TextView" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.TextView
                     </item>
                 </style>
 
@@ -768,14 +776,6 @@ true
                     </item>
                     <item name="android:textColor">
 @color/custom_theme_primary_text
-                    </item>
-                </style>
-
-                <style
-                    name="TextView"
-                    parent="android:Widget.TextView" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.TextView
                     </item>
                 </style>
 
@@ -899,18 +899,6 @@ vertical
                     </item>
                 </style>
 
-                <dimen name="content_left_margin_wh" >8sp
-                </dimen>
-
-                <style name="white_background_bl" >
-                    <item name="android:background">
-@drawable/white_container_bl
-                    </item>
-                    <item name="android:padding">
-5sp
-                    </item>
-                </style>
-
                 <style name="text_title_bl" >
                     <item name="android:textColor">
 #FFF
@@ -943,6 +931,18 @@ center_vertical|left
 #FF004488
                     </item>
                 </style>
+
+                <style name="white_background_bl" >
+                    <item name="android:background">
+@drawable/white_container_bl
+                    </item>
+                    <item name="android:padding">
+5sp
+                    </item>
+                </style>
+
+                <dimen name="content_left_margin_wh" >8sp
+                </dimen>
 
                 <style name="text_regular_bl" >
                     <item name="android:textColor">
@@ -986,16 +986,16 @@ bold
                     </item>
                 </style>
 
-                <style name="page_padding_layout_wh" >
+                <style name="page_background_wh" >
+                    <item name="android:background">
+@drawable/gray_gradient_background
+                    </item>
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
                 </style>
 
-                <style name="page_background_wh" >
-                    <item name="android:background">
-@drawable/gray_gradient_background
-                    </item>
+                <style name="page_padding_layout_wh" >
                     <item name="android:padding">
 @dimen/page_margin_wh
                     </item>
@@ -1180,17 +1180,6 @@ vertical
                 <dimen name="content_left_margin_bl" >8sp
                 </dimen>
 
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
-                </style>
-
                 <style name="text_large_bl" >
                     <item name="android:textColor">
 #FFF
@@ -1203,16 +1192,14 @@ bold
                     </item>
                 </style>
 
-                <style name="page_background_bl" >
-                    <item name="android:background">
-#000
-                    </item>
-                    <item name="android:padding">
-@dimen/page_margin_bl
-                    </item>
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
                     <!--
-        <item name="android:layout_marginTop">8dip</item>
-        <item name="android:layout_marginBottom">20dip</item>
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
                     -->
                 </style>
 
@@ -1230,6 +1217,19 @@ fill_parent
                     </item>
                 </style>
 
+                <style name="page_background_bl" >
+                    <item name="android:background">
+#000
+                    </item>
+                    <item name="android:padding">
+@dimen/page_margin_bl
+                    </item>
+                    <!--
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginBottom">20dip</item>
+                    -->
+                </style>
+
                 <style name="text_large_wh" >
                     <item name="android:textColor">
 @color/text_wh_large
@@ -1245,20 +1245,6 @@ fill_parent
                     </item>
                     <item name="android:shadowColor">
 #888
-                    </item>
-                </style>
-
-                <style
-                    name="list_item_bl"
-                    parent="text_large_bl" >
-                    <item name="android:background">
-@drawable/list_item_bl
-                    </item>
-                    <item name="android:focusable">
-true
-                    </item>
-                    <item name="android:clickable">
-true
                     </item>
                 </style>
 
@@ -1281,6 +1267,20 @@ true
                     </item>
                     <item name="android:paddingBottom">
 11sp
+                    </item>
+                </style>
+
+                <style
+                    name="list_item_bl"
+                    parent="text_large_bl" >
+                    <item name="android:background">
+@drawable/list_item_bl
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                    <item name="android:clickable">
+true
                     </item>
                 </style>
             </file>
@@ -1438,6 +1438,83 @@ true
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable\list_selector_flatcolor.xml"
                 qualifiers=""
                 type="drawable" />
+            <file
+                name="prof_student_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\prof_student_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="student_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\student_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="study_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\study_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="learn_plans_guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\learn_plans_guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="ofbi_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\ofbi_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="protocols_guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\protocols_guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="plan_guest_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\plan_guest_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="schedule_teacher_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\schedule_teacher_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="teacher_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\teacher_activity.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

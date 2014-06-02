@@ -1,11 +1,14 @@
 package com.javatechig.customizedlist;
 
-public class NewsItem {
+import java.io.Serializable;
+
+public class NewsItem implements Serializable {
 
 	private String headline;
 	private String reporterName;
 	private String date;
 	private String url;
+    private String bodyText;
 
 	public String getUrl() {
 		return url;
@@ -43,4 +46,12 @@ public class NewsItem {
 	public String toString() {
 		return "[ headline=" + headline + ", reporter Name=" + reporterName + " , date=" + date + "]";
 	}
+
+    public String getBodyText() {
+        return bodyText;
+    }
+
+    public void setBodyText(String bodyText) {
+        this.bodyText = bodyText;
+    }
 }

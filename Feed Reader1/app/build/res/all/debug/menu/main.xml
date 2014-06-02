@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="always"
+        android:title="Share"/>
+    <item
+        android:id="@+id/menu_view"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="always"
+        android:title="View"/>
+
+</menu><!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/Feed%20Reader1/app/src/main/res/menu/main.xml -->

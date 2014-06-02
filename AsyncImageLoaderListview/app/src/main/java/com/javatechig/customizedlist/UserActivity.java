@@ -39,8 +39,11 @@ public class UserActivity extends Activity
             }
 
             ImageView image = (ImageView) findViewById(R.id.image);
-            if (image != null) {
-                new ImageDownloaderTask(image).execute(newsItem.getUrl());
+            s = newsItem.getUrl();
+            if (s != null && !s.equals("")) {
+                new ImageDownloaderTask(image).execute(s);
+            } else {
+                image.setVisibility(View.GONE);
             }
         }
 

@@ -91,6 +91,15 @@
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\AsyncImageLoaderListview\app\src\main\res\values\styles.xml"
                 qualifiers="" >
 
+                <style name="PhotoGridLayout" >
+                    <item name="android:drawSelectorOnTop">
+true
+                    </item>
+                    <item name="android:listSelector">
+@drawable/photogrid_list_selector
+                    </item>
+                </style>
+
                 <style
                     name="AppBaseTheme"
                     parent="android:Theme.Light" >
@@ -101,6 +110,14 @@
             backward-compatibility can go here.
                     -->
                 </style>
+
+                <style
+                    name="AppThemeDark"
+                    parent="android:Theme" />
+
+                <style
+                    name="AppThemeDark.FullScreen"
+                    parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
 
                 <style
                     name="AppTheme"
@@ -142,6 +159,11 @@
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\AsyncImageLoaderListview\app\src\main\res\layout\user_activity.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="photogrid_list_selector"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\AsyncImageLoaderListview\app\src\main\res\drawable\photogrid_list_selector.xml"
+                qualifiers=""
+                type="drawable" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\AsyncImageLoaderListview\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\AsyncImageLoaderListview\app\build\res\generated\debug" />

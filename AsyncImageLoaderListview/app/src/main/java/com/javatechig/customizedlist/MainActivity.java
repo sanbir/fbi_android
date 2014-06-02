@@ -48,21 +48,21 @@ public class MainActivity extends Activity {
 		newsData.setHeadline("Dance of Democracy");
 		newsData.setReporterName("Pankaj Gupta");
 		newsData.setDate("May 26, 2013, 13:35");
-		newsData.setUrl("http://lh5.ggpht.com/_hepKlJWopDg/TB-_WXikaYI/AAAAAAAAElI/715k4NvBM4w/s144-c/IMG_0075.JPG");
+		newsData.setUrl("http://www.stu.ru/images/news/preview/29661.jpg");
 		results.add(newsData);
 
 		newsData = new NewsItem();
 		newsData.setHeadline("Major Naxal attacks in the past");
 		newsData.setReporterName("Pankaj Gupta");
 		newsData.setDate("May 26, 2013, 13:35");
-		newsData.setUrl("http://lh4.ggpht.com/_4f1e_yo-zMQ/TCe5h9yN-TI/AAAAAAAAXqs/8X2fIjtKjmw/s144-c/IMG_1786.JPG");
+		newsData.setUrl("http://www.stu.ru/images/news/preview/29662.jpg");
 		results.add(newsData);
 
 		newsData = new NewsItem();
 		newsData.setHeadline("BCCI suspends Gurunath pending inquiry ");
 		newsData.setReporterName("Rajiv Chandan");
 		newsData.setDate("May 26, 2013, 13:35");
-		newsData.setUrl("http://lh3.ggpht.com/_GEnSvSHk4iE/TDSfmyCfn0I/AAAAAAAAF8Y/cqmhEoxbwys/s144-c/_MG_3675.jpg");
+		newsData.setUrl("");
 		results.add(newsData);
 
 		newsData = new NewsItem();

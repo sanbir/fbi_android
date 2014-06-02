@@ -13,6 +13,13 @@
             </intent-filter>
         </activity>
         <activity android:label="@string/app_name" android:name="com.javatechig.customizedlist.UserActivity"/>
+
+        <activity android:label="@string/app_name" android:name="com.javatechig.customizedlist.ImageGridActivity">
+        </activity>
+
+        <activity android:label="@string/app_name" android:name="com.javatechig.customizedlist.ImageDetailActivity" android:parentActivityName="com.javatechig.customizedlist.ImageGridActivity" android:theme="@style/AppThemeDark.FullScreen">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.ImageGridActivity"/>
+        </activity>
     </application>
 
 </manifest>

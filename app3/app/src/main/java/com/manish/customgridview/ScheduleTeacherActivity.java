@@ -1,14 +1,26 @@
 package com.manish.customgridview;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.TextView;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 
 public class ScheduleTeacherActivity extends Activity
@@ -46,13 +58,139 @@ public class ScheduleTeacherActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        //startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
+                        InputStream in = null;
+                        try {
+                            in = getApplicationContext().getAssets().open("schedule.xls");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        File file1 = new File(getApplicationContext().getExternalFilesDir(
+                                Environment.getExternalStorageState()), "Расписание преподавателя");
+
+                        OutputStream out = null;
+                        try {
+                            out = new FileOutputStream(file1);
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            copyCompletely(in, out);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            out.flush();
+                            out.close();
+                            in.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        Uri path1 = Uri.fromFile(file1);
+
+                        // Parse the file into a uri to share with another application
+
+                        Intent newIntent1 = new Intent(Intent.ACTION_VIEW);
+                        newIntent1.setDataAndType(path1, "application/vnd.ms-excel");
+                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+                        try {
+                            startActivity(newIntent1);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
                         break;
                     case 1:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        in = null;
+                        try {
+                            in = getApplicationContext().getAssets().open("fbi.xls");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        file1 = new File(getApplicationContext().getExternalFilesDir(
+                                Environment.getExternalStorageState()), "Расписание групп");
+
+                        out = null;
+                        try {
+                            out = new FileOutputStream(file1);
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            copyCompletely(in, out);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            out.flush();
+                            out.close();
+                            in.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        path1 = Uri.fromFile(file1);
+
+                        // Parse the file into a uri to share with another application
+
+                        newIntent1 = new Intent(Intent.ACTION_VIEW);
+                        newIntent1.setDataAndType(path1, "application/vnd.ms-excel");
+                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+                        try {
+                            startActivity(newIntent1);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
                         break;
                     case 2:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        in = null;
+                        try {
+                            in = getApplicationContext().getAssets().open("stub.xlsx");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        file1 = new File(getApplicationContext().getExternalFilesDir(
+                                Environment.getExternalStorageState()), "Расписание аудиторий");
+
+                        out = null;
+                        try {
+                            out = new FileOutputStream(file1);
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            copyCompletely(in, out);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            out.flush();
+                            out.close();
+                            in.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        path1 = Uri.fromFile(file1);
+
+                        // Parse the file into a uri to share with another application
+
+                        newIntent1 = new Intent(Intent.ACTION_VIEW);
+                        newIntent1.setDataAndType(path1, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+                        try {
+                            startActivity(newIntent1);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
                         break;
                 }
 
@@ -60,6 +198,41 @@ public class ScheduleTeacherActivity extends Activity
         });
 
 
+    }
+
+    public static void copyCompletely(InputStream input, OutputStream output) throws IOException {
+        // if both are file streams, use channel IO
+        if ((output instanceof FileOutputStream) && (input instanceof FileInputStream)) {
+            try {
+                FileChannel target = ((FileOutputStream) output).getChannel();
+                FileChannel source = ((FileInputStream) input).getChannel();
+
+                source.transferTo(0, Integer.MAX_VALUE, target);
+
+                source.close();
+                target.close();
+
+                return;
+            } catch (Exception e) { /* failover to byte stream version */
+            }
+        }
+
+        byte[] buf = new byte[8192];
+        while (true) {
+            int length = input.read(buf);
+            if (length < 0)
+                break;
+            output.write(buf, 0, length);
+        }
+
+        try {
+            input.close();
+        } catch (IOException ignore) {
+        }
+        try {
+            output.close();
+        } catch (IOException ignore) {
+        }
     }
 
 }

@@ -64,33 +64,15 @@ public class StudyActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        File file = new File("/storage/emulated/0/Download/Rezultaty.xlsx");
-
-                        // The unique identifier for the file
-                        Uri path = Uri.fromFile(file);
-
-                        // Parse the file into a uri to share with another application
-
-                        Intent newIntent = new Intent(Intent.ACTION_VIEW);
-                        newIntent.setDataAndType(path, "application/vnd.ms-excel");
-                        newIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-
-                        try {
-                            startActivity(newIntent);
-                        } catch (ActivityNotFoundException ex) {
-                            ex.printStackTrace();
-                        }
-                        break;
-                    case 1:
                         InputStream in = null;
                         try {
-                            in = getApplicationContext().getAssets().open("uch_plan_mml.xls");
+                            in = getApplicationContext().getAssets().open("fbi.xls");
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
 
                         File file1 = new File(getApplicationContext().getExternalFilesDir(
-                                Environment.getExternalStorageState()), "fssdf54");
+                                Environment.getExternalStorageState()), "Расписание");
 
                         OutputStream out = null;
                         try {
@@ -126,11 +108,140 @@ public class StudyActivity extends Activity
                             ex.printStackTrace();
                         }
                         break;
+                    case 1:
+                        in = null;
+                        try {
+                            in = getApplicationContext().getAssets().open("bi_2_2_13.xls");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        file1 = new File(getApplicationContext().getExternalFilesDir(
+                                Environment.getExternalStorageState()), "Успеваемость");
+
+                        out = null;
+                        try {
+                            out = new FileOutputStream(file1);
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            copyCompletely(in, out);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            out.flush();
+                            out.close();
+                            in.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        path1 = Uri.fromFile(file1);
+
+                        // Parse the file into a uri to share with another application
+
+                        newIntent1 = new Intent(Intent.ACTION_VIEW);
+                        newIntent1.setDataAndType(path1, "application/vnd.ms-excel");
+                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+                        try {
+                            startActivity(newIntent1);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
+                        break;
                     case 2:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        in = null;
+                        try {
+                            in = getApplicationContext().getAssets().open("uch_plan_ist.xls");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        file1 = new File(getApplicationContext().getExternalFilesDir(
+                                Environment.getExternalStorageState()), "Учебный план");
+
+                        out = null;
+                        try {
+                            out = new FileOutputStream(file1);
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            copyCompletely(in, out);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            out.flush();
+                            out.close();
+                            in.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        path1 = Uri.fromFile(file1);
+
+                        // Parse the file into a uri to share with another application
+
+                        newIntent1 = new Intent(Intent.ACTION_VIEW);
+                        newIntent1.setDataAndType(path1, "application/vnd.ms-excel");
+                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+                        try {
+                            startActivity(newIntent1);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
                         break;
                     case 3:
-                        //startActivity (new Intent(getApplicationContext(), StudyActivity.class));
+                        in = null;
+                        try {
+                            in = getApplicationContext().getAssets().open("nirs.doc");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        file1 = new File(getApplicationContext().getExternalFilesDir(
+                                Environment.getExternalStorageState()), "НИРС");
+
+                        out = null;
+                        try {
+                            out = new FileOutputStream(file1);
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            copyCompletely(in, out);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            out.flush();
+                            out.close();
+                            in.close();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                        path1 = Uri.fromFile(file1);
+
+                        // Parse the file into a uri to share with another application
+
+                        newIntent1 = new Intent(Intent.ACTION_VIEW);
+                        newIntent1.setDataAndType(path1, "application/msword");
+                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+
+                        try {
+                            startActivity(newIntent1);
+                        } catch (ActivityNotFoundException ex) {
+                            ex.printStackTrace();
+                        }
                         break;
                 }
 

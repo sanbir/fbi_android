@@ -29,6 +29,8 @@
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.ProtocolsGuestActivity"/>
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.NewsActivity"/>
 
+        <activity android:label="@string/app_name" android:name="com.manish.customgridview.WebBrowserActivity"/>
+
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.displayingbitmaps.ui.ImageGridActivity">
         </activity>
 

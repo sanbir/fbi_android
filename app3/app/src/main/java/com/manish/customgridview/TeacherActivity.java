@@ -13,6 +13,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
+import com.manish.customgridview.displayingbitmaps.ui.ImageGridActivity;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -73,7 +75,7 @@ public class TeacherActivity extends Activity
                         startActivity (new Intent(getApplicationContext(), ScheduleTeacherActivity.class));
                         break;
                     case 3:
-                        //startActivity (new Intent(getApplicationContext(), StudyActivity.class));
+                        startActivity (new Intent(getApplicationContext(), ImageGridActivity.class));
                         break;
                     case 4:
                         InputStream in = null;

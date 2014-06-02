@@ -78,7 +78,9 @@ public class StudentActivity extends Activity
                     startActivity (new Intent(getApplicationContext(), ProfStudentActivity.class));
                     break;
                 case 6:
-                    //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                    Intent i = new Intent(getApplicationContext(), WebBrowserActivity.class);
+                    i.putExtra("site","http://81.1.243.214");
+                    startActivity(i);
                     break;
                 case 7:
                     //startActivity (new Intent(getApplicationContext(), StartActivity.class));

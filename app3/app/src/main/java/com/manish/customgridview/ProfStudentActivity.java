@@ -1,6 +1,7 @@
 package com.manish.customgridview;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -44,7 +45,9 @@ public class ProfStudentActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        //startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
+                        Intent i = new Intent(getApplicationContext(), WebBrowserActivity.class);
+                        i.putExtra("site","http://www.sgups.net/");
+                        startActivity(i);
                         break;
                     case 1:
                         //startActivity (new Intent(getApplicationContext(), StartActivity.class));

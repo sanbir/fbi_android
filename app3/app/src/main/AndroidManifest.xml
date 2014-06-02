@@ -50,6 +50,9 @@
         <activity android:name=".NewsActivity"
             android:label="@string/app_name"/>
 
+        <activity android:name=".WebBrowserActivity"
+            android:label="@string/app_name"/>
+
         <activity android:name="com.manish.customgridview.displayingbitmaps.ui.ImageGridActivity"
             android:label="@string/app_name">
         </activity>

@@ -206,4 +206,13 @@
         <item name="android:layout_height">2sp</item>
     </style>
 
+    <style name="AppThemeDark" parent="android:Theme" />
+
+    <style name="AppThemeDark.FullScreen" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>
+    </style>
+
 </resources>

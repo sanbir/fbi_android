@@ -66,7 +66,7 @@ public class StudentActivity extends Activity
                     startActivity (new Intent(getApplicationContext(), ImageGridActivity.class));
                     break;
                 case 2:
-                    //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                    startActivity (new Intent(getApplicationContext(), UserListViewNew.class));
                     break;
                 case 3:
                     startActivity (new Intent(getApplicationContext(), StudyActivity.class));

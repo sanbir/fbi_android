@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/background_light"
+        android:clipChildren="true"
+        android:splitMotionEvents="true" >
+
+        <TextView
+            android:id="@+id/headlineText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="Интеллектуальный турнир «Игры с разумом»"
+            android:typeface="serif"
+            android:textSize="22sp"
+            android:textColor="#FF000000"
+            android:layout_centerVertical="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="05.05.2014"
+            android:typeface="serif"
+            android:textSize="16sp"
+            android:textColor="#FF000000"
+            android:layout_centerVertical="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp">
+        </ImageView>
+        <TextView
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/bodyText"
+            android:typeface="serif"
+            android:text="В конце апреля в актовом зале СГУПСа прошел межфакультетский турнир «Игры с разумом», который был разбит на несколько раундов:
+\n
+\n• видео-визитки (участники продемонстрировали яркие представления своих команд)
+\n• вопросы о вузе (раунд показал, насколько хорошо ребята знают историю родных стен)
+\n• конкурс болельщиков (зрителям в зале были розданы в распечатанном виде флаги, и конкурсанты угадывали флаг какой страны изображен)
+\n• «черный ящик» (каждый капитан по очереди смотрел, что лежит в черном ящики, и с помощью семи слов объяснял, что увидел)
+\n• «угадай профессию» (капитаны рассказывали, почему именно профессию их факультета стоит выбрать)
+\n• своя игра (раунд проходил по правилам телевизионной передачи с одноименным названием)
+\n
+\nИтоги интеллектуального турнира «Игры с разумом»:
+\n
+\nВ личном первенстве победила представительница факультета МЭиП - Сидорова Мария.
+\n
+\nКомандные места распределились следующим образом:
+\n
+\n1 место – ИЭФ
+\n2 место – МТ
+\n3 место - УТТК
+\n
+\nИЭФ получил сертификат на тур выходного дня в санаторий Сосновка. "
+            android:textSize="18sp"
+            android:textColor="#FF000000"
+            android:layout_alignParentTop="@id/image"
+            android:layout_centerVertical="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

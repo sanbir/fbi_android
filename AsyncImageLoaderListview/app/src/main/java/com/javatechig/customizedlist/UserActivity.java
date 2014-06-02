@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
-import com.example.customizedlist.R;
+import com.javatechig.customizedlist.*;
 
 public class UserActivity extends Activity
 {

@@ -10,6 +10,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
+import com.manish.customgridview.displayingbitmaps.ui.ImageGridActivity;
+
 import java.util.ArrayList;
 
 public class StudentActivity extends Activity
@@ -61,7 +63,7 @@ public class StudentActivity extends Activity
                     startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
                     break;
                 case 1:
-                    //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                    startActivity (new Intent(getApplicationContext(), ImageGridActivity.class));
                     break;
                 case 2:
                     //startActivity (new Intent(getApplicationContext(), StartActivity.class));

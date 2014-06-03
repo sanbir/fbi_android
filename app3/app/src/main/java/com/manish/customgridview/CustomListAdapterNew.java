@@ -53,7 +53,7 @@ public class CustomListAdapterNew extends BaseAdapter {
 		UserItemNew newsItem = (UserItemNew) listData.get(position);
 
 		holder.headlineView.setText(newsItem.getHeadline());
-		holder.reporterNameView.setText("By, " + newsItem.getReporterName());
+		holder.reporterNameView.setText(newsItem.getReporterName());
 		holder.reportedDateView.setText(newsItem.getDate());
 
 		if (holder.imageView != null) {

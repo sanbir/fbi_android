@@ -53,6 +53,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:id="@+id/bodyText"
+            android:linksClickable="true"
+            android:autoLink="web"
             android:typeface="serif"
             android:text="В конце апреля в актовом зале СГУПСа прошел межфакультетский турнир «Игры с разумом», который был разбит на несколько раундов:
 \n

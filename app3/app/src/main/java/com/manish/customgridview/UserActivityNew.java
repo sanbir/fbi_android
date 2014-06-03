@@ -3,6 +3,7 @@ package com.manish.customgridview;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -34,6 +35,8 @@ public class UserActivityNew extends Activity
 
             TextView bodyText = (TextView) findViewById(R.id.bodyText);
             bodyText.setText(feed.getBody());
+
+            bodyText.setMovementMethod(LinkMovementMethod.getInstance());
         }
 
 

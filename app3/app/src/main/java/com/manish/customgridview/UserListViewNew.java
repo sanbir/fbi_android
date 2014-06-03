@@ -17,7 +17,10 @@ public class UserListViewNew extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_listview_new);
 
-		ArrayList<UserItemNew> image_details = getListData();
+        ArrayList<UserItemNew> image_details =
+                (ArrayList<UserItemNew>) this.getIntent().getSerializableExtra("customList");
+
+		//ArrayList<UserItemNew> image_details = getListData();
 		final ListView lv1 = (ListView) findViewById(R.id.custom_list);
 		lv1.setAdapter(new CustomListAdapterNew(this, image_details));
 		lv1.setOnItemClickListener(new OnItemClickListener() {

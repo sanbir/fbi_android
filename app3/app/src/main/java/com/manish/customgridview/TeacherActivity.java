@@ -66,10 +66,16 @@ public class TeacherActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        //startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
+                        ArrayList<UserItemNew> notices = NewsAndNoticesSource.getListNews();
+                        Intent intent = new Intent(TeacherActivity.this, UserListViewNew.class);
+                        intent.putExtra("customList", notices);
+                        startActivity(intent);
                         break;
                     case 1:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        notices = NewsAndNoticesSource.getListNotices();
+                        intent = new Intent(TeacherActivity.this, UserListViewNew.class);
+                        intent.putExtra("customList", notices);
+                        startActivity(intent);
                         break;
                     case 2:
                         startActivity (new Intent(getApplicationContext(), ScheduleTeacherActivity.class));
@@ -123,7 +129,13 @@ public class TeacherActivity extends Activity
                         }
                         break;
                     case 5:
-                        //startActivity (new Intent(getApplicationContext(), ProfStudentActivity.class));
+                        UserItemNew itemNew = new UserItemNew();
+                        itemNew.setHeadline("Телефоны");
+                        itemNew.setBody("3280295");
+
+                        intent = new Intent(TeacherActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                 }
 

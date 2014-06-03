@@ -1,6 +1,7 @@
 package com.manish.customgridview;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -44,10 +45,22 @@ public class PlanGuestActivity extends Activity
 
                 switch (position) {
                     case 0:
-                        //startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
+                        UserItemNew itemNew = new UserItemNew();
+                        itemNew.setHeadline("Раздел в разработке");
+                        itemNew.setBody("");
+
+                        Intent intent = new Intent(PlanGuestActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                     case 1:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        itemNew = new UserItemNew();
+                        itemNew.setHeadline("Раздел в разработке");
+                        itemNew.setBody("");
+
+                        intent = new Intent(PlanGuestActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                 }
 

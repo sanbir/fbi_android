@@ -50,7 +50,13 @@ public class ProfStudentActivity extends Activity
                         startActivity(i);
                         break;
                     case 1:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        UserItemNew itemNew = new UserItemNew();
+                        itemNew.setHeadline("Телефоны");
+                        itemNew.setBody("3280229");
+
+                        Intent intent = new Intent(ProfStudentActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                 }
 

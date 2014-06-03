@@ -65,13 +65,31 @@ public class GuestActivity extends Activity
                         startActivity (new Intent(getApplicationContext(), PlanGuestActivity.class));
                         break;
                     case 2:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        UserItemNew itemNew = new UserItemNew();
+                        itemNew.setHeadline("Раздел в разработке");
+                        itemNew.setBody("");
+
+                        Intent intent = new Intent(GuestActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                     case 3:
-                        //startActivity (new Intent(getApplicationContext(), StudyActivity.class));
+                        itemNew = new UserItemNew();
+                        itemNew.setHeadline("Раздел в разработке");
+                        itemNew.setBody("");
+
+                        intent = new Intent(GuestActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                     case 4:
-                        //startActivity (new Intent(getApplicationContext(), StartActivity.class));
+                        itemNew = new UserItemNew();
+                        itemNew.setHeadline("Раздел в разработке");
+                        itemNew.setBody("");
+
+                        intent = new Intent(GuestActivity.this, UserActivityNew.class);
+                        intent.putExtra("feed", itemNew);
+                        startActivity(intent);
                         break;
                     case 5:
                         startActivity (new Intent(getApplicationContext(), LearnPlansGuestActivity.class));

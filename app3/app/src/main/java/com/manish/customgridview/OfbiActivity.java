@@ -65,10 +65,10 @@ public class OfbiActivity extends Activity
                                 "Деканат: каб. 462a\n" +
                                 "Контактный телефон: 328-03-76.\n" +
                                 "E-mail: fbi@stu.ru\n");
-                        itemNew.setUrlBig("http://www.stu.ru/user_img/125_1.jpg");
+                        itemNew.setUrlBig(String.valueOf(R.drawable.dean1));
 
                         Intent intent = new Intent(OfbiActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
+                        intent.putExtra("custom", itemNew);
                         startActivity(intent);
                         break;
                     case 1:
@@ -100,10 +100,10 @@ public class OfbiActivity extends Activity
                                 "Комаров Константин Леонидович\nФилиал кафедры ИТТ на ИВЦ ЗСЖД\n\tзав. филиалом - зам директора ИВЦ\n" +
                                 "Есипенко Сергей Григорьевич\nКафедра общей информатики\nи.о. зав. каф. канд.техн. наук,\n" +
                                 "доцент Цветков Дмитрий Николаевич");
-                        itemNew.setUrlBig("http://www.stu.ru/user_img/94_3.gif");
+                        itemNew.setUrlBig(String.valueOf(R.drawable.komarov));
 
                         intent = new Intent(OfbiActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
+                        intent.putExtra("custom", itemNew);
                         startActivity(intent);
                         break;
                     case 3:
@@ -167,10 +167,10 @@ public class OfbiActivity extends Activity
                                 "    Компьютерный класс ФБИ, ауд. 447, создан в 2007 г.\n" +
                                 "    Компьютерный класс ФБИ, ауд. 454, создан в 2007 г.\n" +
                                 "    Компьютерный класс ФБИ, ауд. 460, создан в 2007 г.");
-                        itemNew.setUrlBig("http://www.stu.ru/user_img/829_1.gif");
+                        itemNew.setUrlBig(String.valueOf(R.drawable.u4labb));
 
                         intent = new Intent(OfbiActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
+                        intent.putExtra("custom", itemNew);
                         startActivity(intent);
                         break;
                     case 5:

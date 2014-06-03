@@ -33,7 +33,7 @@ public class Utils {
 
     @TargetApi(VERSION_CODES.HONEYCOMB)
     public static void enableStrictMode() {
-        if (Utils.hasGingerbread()) {
+/*        if (Utils.hasGingerbread()) {
             StrictMode.ThreadPolicy.Builder threadPolicyBuilder =
                     new StrictMode.ThreadPolicy.Builder()
                             .detectAll()
@@ -51,7 +51,7 @@ public class Utils {
             }
             StrictMode.setThreadPolicy(threadPolicyBuilder.build());
             StrictMode.setVmPolicy(vmPolicyBuilder.build());
-        }
+        }*/
     }
 
     public static boolean hasFroyo() {

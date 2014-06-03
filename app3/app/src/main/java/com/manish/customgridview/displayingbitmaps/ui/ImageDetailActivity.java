@@ -52,9 +52,7 @@ public class ImageDetailActivity extends FragmentActivity implements OnClickList
     @TargetApi(VERSION_CODES.HONEYCOMB)
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        if (BuildConfig.DEBUG) {
-            Utils.enableStrictMode();
-        }
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_detail_pager);
 

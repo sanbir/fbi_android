@@ -6,9 +6,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.manish.customgridview.displayingbitmaps.ui.ImageGridActivity;
 
@@ -58,56 +61,65 @@ public class StudentActivity extends Activity
             public void onItemClick(AdapterView<?> parent,
                                     View v, int position, long id) {
 
-            switch (position) {
-                case 0:
+                String menuItemName = null;
+                ViewGroup gridChild = (ViewGroup) v;
+                int childSize = gridChild.getChildCount();
+                for(int k = 0; k < childSize; k++) {
+                    if( gridChild.getChildAt(k) instanceof TextView) {
+                        menuItemName = ((TextView) gridChild.getChildAt(k)).getText().toString();
+                    }
+                }
+
+                if (menuItemName.equals("О ФБИ")) {
                     startActivity (new Intent(getApplicationContext(), OfbiActivity.class));
-                    break;
-                case 1:
+                } else if (menuItemName.equals("Фотогалерея")) {
                     startActivity (new Intent(getApplicationContext(), ImageGridActivity.class));
-                    break;
-                case 2:
+                } else if (menuItemName.equals("Объявления")) {
                     ArrayList<UserItemNew> notices = NewsAndNoticesSource.getListNotices();
                     Intent intent = new Intent(StudentActivity.this, UserListViewNew.class);
                     intent.putExtra("customList", notices);
                     startActivity(intent);
-                    break;
-                case 3:
+
+                } else if (menuItemName.equals("Учеба")) {
                     startActivity (new Intent(getApplicationContext(), StudyActivity.class));
-                    break;
-                case 4:
+
+                } else if (menuItemName.equals("Новости")) {
                     ArrayList<UserItemNew> news = NewsAndNoticesSource.getListNews();
-                    intent = new Intent(StudentActivity.this, UserListViewNew.class);
+                    Intent intent = new Intent(StudentActivity.this, UserListViewNew.class);
                     intent.putExtra("customList", news);
                     startActivity(intent);
-                    break;
-                case 5:
+
+                } else if (menuItemName.equals("Профком")) {
                     startActivity (new Intent(getApplicationContext(), ProfStudentActivity.class));
-                    break;
-                case 6:
+
+                } else if (menuItemName.equals("Библиотека")) {
                     Intent i = new Intent(getApplicationContext(), WebBrowserActivity.class);
                     i.putExtra("site","http://81.1.243.214");
                     startActivity(i);
-                    break;
-                case 7:
+
+                } else if (menuItemName.equals("Спорт")) {
                     UserItemNew itemNew = new UserItemNew();
                     itemNew.setHeadline("Спорт");
                     itemNew.setBody("Здесь будет информация о спорте");
 
-                    intent = new Intent(StudentActivity.this, UserActivityNew.class);
+                    Intent intent = new Intent(StudentActivity.this, UserActivityNew.class);
                     intent.putExtra("feed", itemNew);
                     startActivity(intent);
-                    break;
-                case 8:
-                    itemNew = new UserItemNew();
+
+                } else if (menuItemName.equals("СДО")) {
+                    UserItemNew itemNew = new UserItemNew();
                     itemNew.setHeadline("СДО");
                     itemNew.setDate("Телефоны");
                     itemNew.setBody("3280240");
 
-                    intent = new Intent(StudentActivity.this, UserActivityNew.class);
+                    Intent intent = new Intent(StudentActivity.this, UserActivityNew.class);
                     intent.putExtra("feed", itemNew);
                     startActivity(intent);
-                    break;
-            }
+
+                }
+
+
+                
 
             }
         });

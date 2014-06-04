@@ -44,6 +44,8 @@
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.UserActivityNew"/>
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.DrawerActivity"/>
 
+        <activity android:label="@string/app_name" android:name="com.manish.customgridview.Preferences"/>
+
 
     </application>
 

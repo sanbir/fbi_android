@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="listArray">
+        <item>Number 1</item>
+        <item>Number 2</item>
+        <item>Number 3</item>
+        <item>Number 4</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
     <!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/values/strings.xml -->
     <eat-comment />
 

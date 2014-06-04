@@ -73,6 +73,9 @@
         <activity android:name=".DrawerActivity"
             android:label="@string/app_name"/>
 
+        <activity android:name=".Preferences"
+            android:label="@string/app_name"/>
+
 
     </application>
 

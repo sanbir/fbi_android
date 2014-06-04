@@ -2,9 +2,13 @@ package com.manish.customgridview;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -124,7 +128,56 @@ public class StudentActivity extends Activity
             }
         });
 
-
+        getPrefs();
     }
 
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.action_settings).setVisible(true);
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent settingsActivity = new Intent(StudentActivity.this,
+                Preferences.class);
+        startActivity(settingsActivity);
+        return true;
+    }
+
+    boolean CheckboxPreference;
+    String ListPreference;
+    String editTextPreference;
+    String ringtonePreference;
+    String secondEditTextPreference;
+    String customPref;
+
+    private void getPrefs() {
+        // Get the xml/preferences.xml preferences
+        SharedPreferences prefs = PreferenceManager
+                .getDefaultSharedPreferences(getBaseContext());
+        CheckboxPreference = prefs.getBoolean("checkboxPref", true);
+        ListPreference = prefs.getString("listPref", "nr1");
+        editTextPreference = prefs.getString("editTextPref",
+                "Nothing has been entered");
+        ringtonePreference = prefs.getString("ringtonePref",
+                "DEFAULT_RINGTONE_URI");
+        secondEditTextPreference = prefs.getString("SecondEditTextPref",
+                "Nothing has been entered");
+        // Get the custom preference
+        SharedPreferences mySharedPreferences = getSharedPreferences(
+                "myCustomSharedPrefs", Activity.MODE_PRIVATE);
+        customPref = mySharedPreferences.getString("myCusomPref", "");
+    }
+
+/*    @Override
+    protected void onStart() {
+        getPrefs();
+    }*/
 }

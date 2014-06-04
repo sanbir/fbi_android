@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory
-        android:title="First Category">
-        <CheckBoxPreference
-            android:title="Checkbox Preference"
-            android:defaultValue="false"
-            android:summary="This preference can be true or false"
-            android:key="checkboxPref" />
+        android:title="Внешний вид">
+        <SwitchPreference
+            android:title="Вид меню"
+            android:switchTextOff="Таблица"
+            android:switchTextOn="Список"/>
         <ListPreference
-            android:title="List Preference"
-            android:summary="This preference allows to select an item in a array"
+            android:title="Цветовая схема"
+            android:summary="Нажмите для выбора цвета"
             android:key="listPref"
-            android:defaultValue="digiGreen"
+            android:defaultValue="Синяя"
+            android:selectable="true"
             android:entries="@array/listArray"
             android:entryValues="@array/listValues" />
     </PreferenceCategory>
     <PreferenceCategory
-        android:title="Second Category">
-        <EditTextPreference
-            android:name="EditText Preference"
-            android:summary="This allows you to enter a string"
-            android:defaultValue="Nothing"
-            android:title="Edit This Text"
-            android:key="editTextPref" />
-        <RingtonePreference
-            android:name="Ringtone Preference"
-            android:summary="Select a ringtone"
-            android:title="Ringtones"
-            android:key="ringtonePref" />
-        <PreferenceScreen
-            android:key="SecondPrefScreen"
-            android:title="Second PreferenceScreen"
-            android:summary="This is a second PreferenceScreen">
-            <EditTextPreference
-                android:name="An other EditText Preference"
-                android:summary="This is a preference in the second PreferenceScreen"
-                android:title="Edit text"
-                android:key="SecondEditTextPref" />
-        </PreferenceScreen>
-        <Preference
-            android:title="Custom Preference"
-            android:summary="This works almost like a button"
-            android:key="customPref" />
+        android:title="Выбор пунков меню">
+        <CheckBoxPreference
+            android:title="О ФБИ"
+            android:defaultValue="true"
+            android:summary="Общая информация о факультете"
+            android:key="ofbi" />
+        <CheckBoxPreference
+            android:title="Фотогалерея"
+            android:defaultValue="true"
+            android:summary="Фото мероприятий"
+            android:key="photo" />
+        <CheckBoxPreference
+            android:title="Объявления"
+            android:defaultValue="true"
+            android:summary="Предстоящие события"
+            android:key="notices" />
+        <CheckBoxPreference
+            android:title="Учеба"
+            android:defaultValue="true"
+            android:summary="Расписание, успеваемость, учебный план, НИРС"
+            android:key="study" />
+        <CheckBoxPreference
+            android:title="Новости"
+            android:defaultValue="true"
+            android:summary="Прошедшие события"
+            android:key="news" />
+        <CheckBoxPreference
+            android:title="Профком"
+            android:defaultValue="true"
+            android:summary="Профсоюзный комитет студентов"
+            android:key="profcom" />
+        <CheckBoxPreference
+            android:title="Библиотека"
+            android:defaultValue="true"
+            android:summary="Информация о взятых книгах"
+            android:key="library" />
+        <CheckBoxPreference
+            android:title="Спорт"
+            android:defaultValue="true"
+            android:summary="Расписание секций, соревнования"
+            android:key="sport" />
+        <CheckBoxPreference
+            android:title="СДО"
+            android:defaultValue="true"
+            android:summary="Оплата обучения"
+            android:key="sdo" />
     </PreferenceCategory>
 </PreferenceScreen>

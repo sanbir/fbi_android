@@ -194,30 +194,66 @@ public class StudentActivity extends Activity
 
         if (! prefs.getBoolean("ofbi", true)) {
             gridArray.remove(item1);
+        } else {
+            if (! gridArray.contains(item1)) {
+                gridArray.add(item1);
+            }
         }
         if (! prefs.getBoolean("photo", true)) {
             gridArray.remove(item2);
+        } else {
+            if (! gridArray.contains(item2)) {
+                gridArray.add(item2);
+            }
         }
         if (! prefs.getBoolean("notices", true)) {
             gridArray.remove(item3);
+        } else {
+            if (! gridArray.contains(item3)) {
+                gridArray.add(item3);
+            }
         }
         if (! prefs.getBoolean("study", true)) {
             gridArray.remove(item4);
+        } else {
+            if (! gridArray.contains(item4)) {
+                gridArray.add(item4);
+            }
         }
         if (! prefs.getBoolean("news", true)) {
             gridArray.remove(item5);
+        } else {
+            if (! gridArray.contains(item5)) {
+                gridArray.add(item5);
+            }
         }
         if (! prefs.getBoolean("profcom", true)) {
             gridArray.remove(item6);
+        } else {
+            if (! gridArray.contains(item6)) {
+                gridArray.add(item6);
+            }
         }
         if (! prefs.getBoolean("library", true)) {
             gridArray.remove(item7);
+        } else {
+            if (! gridArray.contains(item7)) {
+                gridArray.add(item7);
+            }
         }
         if (! prefs.getBoolean("sport", true)) {
             gridArray.remove(item8);
+        } else {
+            if (! gridArray.contains(item8)) {
+                gridArray.add(item8);
+            }
         }
         if (! prefs.getBoolean("sdo", true)) {
             gridArray.remove(item9);
+        } else {
+            if (! gridArray.contains(item9)) {
+                gridArray.add(item9);
+            }
         }
 
         ListPreference = prefs.getString("listPref", "nr1");
@@ -227,6 +263,13 @@ public class StudentActivity extends Activity
     protected void onStart() {
         getPrefs();
     }*/
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getPrefs();
+        gridView.setAdapter(customGridAdapter);
+    }
 
 
 }

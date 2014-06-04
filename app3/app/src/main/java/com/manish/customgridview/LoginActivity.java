@@ -44,7 +44,12 @@ public class LoginActivity extends Activity
                 if (value.equals("student")) {
                     /*f (txtUserName.getText()==("qwe")
                             && txtPassword.getText()==("123")) {*/
-                        startActivity (new Intent(getApplicationContext(), StudentActivity.class));
+
+                    Intent i = new Intent(getApplicationContext(), StudentActivity.class);
+                    i.putExtra("accountType","teacher");
+                    //i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(i);
+                    finish();
                     /*} else {
                         *//*popUp = new PopupWindow(LoginActivity.this);
                         layout = new LinearLayout(LoginActivity.this);
@@ -86,6 +91,7 @@ public class LoginActivity extends Activity
 /*                    if (txtUserName.getText().equals("qwe")
                             && txtPassword.getText().equals("123")) {*/
                         startActivity (new Intent(getApplicationContext(), TeacherActivity.class));
+                    finish();
 /*                    } else {
 
                         Toast.makeText(LoginActivity.this, "Неверная пара логин-пароль",

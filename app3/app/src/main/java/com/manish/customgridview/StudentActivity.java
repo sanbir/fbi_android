@@ -27,6 +27,27 @@ public class StudentActivity extends Activity
     ArrayList<Item> gridArray = new ArrayList<Item>();
     CustomGridViewAdapter customGridAdapter;
 
+    Bitmap icon1;
+    Bitmap icon2;
+    Bitmap icon3;
+    Bitmap icon4;
+    Bitmap icon5;
+    Bitmap icon6;
+    Bitmap icon7;
+    Bitmap icon8;
+    Bitmap icon9;
+
+    Item item1;
+    Item item2;
+    Item item3;
+    Item item4;
+    Item item5;
+    Item item6;
+    Item item7;
+    Item item8;
+    Item item9;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,26 +56,38 @@ public class StudentActivity extends Activity
         LinearLayout layout1 = (LinearLayout) findViewById(R.id.layout1);
         layout1.setVisibility(View.GONE);
 
-        //set grid view item
-        Bitmap icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi256);
-        Bitmap icon2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.camera);
-        Bitmap icon3 = BitmapFactory.decodeResource(this.getResources(), R.drawable.horn);
-        Bitmap icon4 = BitmapFactory.decodeResource(this.getResources(), R.drawable.study);
-        Bitmap icon5 = BitmapFactory.decodeResource(this.getResources(), R.drawable.news);
-        Bitmap icon6 = BitmapFactory.decodeResource(this.getResources(), R.drawable.prof);
-        Bitmap icon7 = BitmapFactory.decodeResource(this.getResources(), R.drawable.library);
-        Bitmap icon8 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sport);
-        Bitmap icon9 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sdo);
+        icon1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.fbi256);
+        icon2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.camera);
+        icon3 = BitmapFactory.decodeResource(this.getResources(), R.drawable.horn);
+        icon4 = BitmapFactory.decodeResource(this.getResources(), R.drawable.study);
+        icon5 = BitmapFactory.decodeResource(this.getResources(), R.drawable.news);
+        icon6 = BitmapFactory.decodeResource(this.getResources(), R.drawable.prof);
+        icon7 = BitmapFactory.decodeResource(this.getResources(), R.drawable.library);
+        icon8 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sport);
+        icon9 = BitmapFactory.decodeResource(this.getResources(), R.drawable.sdo);
 
-        gridArray.add(new Item(icon1,"О ФБИ"));
-        gridArray.add(new Item(icon2,"Фотогалерея"));
-        gridArray.add(new Item(icon3,"Объявления"));
-        gridArray.add(new Item(icon4,"Учеба"));
-        gridArray.add(new Item(icon5,"Новости"));
-        gridArray.add(new Item(icon6,"Профком"));
-        gridArray.add(new Item(icon7,"Библиотека"));
-        gridArray.add(new Item(icon8,"Спорт"));
-        gridArray.add(new Item(icon9,"СДО"));
+        item1 = new Item(icon1,"О ФБИ");
+        item2 = new Item(icon2,"Фотогалерея");
+        item3 = new Item(icon3,"Объявления");
+        item4 = new Item(icon4,"Учеба");
+        item5 = new Item(icon5,"Новости");
+        item6 = new Item(icon6,"Профком");
+        item7 = new Item(icon7,"Библиотека");
+        item8 = new Item(icon8,"Спорт");
+        item9 = new Item(icon9,"СДО");
+
+        //set grid view item
+        gridArray.add(item1);
+        gridArray.add(item2);
+        gridArray.add(item3);
+        gridArray.add(item4);
+        gridArray.add(item5);
+        gridArray.add(item6);
+        gridArray.add(item7);
+        gridArray.add(item8);
+        gridArray.add(item9);
+
+        getPrefs();
 
         gridView = (GridView) findViewById(R.id.gridView1);
         customGridAdapter = new CustomGridViewAdapter(this, R.layout.row_grid, gridArray);
@@ -128,7 +161,7 @@ public class StudentActivity extends Activity
             }
         });
 
-        getPrefs();
+
     }
 
     @Override
@@ -153,27 +186,41 @@ public class StudentActivity extends Activity
 
     boolean CheckboxPreference;
     String ListPreference;
-    String editTextPreference;
-    String ringtonePreference;
-    String secondEditTextPreference;
-    String customPref;
 
     private void getPrefs() {
         // Get the xml/preferences.xml preferences
         SharedPreferences prefs = PreferenceManager
                 .getDefaultSharedPreferences(getBaseContext());
-        CheckboxPreference = prefs.getBoolean("checkboxPref", true);
+
+        if (! prefs.getBoolean("ofbi", true)) {
+            gridArray.remove(item1);
+        }
+        if (! prefs.getBoolean("photo", true)) {
+            gridArray.remove(item2);
+        }
+        if (! prefs.getBoolean("notices", true)) {
+            gridArray.remove(item3);
+        }
+        if (! prefs.getBoolean("study", true)) {
+            gridArray.remove(item4);
+        }
+        if (! prefs.getBoolean("news", true)) {
+            gridArray.remove(item5);
+        }
+        if (! prefs.getBoolean("profcom", true)) {
+            gridArray.remove(item6);
+        }
+        if (! prefs.getBoolean("library", true)) {
+            gridArray.remove(item7);
+        }
+        if (! prefs.getBoolean("sport", true)) {
+            gridArray.remove(item8);
+        }
+        if (! prefs.getBoolean("sdo", true)) {
+            gridArray.remove(item9);
+        }
+
         ListPreference = prefs.getString("listPref", "nr1");
-        editTextPreference = prefs.getString("editTextPref",
-                "Nothing has been entered");
-        ringtonePreference = prefs.getString("ringtonePref",
-                "DEFAULT_RINGTONE_URI");
-        secondEditTextPreference = prefs.getString("SecondEditTextPref",
-                "Nothing has been entered");
-        // Get the custom preference
-        SharedPreferences mySharedPreferences = getSharedPreferences(
-                "myCustomSharedPrefs", Activity.MODE_PRIVATE);
-        customPref = mySharedPreferences.getString("myCusomPref", "");
     }
 
 /*    @Override

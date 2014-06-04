@@ -3,6 +3,7 @@
     <PreferenceCategory
         android:title="Внешний вид">
         <SwitchPreference
+            android:key="menulook"
             android:title="Вид меню"
             android:switchTextOff="Таблица"
             android:switchTextOn="Список"/>

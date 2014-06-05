@@ -75,6 +75,10 @@
 
         <activity android:name=".Preferences"
             android:label="@string/app_name"/>
+        <activity android:name=".PreferencesGuest"
+            android:label="@string/app_name"/>
+        <activity android:name=".PreferencesTeacher"
+            android:label="@string/app_name"/>
 
 
     </application>

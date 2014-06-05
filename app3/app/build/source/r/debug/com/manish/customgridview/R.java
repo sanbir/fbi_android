@@ -405,5 +405,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class xml {
         public static final int preferences=0x7f040000;
+        public static final int preferences_guest=0x7f040001;
+        public static final int preferences_teacher=0x7f040002;
     }
 }

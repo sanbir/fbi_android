@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Внешний вид">
+        <SwitchPreference
+            android:key="menulook"
+            android:title="Вид меню"
+            android:switchTextOff="Таблица"
+            android:switchTextOn="Список"/>
+        <ListPreference
+            android:title="Цветовая схема"
+            android:summary="Нажмите для выбора цвета"
+            android:key="listPref"
+            android:defaultValue="Синяя"
+            android:selectable="true"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Выбор пунков меню">
+        <CheckBoxPreference
+            android:title="О ФБИ"
+            android:defaultValue="true"
+            android:summary="Общая информация о факультете"
+            android:key="ofbi" />
+        <CheckBoxPreference
+            android:title="План набора"
+            android:defaultValue="true"
+            android:summary="Количество мест"
+            android:key="plan_nabora" />
+        <CheckBoxPreference
+            android:title="Вступительные испытания"
+            android:defaultValue="true"
+            android:summary="Перечень экзаменов"
+            android:key="exams" />
+        <CheckBoxPreference
+            android:title="Стоимость обучения"
+            android:defaultValue="true"
+            android:summary="Стоимость обучения по специальностям"
+            android:key="cost" />
+        <CheckBoxPreference
+            android:title="Наши работодатели"
+            android:defaultValue="true"
+            android:summary="Возможность работать во время обучения"
+            android:key="employers" />
+        <CheckBoxPreference
+            android:title="Учебные планы"
+            android:defaultValue="true"
+            android:summary="Учебные планы по специальностям"
+            android:key="learn_plans" />
+        <CheckBoxPreference
+            android:title="Протоколы зачисления"
+            android:defaultValue="true"
+            android:summary="Информация за прошлый год"
+            android:key="protocols" />
+        <CheckBoxPreference
+            android:title="Фотогалерея"
+            android:defaultValue="true"
+            android:summary="Фото мероприятий"
+            android:key="photo" />
+    </PreferenceCategory>
+</PreferenceScreen>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/xml/preferences_guest.xml -->

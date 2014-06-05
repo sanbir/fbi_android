@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Внешний вид">
+        <SwitchPreference
+            android:key="menulook"
+            android:title="Вид меню"
+            android:switchTextOff="Таблица"
+            android:switchTextOn="Список"/>
+        <ListPreference
+            android:title="Цветовая схема"
+            android:summary="Нажмите для выбора цвета"
+            android:key="listPref"
+            android:defaultValue="Синяя"
+            android:selectable="true"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Выбор пунков меню">
+        <CheckBoxPreference
+            android:title="Новости"
+            android:defaultValue="true"
+            android:summary="Прошедшие события"
+            android:key="news" />
+        <CheckBoxPreference
+            android:title="Объявления"
+            android:defaultValue="true"
+            android:summary="Предстоящие события"
+            android:key="notices" />
+        <CheckBoxPreference
+            android:title="Расписание"
+            android:defaultValue="true"
+            android:summary="Расписания аудиторий, групп, преподавателя"
+            android:key="schedule" />
+        <CheckBoxPreference
+            android:title="Фотогалерея"
+            android:defaultValue="true"
+            android:summary="Фото мероприятий"
+            android:key="photo" />
+        <CheckBoxPreference
+            android:title="НИРС"
+            android:defaultValue="true"
+            android:summary="Научно-исследовательская работа студентов"
+            android:key="nirs" />
+        <CheckBoxPreference
+            android:title="Профком сотрудников"
+            android:defaultValue="true"
+            android:summary="Профсоюзный комитет сотрудников"
+            android:key="profcom" />
+    </PreferenceCategory>
+</PreferenceScreen>
+<!-- From: file:/D:/Dropbox/Studying/Diploma/MyAndroidApp/fbi_android/app3/app/src/main/res/xml/preferences_teacher.xml -->

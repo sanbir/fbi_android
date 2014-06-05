@@ -45,6 +45,8 @@
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.DrawerActivity"/>
 
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.Preferences"/>
+        <activity android:label="@string/app_name" android:name="com.manish.customgridview.PreferencesGuest"/>
+        <activity android:label="@string/app_name" android:name="com.manish.customgridview.PreferencesTeacher"/>
 
 
     </application>

@@ -259,11 +259,6 @@ public class StudentActivity extends Activity
         ListPreference = prefs.getString("listPref", "nr1");
     }
 
-/*    @Override
-    protected void onStart() {
-        getPrefs();
-    }*/
-
     @Override
     protected void onResume() {
         super.onResume();

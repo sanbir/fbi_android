@@ -20,6 +20,7 @@
 
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.StudentActivity"/>
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.OfbiActivity"/>
+        <activity android:label="@string/app_name" android:name="com.manish.customgridview.Sport"/>
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.StudyActivity"/>
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.ProfStudentActivity"/>
         <activity android:label="@string/app_name" android:name="com.manish.customgridview.TeacherActivity"/>

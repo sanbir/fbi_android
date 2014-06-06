@@ -135,13 +135,7 @@ public class StudentActivity extends Activity
                     startActivity(i);
 
                 } else if (menuItemName.equals("Спорт")) {
-                    UserItemNew itemNew = new UserItemNew();
-                    itemNew.setHeadline("Спорт");
-                    itemNew.setBody("Здесь будет информация о спорте");
-
-                    Intent intent = new Intent(StudentActivity.this, UserActivityNew.class);
-                    intent.putExtra("feed", itemNew);
-                    startActivity(intent);
+                    startActivity (new Intent(getApplicationContext(), Sport.class));
 
                 } else if (menuItemName.equals("СДО")) {
                     ArrayList<UserItemNew> news = NewsAndNoticesSource.getListPhonesSdo();

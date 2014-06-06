@@ -32,6 +32,8 @@
             android:label="@string/app_name"/>
         <activity android:name=".OfbiActivity"
             android:label="@string/app_name"/>
+        <activity android:name=".Sport"
+            android:label="@string/app_name"/>
         <activity android:name=".StudyActivity"
             android:label="@string/app_name"/>
         <activity android:name=".ProfStudentActivity"

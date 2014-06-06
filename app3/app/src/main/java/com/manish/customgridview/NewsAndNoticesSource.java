@@ -682,4 +682,22 @@ public class NewsAndNoticesSource {
 
         return results;
     }
+
+    public static ArrayList<UserItemNew> getListPhonesStudentProfcom() {
+        ArrayList<UserItemNew> results = new ArrayList<UserItemNew>();
+
+        UserItemNew newsData = new UserItemNew();
+        newsData.setHeadline("1st phone");
+        newsData.setReporterName("3280229");
+        newsData.setDate("03.06.2014");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("2nd phone");
+        newsData.setReporterName("+79139286926");
+        newsData.setDate("30.05.2014");
+        results.add(newsData);
+
+        return results;
+    }
 }

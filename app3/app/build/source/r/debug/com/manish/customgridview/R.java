@@ -309,17 +309,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int login_activity=0x7f03000e;
         public static final int menu_activity=0x7f03000f;
         public static final int ofbi_activity=0x7f030010;
-        public static final int plan_guest_activity=0x7f030011;
-        public static final int prof_student_activity=0x7f030012;
-        public static final int protocols_guest_activity=0x7f030013;
-        public static final int row_grid=0x7f030014;
-        public static final int schedule_teacher_activity=0x7f030015;
-        public static final int start_activity=0x7f030016;
-        public static final int student_activity=0x7f030017;
-        public static final int study_activity=0x7f030018;
-        public static final int teacher_activity=0x7f030019;
-        public static final int user_activity=0x7f03001a;
-        public static final int user_activity_new=0x7f03001b;
+        public static final int phones_list_row=0x7f030011;
+        public static final int plan_guest_activity=0x7f030012;
+        public static final int prof_student_activity=0x7f030013;
+        public static final int protocols_guest_activity=0x7f030014;
+        public static final int row_grid=0x7f030015;
+        public static final int schedule_teacher_activity=0x7f030016;
+        public static final int start_activity=0x7f030017;
+        public static final int student_activity=0x7f030018;
+        public static final int study_activity=0x7f030019;
+        public static final int teacher_activity=0x7f03001a;
+        public static final int user_activity=0x7f03001b;
+        public static final int user_activity_new=0x7f03001c;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;

@@ -179,6 +179,11 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="ic_drawer"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-hdpi\ic_drawer.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
@@ -341,6 +346,11 @@
             <file
                 name="icon"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ic_drawer.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -574,6 +584,11 @@
                 qualifiers="nodpi"
                 type="drawable" />
             <file
+                name="ic_drawer"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-xhdpi\ic_drawer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
@@ -583,6 +598,11 @@
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
+            <file
+                name="activity_drawer"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\activity_drawer.xml"
+                qualifiers=""
+                type="layout" />
             <file
                 name="activity_listview_new"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\activity_listview_new.xml"
@@ -601,6 +621,16 @@
             <file
                 name="browser_activity"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\browser_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drawer_list_item"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\drawer_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_layout"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\fragment_layout.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -718,6 +748,32 @@
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\menu\main_menu.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\arrays.xml"
+                qualifiers="" >
+                <string-array name="listValues" >
+                    <item>
+Синяя
+                    </item>
+                    <item>
+Серая
+                    </item>
+                    <item>
+Зеленая
+                    </item>
+                </string-array>
+                <string-array name="listArray" >
+                    <item>
+Синяя
+                    </item>
+                    <item>
+Серая
+                    </item>
+                    <item>
+Зеленая
+                    </item>
+                </string-array>
+            </file>
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\attrs.xml"
                 qualifiers="" >
@@ -1051,9 +1107,9 @@ Java
                 </string>
                 <string name="no_network_connection_toast" >No network connection found
                 </string>
-                <string name="hello_world" >Hello world!
-                </string>
                 <string name="drawer_open" >Open Drawer
+                </string>
+                <string name="hello_world" >Hello world!
                 </string>
                 <string name="drawer_close" >Close Drawer
                 </string>
@@ -1701,62 +1757,6 @@ true
                 </dimen>
             </file>
             <file
-                name="drawer_list_item"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\drawer_list_item.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_drawer"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\activity_drawer.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_layout"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\fragment_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="ic_drawer"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-hdpi\ic_drawer.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="ic_drawer"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\ic_drawer.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="ic_drawer"
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-xhdpi\ic_drawer.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\arrays.xml"
-                qualifiers="" >
-                <string-array name="listValues" >
-                    <item>
-Синяя
-                    </item>
-                    <item>
-Серая
-                    </item>
-                    <item>
-Зеленая
-                    </item>
-                </string-array>
-                <string-array name="listArray" >
-                    <item>
-Синяя
-                    </item>
-                    <item>
-Серая
-                    </item>
-                    <item>
-Зеленая
-                    </item>
-                </string-array>
-            </file>
-            <file
                 name="preferences"
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\xml\preferences.xml"
                 qualifiers=""
@@ -1771,6 +1771,11 @@ true
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\xml\preferences_teacher.xml"
                 qualifiers=""
                 type="xml" />
+            <file
+                name="phones_list_row"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\phones_list_row.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

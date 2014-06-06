@@ -45,9 +45,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f37e608-9703-4f3b-9ca0-cc20f44ecb5a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhoneListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhonesListViewActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/phones_list_row.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsAndNoticesSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsAndNoticesSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProfStudentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProfStudentActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/manish/customgridview/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/manish/customgridview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/start_activity.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/start_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CustomGridView-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,35 +116,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="preferences.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <file leaf-file-name="activity_listview_new.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listview_new.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="831" max-vertical-offset="1241">
-              <caret line="39" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4074073" vertical-offset="0" max-vertical-offset="323">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="preferences_teacher.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences_teacher.xml">
+      <file leaf-file-name="PhonesListViewActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhonesListViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="731">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="714">
+              <caret line="35" column="65" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="65" />
               <folding>
-                <element signature="tag#PreferenceCategory#0;tag#PreferenceScreen#0" expanded="false" />
+                <element signature="e#874#1480#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preferences_guest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences_guest.xml">
+      <file leaf-file-name="PhoneListAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhoneListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="901">
-              <caret line="59" column="30" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1054">
+              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phones_list_row.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/phones_list_row.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63243246" vertical-offset="412" max-vertical-offset="782">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+              <caret line="83" column="55" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
               <folding>
-                <element signature="tag#PreferenceCategory#0;tag#PreferenceScreen#0" expanded="false" />
+                <element signature="e#714#732#0" expanded="true" />
+                <element signature="e#861#879#0" expanded="true" />
+                <element signature="e#1181#1199#0" expanded="true" />
+                <element signature="e#1279#1297#0" expanded="true" />
+                <element signature="e#1373#1391#0" expanded="true" />
+                <element signature="e#1468#1486#0" expanded="true" />
+                <element signature="e#1569#1587#0" expanded="true" />
+                <element signature="e#1666#1684#0" expanded="true" />
+                <element signature="e#1771#1789#0" expanded="true" />
+                <element signature="e#1866#1884#0" expanded="true" />
+                <element signature="e#1965#1983#0" expanded="true" />
+                <element signature="e#2070#2088#0" expanded="true" />
+                <element signature="e#2174#2192#0" expanded="true" />
+                <element signature="e#2268#2286#0" expanded="true" />
+                <element signature="e#2369#2387#0" expanded="true" />
+                <element signature="e#2515#2533#0" expanded="true" />
+                <element signature="e#2694#2712#0" expanded="true" />
+                <element signature="e#2841#2859#0" expanded="true" />
+                <element signature="e#2984#3002#0" expanded="true" />
+                <element signature="e#3080#3098#0" expanded="true" />
+                <element signature="e#3174#3192#0" expanded="true" />
+                <element signature="e#3272#3290#0" expanded="true" />
+                <element signature="e#3372#3390#0" expanded="true" />
+                <element signature="e#3477#3495#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,65 +203,53 @@
       <file leaf-file-name="StudentActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StudentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3825" max-vertical-offset="4301">
-              <caret line="266" column="5" selection-start-line="166" selection-start-column="4" selection-end-line="266" selection-end-column="5" />
-              <folding>
-                <element signature="e#3137#6244#0" expanded="true" />
-                <element signature="e#6233#6234#0" expanded="true" />
-                <element signature="method#onResume#0;class#StudentActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuestActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4265" max-vertical-offset="4692">
-              <caret line="283" column="9" selection-start-line="283" selection-start-column="9" selection-end-line="283" selection-end-column="9" />
-              <folding>
-                <element signature="method#onResume#0;class#GuestActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_activity.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/start_activity.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18378378" vertical-offset="0" max-vertical-offset="370">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-              <folding>
-                <element signature="tag#LinearLayout#0;tag#ScrollView#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_activity.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4301">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="126" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/user_activity.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="ProfStudentActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProfStudentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6296296" vertical-offset="0" max-vertical-offset="1598">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="952">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserListViewNew.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/UserListViewNew.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="method#getListData#0;class#UserListViewNew#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsAndNoticesSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsAndNoticesSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="578">
+              <caret line="697" column="39" selection-start-line="697" selection-start-column="39" selection-end-line="697" selection-end-column="39" />
+              <folding>
+                <element signature="method#getListNotices#0;class#NewsAndNoticesSource#0" expanded="false" />
+                <element signature="method#getListNews#0;class#NewsAndNoticesSource#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfbiActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1247,11 +1291,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/LearnPlansGuestActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProtocolsGuestActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/template-dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/template-styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/base-strings.xml" />
@@ -1270,8 +1309,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/user_activity_new.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ImageDownloaderTaskNew.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_row_layout_new.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsAndNoticesSource.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProfStudentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PlanGuestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/ui/ImageDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/ui/ImageGridActivity.java" />
@@ -1295,9 +1332,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PreferencesTeacher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/TeacherActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PreferencesGuest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/start_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/phones_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhoneListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsAndNoticesSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhonesProfActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhonesListViewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProfStudentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/phones_list_row.xml" />
       </list>
     </option>
   </component>
@@ -1335,6 +1379,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1467,6 +1512,36 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app3" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1512,7 +1587,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1719,7 +1793,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1741,7 +1815,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2737921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2737921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1781,46 +1855,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StartActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="884">
-          <caret line="31" column="33" selection-start-line="29" selection-start-column="16" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/UserActivityNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2023">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2057">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1581">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1241">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1836,123 +1884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="984" max-vertical-offset="1496">
-          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-          <folding>
-            <element signature="e#629#647#0" expanded="true" />
-            <element signature="e#776#794#0" expanded="true" />
-            <element signature="e#1096#1114#0" expanded="true" />
-            <element signature="e#1194#1212#0" expanded="true" />
-            <element signature="e#1288#1306#0" expanded="true" />
-            <element signature="e#1383#1401#0" expanded="true" />
-            <element signature="e#1484#1502#0" expanded="true" />
-            <element signature="e#1581#1599#0" expanded="true" />
-            <element signature="e#1686#1704#0" expanded="true" />
-            <element signature="e#1781#1799#0" expanded="true" />
-            <element signature="e#1880#1898#0" expanded="true" />
-            <element signature="e#1985#2003#0" expanded="true" />
-            <element signature="e#2089#2107#0" expanded="true" />
-            <element signature="e#2183#2201#0" expanded="true" />
-            <element signature="e#2284#2302#0" expanded="true" />
-            <element signature="e#2430#2448#0" expanded="true" />
-            <element signature="e#2609#2627#0" expanded="true" />
-            <element signature="e#2756#2774#0" expanded="true" />
-            <element signature="e#2899#2917#0" expanded="true" />
-            <element signature="e#2995#3013#0" expanded="true" />
-            <element signature="e#3089#3107#0" expanded="true" />
-            <element signature="e#3187#3205#0" expanded="true" />
-            <element signature="e#3287#3305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/DrawerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="3094">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StudentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3995" max-vertical-offset="4454">
-          <caret line="254" column="35" selection-start-line="254" selection-start-column="35" selection-end-line="254" selection-end-column="35" />
-          <folding>
-            <element signature="e#3137#6244#0" expanded="true" />
-            <element signature="e#6233#6234#0" expanded="true" />
-            <element signature="method#onResume#0;class#StudentActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StartActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="884">
-          <caret line="31" column="33" selection-start-line="29" selection-start-column="16" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/TeacherActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3196">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#2904#10223#0" expanded="true" />
-            <element signature="e#10212#10213#0" expanded="true" />
-            <element signature="method#copyCompletely#0;class#TeacherActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#TeacherActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2057">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1581">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1241">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="323">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/Preferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1964,81 +1895,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listview_new.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_1.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/guest_activity.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/guest_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/image_detail_fragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/image_detail_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/image_grid_fragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/image_grid_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_row_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_row_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_row_layout_new.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
@@ -2061,7 +1970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="2788">
           <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2077,27 +1985,170 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="663">
           <caret line="31" column="33" selection-start-line="29" selection-start-column="16" selection-end-line="31" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1581">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1768">
           <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="39" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/Preferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.124390244" vertical-offset="0" max-vertical-offset="410">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences_teacher.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="731">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PreferencesTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PreferencesGuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41463414" vertical-offset="0" max-vertical-offset="410">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/TeacherActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4945" max-vertical-offset="5355">
+          <caret line="365" column="60" selection-start-line="365" selection-start-column="60" selection-end-line="365" selection-end-column="60" />
+          <folding>
+            <element signature="e#2904#10223#0" expanded="false" />
+            <element signature="e#10212#10213#0" expanded="false" />
+            <element signature="method#copyCompletely#0;class#TeacherActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#TeacherActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/plan_guest_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34324324" vertical-offset="60" max-vertical-offset="799">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences_guest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="901">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4265" max-vertical-offset="4692">
+          <caret line="283" column="9" selection-start-line="283" selection-start-column="9" selection-end-line="283" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/user_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1598">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/start_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2074">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/bachelor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/bist.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/bpi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/camera.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/check.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/UserActivityNew.java">
@@ -2108,189 +2159,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="39" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/CustomListAdapterNew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="678" max-vertical-offset="1088">
+          <caret line="71" column="1" selection-start-line="12" selection-start-column="34" selection-end-line="71" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/Preferences.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/drawable-mdpi/ic_menu_call.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_row_layout_new.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="16" selection-end-column="1" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listview_new.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073" vertical-offset="0" max-vertical-offset="323">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StudentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="4301">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="126" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/UserListViewNew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.124390244" vertical-offset="0" max-vertical-offset="410">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences_teacher.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="731">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="tag#PreferenceCategory#0;tag#PreferenceScreen#0" expanded="false" />
+            <element signature="method#getListData#0;class#UserListViewNew#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PreferencesTeacher.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhonesListViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="714">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="65" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#874#1480#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="984" max-vertical-offset="1564">
-          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="83" column="55" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
           <folding>
-            <element signature="e#629#647#0" expanded="true" />
-            <element signature="e#776#794#0" expanded="true" />
-            <element signature="e#1096#1114#0" expanded="true" />
-            <element signature="e#1194#1212#0" expanded="true" />
-            <element signature="e#1288#1306#0" expanded="true" />
-            <element signature="e#1383#1401#0" expanded="true" />
-            <element signature="e#1484#1502#0" expanded="true" />
-            <element signature="e#1581#1599#0" expanded="true" />
-            <element signature="e#1686#1704#0" expanded="true" />
-            <element signature="e#1781#1799#0" expanded="true" />
-            <element signature="e#1880#1898#0" expanded="true" />
-            <element signature="e#1985#2003#0" expanded="true" />
-            <element signature="e#2089#2107#0" expanded="true" />
-            <element signature="e#2183#2201#0" expanded="true" />
-            <element signature="e#2284#2302#0" expanded="true" />
-            <element signature="e#2430#2448#0" expanded="true" />
-            <element signature="e#2609#2627#0" expanded="true" />
-            <element signature="e#2756#2774#0" expanded="true" />
-            <element signature="e#2899#2917#0" expanded="true" />
-            <element signature="e#2995#3013#0" expanded="true" />
-            <element signature="e#3089#3107#0" expanded="true" />
-            <element signature="e#3187#3205#0" expanded="true" />
-            <element signature="e#3287#3305#0" expanded="true" />
+            <element signature="e#714#732#0" expanded="true" />
+            <element signature="e#861#879#0" expanded="true" />
+            <element signature="e#1181#1199#0" expanded="true" />
+            <element signature="e#1279#1297#0" expanded="true" />
+            <element signature="e#1373#1391#0" expanded="true" />
+            <element signature="e#1468#1486#0" expanded="true" />
+            <element signature="e#1569#1587#0" expanded="true" />
+            <element signature="e#1666#1684#0" expanded="true" />
+            <element signature="e#1771#1789#0" expanded="true" />
+            <element signature="e#1866#1884#0" expanded="true" />
+            <element signature="e#1965#1983#0" expanded="true" />
+            <element signature="e#2070#2088#0" expanded="true" />
+            <element signature="e#2174#2192#0" expanded="true" />
+            <element signature="e#2268#2286#0" expanded="true" />
+            <element signature="e#2369#2387#0" expanded="true" />
+            <element signature="e#2515#2533#0" expanded="true" />
+            <element signature="e#2694#2712#0" expanded="true" />
+            <element signature="e#2841#2859#0" expanded="true" />
+            <element signature="e#2984#3002#0" expanded="true" />
+            <element signature="e#3080#3098#0" expanded="true" />
+            <element signature="e#3174#3192#0" expanded="true" />
+            <element signature="e#3272#3290#0" expanded="true" />
+            <element signature="e#3372#3390#0" expanded="true" />
+            <element signature="e#3477#3495#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PreferencesGuest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PhoneListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41463414" vertical-offset="0" max-vertical-offset="410">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/TeacherActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4945" max-vertical-offset="5355">
-          <caret line="365" column="60" selection-start-line="365" selection-start-column="60" selection-end-line="365" selection-end-column="60" />
-          <folding>
-            <element signature="e#2904#10223#0" expanded="true" />
-            <element signature="e#10212#10213#0" expanded="true" />
-            <element signature="method#copyCompletely#0;class#TeacherActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#TeacherActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/plan_guest_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34324324" vertical-offset="60" max-vertical-offset="799">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1054">
+          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StudentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/NewsAndNoticesSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3825" max-vertical-offset="4301">
-          <caret line="266" column="5" selection-start-line="166" selection-start-column="4" selection-end-line="266" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="578">
+          <caret line="697" column="39" selection-start-line="697" selection-start-column="39" selection-end-line="697" selection-end-column="39" />
           <folding>
-            <element signature="e#3137#6244#0" expanded="true" />
-            <element signature="e#6233#6234#0" expanded="true" />
-            <element signature="method#onResume#0;class#StudentActivity#0" expanded="false" />
+            <element signature="method#getListNotices#0;class#NewsAndNoticesSource#0" expanded="false" />
+            <element signature="method#getListNews#0;class#NewsAndNoticesSource#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences_guest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/ProfStudentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="901">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <element signature="tag#PreferenceCategory#0;tag#PreferenceScreen#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4265" max-vertical-offset="4692">
-          <caret line="283" column="9" selection-start-line="283" selection-start-column="9" selection-end-line="283" selection-end-column="9" />
-          <folding>
-            <element signature="method#onResume#0;class#GuestActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="952">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/user_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/phones_list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6296296" vertical-offset="0" max-vertical-offset="1598">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.63243246" vertical-offset="412" max-vertical-offset="782">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/start_activity.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18378378" vertical-offset="0" max-vertical-offset="370">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="tag#LinearLayout#0;tag#ScrollView#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>

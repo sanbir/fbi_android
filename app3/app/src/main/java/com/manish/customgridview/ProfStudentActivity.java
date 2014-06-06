@@ -50,12 +50,9 @@ public class ProfStudentActivity extends Activity
                         startActivity(i);
                         break;
                     case 1:
-                        UserItemNew itemNew = new UserItemNew();
-                        itemNew.setHeadline("Телефоны");
-                        itemNew.setBody("3280229");
-
-                        Intent intent = new Intent(ProfStudentActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
+                        ArrayList<UserItemNew> news = NewsAndNoticesSource.getListPhonesStudentProfcom();
+                        Intent intent = new Intent(ProfStudentActivity.this, PhonesListViewActivity.class);
+                        intent.putExtra("customList", news);
                         startActivity(intent);
                         break;
                 }

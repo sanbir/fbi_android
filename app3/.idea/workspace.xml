@@ -45,11 +45,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f37e608-9703-4f3b-9ca0-cc20f44ecb5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/plan_bachelor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/plan_master.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/kafedry1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PlanGuestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PlanGuestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/manish/customgridview/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/manish/customgridview/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -114,59 +112,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="OfbiActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1666">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.38539043" vertical-offset="2499" max-vertical-offset="2975">
+              <caret line="156" column="123" selection-start-line="156" selection-start-column="123" selection-end-line="156" selection-end-column="123" />
               <folding>
-                <element signature="e#714#732#0" expanded="true" />
-                <element signature="e#861#879#0" expanded="true" />
-                <element signature="e#1181#1199#0" expanded="true" />
-                <element signature="e#1279#1297#0" expanded="true" />
-                <element signature="e#1373#1391#0" expanded="true" />
-                <element signature="e#1460#1478#0" expanded="true" />
-                <element signature="e#1555#1573#0" expanded="true" />
-                <element signature="e#1656#1674#0" expanded="true" />
-                <element signature="e#1753#1771#0" expanded="true" />
-                <element signature="e#1858#1876#0" expanded="true" />
-                <element signature="e#1953#1971#0" expanded="true" />
-                <element signature="e#2052#2070#0" expanded="true" />
-                <element signature="e#2157#2175#0" expanded="true" />
-                <element signature="e#2261#2279#0" expanded="true" />
-                <element signature="e#2355#2373#0" expanded="true" />
-                <element signature="e#2456#2474#0" expanded="true" />
-                <element signature="e#2602#2620#0" expanded="true" />
-                <element signature="e#2781#2799#0" expanded="true" />
-                <element signature="e#2928#2946#0" expanded="true" />
-                <element signature="e#3071#3089#0" expanded="true" />
-                <element signature="e#3167#3185#0" expanded="true" />
-                <element signature="e#3261#3279#0" expanded="true" />
-                <element signature="e#3359#3377#0" expanded="true" />
-                <element signature="e#3459#3477#0" expanded="true" />
-                <element signature="e#3564#3582#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#511#517#0" expanded="true" />
+                <element signature="e#2039#11058#0" expanded="true" />
+                <element signature="e#11047#11048#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/StudentActivity.java">
+      <file leaf-file-name="user_activity_new.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/user_activity_new.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="4131">
-              <caret line="137" column="76" selection-start-line="137" selection-start-column="76" selection-end-line="137" selection-end-column="76" />
+            <state vertical-scroll-proportion="32.25926" vertical-offset="871" max-vertical-offset="1241">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OfbiActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="3179">
-              <caret line="67" column="57" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="57" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -180,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuestActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GuestActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6682927" vertical-offset="1902" max-vertical-offset="5100">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1902" max-vertical-offset="5100">
               <caret line="149" column="58" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
               <folding />
             </state>
@@ -1283,7 +1253,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/template-styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/base-strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/util/ImageFetcher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/util/ImageResizer.java" />
@@ -1302,7 +1271,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/ui/ImageGridActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/util/Utils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/UserActivityNew.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/preference_headers.xml" />
@@ -1334,6 +1302,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/displayingbitmaps/ui/ImageGridFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PlanGuestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/video_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java" />
       </list>
     </option>
   </component>
@@ -1449,36 +1419,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app3" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1770,7 +1710,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.70058566" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28078818" sideWeight="0.67203516" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28078818" sideWeight="0.67203516" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1817,28 +1757,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/guest_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/image_detail_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/image_grid_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
@@ -2256,14 +2174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="3179">
-          <caret line="67" column="57" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/PlanGuestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1105">
@@ -2274,9 +2184,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/GuestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6682927" vertical-offset="1902" max-vertical-offset="5100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1902" max-vertical-offset="5100">
           <caret line="149" column="58" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/user_activity_new.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="32.25926" vertical-offset="871" max-vertical-offset="1241">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/manish/customgridview/OfbiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38539043" vertical-offset="2499" max-vertical-offset="2975">
+          <caret line="156" column="123" selection-start-line="156" selection-start-column="123" selection-end-line="156" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#517#0" expanded="true" />
+            <element signature="e#2039#11058#0" expanded="true" />
+            <element signature="e#11047#11048#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

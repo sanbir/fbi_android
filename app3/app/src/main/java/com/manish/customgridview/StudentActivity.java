@@ -144,13 +144,9 @@ public class StudentActivity extends Activity
                     startActivity(intent);
 
                 } else if (menuItemName.equals("СДО")) {
-                    UserItemNew itemNew = new UserItemNew();
-                    itemNew.setHeadline("СДО");
-                    itemNew.setDate("Телефоны");
-                    itemNew.setBody("3280240");
-
-                    Intent intent = new Intent(StudentActivity.this, UserActivityNew.class);
-                    intent.putExtra("feed", itemNew);
+                    ArrayList<UserItemNew> news = NewsAndNoticesSource.getListPhonesSdo();
+                    Intent intent = new Intent(StudentActivity.this, PhonesListViewActivity.class);
+                    intent.putExtra("customList", news);
                     startActivity(intent);
 
                 }

@@ -687,15 +687,102 @@ public class NewsAndNoticesSource {
         ArrayList<UserItemNew> results = new ArrayList<UserItemNew>();
 
         UserItemNew newsData = new UserItemNew();
-        newsData.setHeadline("1st phone");
-        newsData.setReporterName("3280229");
-        newsData.setDate("03.06.2014");
+        newsData.setHeadline("Председатель\n" +
+                "Абраменко Алексей Юрьевич ");
+        newsData.setReporterName("328-04-78");
         results.add(newsData);
 
         newsData = new UserItemNew();
-        newsData.setHeadline("2nd phone");
-        newsData.setReporterName("+79139286926");
-        newsData.setDate("30.05.2014");
+        newsData.setHeadline("Заместитель председателя по организационной и социально-экономической работе, руководитель центра социальной и экономической работы\n" +
+                "Ефименко Денис Вадимович ");
+        newsData.setReporterName("328-02-29");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Заместитель председателя по культурно-массовой и спортивной работе,\n" +
+                "Чащин Никита ");
+        newsData.setReporterName("8-923-107-1070");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Секретарь\n" +
+                "Свищева Виктория ");
+        newsData.setReporterName("8-913-744-7313");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Председатель профбюро студентов ФБИ\n" +
+                "Сключенко Екатерина");
+        newsData.setReporterName("8-913-729-1384");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Командир Штаба студенческих отрядов\n" +
+                "Исаев Сергей");
+        newsData.setReporterName("8-923-152-2255");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Директор студенческого центра\n" +
+                "Ишутин Никита");
+        newsData.setReporterName("8-923-114-9614");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Руководитель пресс-центра\n" +
+                "Дорохова Маргарита ");
+        newsData.setReporterName("8-923-135-4246");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Руководитель центра благотворительной деятельности\n" +
+                "Трофимова Алина");
+        newsData.setReporterName("8-913-394-20-04");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Руководитель центра привлечения абитуриентов\n" +
+                "Алиев Рамил ");
+        newsData.setReporterName("8-923-104-1718");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Руководитель центра развития спорта\n" +
+                "Клочков Дмитрий ");
+        newsData.setReporterName("8-923-183-2688");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Заместитель руководителя центра развития спорта\n" +
+                "Казаркина Екатерина ");
+        newsData.setReporterName("8-951-378-6382");
+        results.add(newsData);
+
+        newsData = new UserItemNew();
+        newsData.setHeadline("Оформление и выдача Студенческих транспортных карт");
+        newsData.setReporterName("328-03-12");
+        results.add(newsData);
+
+        return results;
+    }
+
+    public static ArrayList<UserItemNew> getListPhonesTeacherProfcom() {
+        ArrayList<UserItemNew> results = new ArrayList<UserItemNew>();
+
+        UserItemNew newsData = new UserItemNew();
+        newsData.setHeadline("Телефон");
+        newsData.setReporterName("328-02-95");
+        results.add(newsData);
+
+        return results;
+    }
+
+    public static ArrayList<UserItemNew> getListPhonesSdo() {
+        ArrayList<UserItemNew> results = new ArrayList<UserItemNew>();
+
+        UserItemNew newsData = new UserItemNew();
+        newsData.setHeadline("Телефон");
+        newsData.setReporterName("328-02-40");
         results.add(newsData);
 
         return results;

@@ -164,92 +164,13 @@ public class TeacherActivity extends Activity
                     }
 
                 } else if (menuItemName.equals("Профком сотрудников")) {
-                    UserItemNew itemNew = new UserItemNew();
-                    itemNew.setHeadline("Телефоны");
-                    itemNew.setBody("3280295");
-
-                    Intent intent = new Intent(TeacherActivity.this, UserActivityNew.class);
-                    intent.putExtra("feed", itemNew);
+                    ArrayList<UserItemNew> news = NewsAndNoticesSource.getListPhonesTeacherProfcom();
+                    Intent intent = new Intent(TeacherActivity.this, PhonesListViewActivity.class);
+                    intent.putExtra("customList", news);
                     startActivity(intent);
 
                 }
 
-                ///////////////////////////////////////////////////////////////
-
-/*                switch (position) {
-                    case 0:
-                        ArrayList<UserItemNew> notices = NewsAndNoticesSource.getListNews();
-                        Intent intent = new Intent(TeacherActivity.this, UserListViewNew.class);
-                        intent.putExtra("customList", notices);
-                        startActivity(intent);
-                        break;
-                    case 1:
-                        notices = NewsAndNoticesSource.getListNotices();
-                        intent = new Intent(TeacherActivity.this, UserListViewNew.class);
-                        intent.putExtra("customList", notices);
-                        startActivity(intent);
-                        break;
-                    case 2:
-                        startActivity (new Intent(getApplicationContext(), ScheduleTeacherActivity.class));
-                        break;
-                    case 3:
-                        startActivity (new Intent(getApplicationContext(), ImageGridActivity.class));
-                        break;
-                    case 4:
-                        InputStream in = null;
-                        try {
-                            in = getApplicationContext().getAssets().open("nirs.doc");
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-
-                        File file1 = new File(getApplicationContext().getExternalFilesDir(
-                                Environment.getExternalStorageState()), "НИРС");
-
-                        OutputStream out = null;
-                        try {
-                            out = new FileOutputStream(file1);
-                        } catch (FileNotFoundException e) {
-                            e.printStackTrace();
-                        }
-                        try {
-                            copyCompletely(in, out);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                        try {
-                            out.flush();
-                            out.close();
-                            in.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-
-                        Uri path1 = Uri.fromFile(file1);
-
-                        // Parse the file into a uri to share with another application
-
-                        Intent newIntent1 = new Intent(Intent.ACTION_VIEW);
-                        newIntent1.setDataAndType(path1, "application/msword");
-                        newIntent1.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-
-
-                        try {
-                            startActivity(newIntent1);
-                        } catch (ActivityNotFoundException ex) {
-                            ex.printStackTrace();
-                        }
-                        break;
-                    case 5:
-                        UserItemNew itemNew = new UserItemNew();
-                        itemNew.setHeadline("Телефоны");
-                        itemNew.setBody("3280295");
-
-                        intent = new Intent(TeacherActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
-                        startActivity(intent);
-                        break;
-                }*/
 
             }
         });

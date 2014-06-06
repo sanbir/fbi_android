@@ -24,7 +24,7 @@
         android:textColor="@drawable/list_item_text_selector"
         android:textStyle="bold"
         android:typeface="sans"
-        android:textSize="25sp"/>
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/reporter"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/background_light"
+        android:clipChildren="true"
+        android:splitMotionEvents="true" >
+
+        <TextView
+            android:id="@+id/headlineText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="О программе"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:textColor="#FF000000"
+            android:layout_centerVertical="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/fbi256"
+            android:layout_marginRight="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp">
+        </ImageView>
+        <TextView
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/bodyText"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:typeface="serif"
+            android:textSize="16sp"
+            android:textColor="#FF000000"
+            android:layout_alignParentTop="@id/image"
+            android:layout_centerVertical="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Автор: Александр Бирюков
+\n
+\nПриложение «Портал ФБИ» разработано в рамках выполнения дипломного проекта.
+\n
+\nПриложение предназначено для упрощения доступа студентов, преподавателей и абитуриентов к различной информации факультета «Бизнес-информатика» СГУПС. Представленные разделы меню не окончательны и могут быть изменены и дополнены.">
+        </TextView>
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Отправить отзыв"
+            android:textColor="#FF0E4F8F"
+            android:background="@drawable/button_my"/>
+
+    </LinearLayout>
+
+</ScrollView>

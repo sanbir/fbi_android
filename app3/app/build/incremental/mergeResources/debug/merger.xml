@@ -851,25 +851,25 @@
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\colors.xml"
                 qualifiers="" >
-                <color name="white" >#FFFFFF
-                </color>
                 <color name="transparent_blue" >#80004488
+                </color>
+                <color name="white" >#FFFFFF
                 </color>
                 <color name="grid_state_focused" >#80000000
                 </color>
-                <color name="list_row_default_bg" >#ffffff
-                </color>
                 <color name="text_color_default" >#00000C
+                </color>
+                <color name="list_row_default_bg" >#ffffff
                 </color>
                 <color name="grid_state_pressed" >#1Affffff
                 </color>
                 <color name="transparent" >#80000000
                 </color>
-                <color name="list_row_selected_bg" >#86d3f6
+                <color name="text_color_inverse" >#FFFFFF
                 </color>
                 <color name="list_row_pressed_bg" >#008cef
                 </color>
-                <color name="text_color_inverse" >#FFFFFF
+                <color name="list_row_selected_bg" >#86d3f6
                 </color>
             </file>
             <file
@@ -947,12 +947,6 @@
                     </item>
                 </style>
 
-                <style name="WindowTitle" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.WindowTitle
-                    </item>
-                </style>
-
                 <style
                     name="EditText"
                     parant="android:Widget.EditText" >
@@ -973,6 +967,12 @@ true
                     </item>
                 </style>
 
+                <style name="WindowTitle" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.WindowTitle
+                    </item>
+                </style>
+
                 <style
                     name="ListView"
                     parent="android:Widget.ListView" >
@@ -990,14 +990,6 @@ true
                     </item>
                 </style>
 
-                <style
-                    name="TextAppearance.WindowTitle"
-                    parent="android:TextAppearance.WindowTitle" >
-                    <item name="android:textColor">
-@color/custom_theme_title_text
-                    </item>
-                </style>
-
                 <style name="WindowTitleBackground" >
                     <item name="android:background">
 @color/custom_theme_title_background
@@ -1005,10 +997,10 @@ true
                 </style>
 
                 <style
-                    name="TextView"
-                    parent="android:Widget.TextView" >
-                    <item name="android:textAppearance">
-@style/TextAppearance.TextView
+                    name="TextAppearance.WindowTitle"
+                    parent="android:TextAppearance.WindowTitle" >
+                    <item name="android:textColor">
+@color/custom_theme_title_text
                     </item>
                 </style>
 
@@ -1020,6 +1012,14 @@ true
                     </item>
                     <item name="android:textColor">
 @color/custom_theme_primary_text
+                    </item>
+                </style>
+
+                <style
+                    name="TextView"
+                    parent="android:Widget.TextView" >
+                    <item name="android:textAppearance">
+@style/TextAppearance.TextView
                     </item>
                 </style>
 
@@ -1069,14 +1069,14 @@ wrap_content
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\strings.xml"
                 qualifiers="" >
-                <string name="imageview_description" >Image Thumbnail
-                </string>
                 <string name="action_settings" >Настройки
                 </string>
-                <string name="current_account" ></string>
-                <string name="clear_cache_complete_toast" >Caches have been cleared
+                <string name="imageview_description" >Image Thumbnail
                 </string>
+                <string name="current_account" ></string>
                 <string name="clear_cache_menu" >Clear Caches
+                </string>
+                <string name="clear_cache_complete_toast" >Caches have been cleared
                 </string>
 
                 <string-array name="menus" >
@@ -1107,9 +1107,9 @@ Java
                 </string>
                 <string name="no_network_connection_toast" >No network connection found
                 </string>
-                <string name="drawer_open" >Open Drawer
-                </string>
                 <string name="hello_world" >Hello world!
+                </string>
+                <string name="drawer_open" >Open Drawer
                 </string>
                 <string name="drawer_close" >Close Drawer
                 </string>
@@ -1144,10 +1144,6 @@ bold
 @dimen/page_margin_bl
                     </item>
                 </style>
-
-                <style
-                    name="AppThemeDark"
-                    parent="android:Theme" />
 
                 <style name="list_wh" >
                     <item name="android:background">
@@ -1188,6 +1184,22 @@ vertical
                     </item>
                 </style>
 
+                <style
+                    name="AppThemeDark"
+                    parent="android:Theme" />
+
+                <dimen name="content_left_margin_wh" >8sp
+                </dimen>
+
+                <style name="white_background_bl" >
+                    <item name="android:background">
+@drawable/white_container_bl
+                    </item>
+                    <item name="android:padding">
+5sp
+                    </item>
+                </style>
+
                 <style name="text_title_bl" >
                     <item name="android:textColor">
 #FFF
@@ -1220,18 +1232,6 @@ center_vertical|left
 #FF004488
                     </item>
                 </style>
-
-                <style name="white_background_bl" >
-                    <item name="android:background">
-@drawable/white_container_bl
-                    </item>
-                    <item name="android:padding">
-5sp
-                    </item>
-                </style>
-
-                <dimen name="content_left_margin_wh" >8sp
-                </dimen>
 
                 <style name="text_regular_bl" >
                     <item name="android:textColor">
@@ -1482,6 +1482,17 @@ vertical
                 <dimen name="content_left_margin_bl" >8sp
                 </dimen>
 
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
                 <style name="text_large_bl" >
                     <item name="android:textColor">
 #FFF
@@ -1494,14 +1505,16 @@ bold
                     </item>
                 </style>
 
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
+                <style name="page_background_bl" >
+                    <item name="android:background">
+#000
+                    </item>
+                    <item name="android:padding">
+@dimen/page_margin_bl
+                    </item>
                     <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginBottom">20dip</item>
                     -->
                 </style>
 
@@ -1519,19 +1532,6 @@ fill_parent
                     </item>
                 </style>
 
-                <style name="page_background_bl" >
-                    <item name="android:background">
-#000
-                    </item>
-                    <item name="android:padding">
-@dimen/page_margin_bl
-                    </item>
-                    <!--
-        <item name="android:layout_marginTop">8dip</item>
-        <item name="android:layout_marginBottom">20dip</item>
-                    -->
-                </style>
-
                 <style name="text_large_wh" >
                     <item name="android:textColor">
 @color/text_wh_large
@@ -1547,6 +1547,20 @@ fill_parent
                     </item>
                     <item name="android:shadowColor">
 #888
+                    </item>
+                </style>
+
+                <style
+                    name="list_item_bl"
+                    parent="text_large_bl" >
+                    <item name="android:background">
+@drawable/list_item_bl
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                    <item name="android:clickable">
+true
                     </item>
                 </style>
 
@@ -1571,20 +1585,6 @@ fill_parent
 11sp
                     </item>
                 </style>
-
-                <style
-                    name="list_item_bl"
-                    parent="text_large_bl" >
-                    <item name="android:background">
-@drawable/list_item_bl
-                    </item>
-                    <item name="android:focusable">
-true
-                    </item>
-                    <item name="android:clickable">
-true
-                    </item>
-                </style>
             </file>
             <file
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\values\template-dimens.xml"
@@ -1593,9 +1593,9 @@ true
                 </dimen>
                 <dimen name="margin_tiny" >4dp
                 </dimen>
-                <dimen name="horizontal_page_margin" >@dimen/margin_medium
-                </dimen>
                 <dimen name="margin_large" >32dp
+                </dimen>
+                <dimen name="horizontal_page_margin" >@dimen/margin_medium
                 </dimen>
                 <dimen name="margin_medium" >16dp
                 </dimen>
@@ -1811,6 +1811,16 @@ true
                 path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\drawable-mdpi\kafedry1.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                name="about_menu"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\menu\about_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="about_activity"
+                path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\src\main\res\layout\about_activity.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\rs\debug" />
         <source path="D:\Dropbox\Studying\Diploma\MyAndroidApp\fbi_android\app3\app\build\res\generated\debug" />

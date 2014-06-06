@@ -190,12 +190,12 @@ public class ImageGridFragment extends Fragment implements AdapterView.OnItemCli
         }
     }
 
-    @Override
+/*    @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.main_menu, menu);
-    }
+    }*/
 
-    @Override
+/*    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.clear_cache:
@@ -205,7 +205,7 @@ public class ImageGridFragment extends Fragment implements AdapterView.OnItemCli
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     /**
      * The main adapter that backs the GridView. This is fairly standard except the number of

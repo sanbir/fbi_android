@@ -46,20 +46,20 @@ public class PlanGuestActivity extends Activity
                 switch (position) {
                     case 0:
                         UserItemNew itemNew = new UserItemNew();
-                        itemNew.setHeadline("Раздел в разработке");
-                        itemNew.setBody("");
+                        itemNew.setHeadline("План набора на бакалавриат");
+                        itemNew.setUrlBig(String.valueOf(R.drawable.plan_bachelor));
 
                         Intent intent = new Intent(PlanGuestActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
+                        intent.putExtra("custom", itemNew);
                         startActivity(intent);
                         break;
                     case 1:
                         itemNew = new UserItemNew();
-                        itemNew.setHeadline("Раздел в разработке");
-                        itemNew.setBody("");
+                        itemNew.setHeadline("План набора в магистратуру");
+                        itemNew.setUrlBig(String.valueOf(R.drawable.plan_master));
 
                         intent = new Intent(PlanGuestActivity.this, UserActivityNew.class);
-                        intent.putExtra("feed", itemNew);
+                        intent.putExtra("custom", itemNew);
                         startActivity(intent);
                         break;
                 }

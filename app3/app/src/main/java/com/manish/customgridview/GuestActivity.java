@@ -109,8 +109,21 @@ public class GuestActivity extends Activity
                     startActivity (new Intent(getApplicationContext(), PlanGuestActivity.class));
                 } else if (menuItemName.equals("Вступительные испытания")) {
                     UserItemNew itemNew = new UserItemNew();
-                    itemNew.setHeadline("Раздел в разработке");
-                    itemNew.setBody("");
+                    itemNew.setHeadline("Вступительные испытания");
+                    itemNew.setBody("230400 \"Информационные системы и технологии\"\n" +
+                            "- русский язык;\n" +
+                            "- математика;\n" +
+                            "- физика.\n" +
+                            "\n" +
+                            "230700 \"Прикладная информатика\"\n" +
+                            "- русский язык;\n" +
+                            "- математика;\n" +
+                            "- информатика.\n" +
+                            "\n" +
+                            "080200 Менеджмент, профиль \"Логистика и управление цепями поставок\"\n" +
+                            "- русский язык;\n" +
+                            "- математика;\n" +
+                            "- обществознание.\n");
 
                     Intent intent = new Intent(GuestActivity.this, UserActivityNew.class);
                     intent.putExtra("feed", itemNew);
@@ -118,8 +131,15 @@ public class GuestActivity extends Activity
 
                 } else if (menuItemName.equals("Стоимость обучения")) {
                     UserItemNew itemNew = new UserItemNew();
-                    itemNew.setHeadline("Раздел в разработке");
-                    itemNew.setBody("");
+                    itemNew.setHeadline("Стоимость обучения");
+                    itemNew.setBody("230400 \"Информационные системы и технологии\"\n" +
+                            "89 250 руб.\n" +
+                            "\n" +
+                            "230700 \"Прикладная информатика\"\n" +
+                            "89 250 руб.\n" +
+                            "\n" +
+                            "080200 Менеджмент, профиль \"Логистика и управление цепями поставок\"\n" +
+                            "94 500 руб.\n");
 
                     Intent intent = new Intent(GuestActivity.this, UserActivityNew.class);
                     intent.putExtra("feed", itemNew);
@@ -127,8 +147,8 @@ public class GuestActivity extends Activity
 
                 } else if (menuItemName.equals("Наши работодатели")) {
                     UserItemNew itemNew = new UserItemNew();
-                    itemNew.setHeadline("Раздел в разработке");
-                    itemNew.setBody("");
+                    itemNew.setHeadline("Наши работодатели");
+                    itemNew.setBody("Требуется техник. Обращаться к заведующему лабораторным комплексом ФБИ Жукову М.В., ауд 466");
 
                     Intent intent = new Intent(GuestActivity.this, UserActivityNew.class);
                     intent.putExtra("feed", itemNew);
